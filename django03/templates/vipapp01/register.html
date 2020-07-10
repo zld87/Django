@@ -1,0 +1,273 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>注册</title>
+  <meta name="renderer" content="webkit">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <link rel="stylesheet" href={% static "vipapp01/layuiAdmin.pro-v1.4.0/layuiAdmin.pro-v1.4.0/start/layui/css/layui.css"%} media="all">
+  <link rel="stylesheet" href={%  static "vipapp01/layuiAdmin.pro-v1.4.0/layuiAdmin.pro-v1.4.0/dist/style/admin.css"%} media="all">
+  <link rel="stylesheet" href={% static "vipapp01/layuiAdmin.pro-v1.4.0/layuiAdmin.pro-v1.4.0/src/style/login.css" %} media="all">
+  
+ <style>
+  .time{
+	    line-height:38px;
+		margin-left:5px;
+		color: hsl(0, 1%, 72%);
+	}
+	.layui-icon {
+		font-family: layui-icon!important;
+		font-size: 16px;
+		font-style: normal;
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+		color: #d2d2d2;
+    }
+	.layadmin-user-login-other {
+		position: relative;
+		font-size: 0;
+		line-height: 38px;
+		padding-top: 0px;
+	}
+	
+	body {
+		background:url({% static 'vipapp01/images/WechatIMG224.jpeg' %});
+		background-size: 100% 100%;
+	}
+	
+	.layadmin-user-login {
+		position: relative;
+		left: 0;
+		top: 0;
+		padding: 43px 0;
+		min-height: 50px;
+		box-sizing: border-box;
+	}
+	
+	.layadmin-link {
+		color: rgb(185, 184, 184)!important;
+	}
+	.layui-form-checkbox span {
+		padding: 0 10px;
+		height: 100%;
+		font-size: 14px;
+		border-radius: 2px 0 0 2px;
+		background-color: #d2d2d2;
+		color: rgb(185, 184, 184)!important;
+		overflow: hidden;
+	}
+	.layadmin-user-login-header p {
+		font-weight: 300;
+		color: rgb(185, 184, 184)!important;
+	}
+	.layadmin-user-login-header h2 {
+		margin-bottom: 10px;
+		font-weight: 300;
+		font-size: 30px;
+		color: #d0d0d0;
+	}
+ </style>
+</head>
+<body>
+<form class="layui-form">
+  {% csrf_token %}
+  <div class="layadmin-user-login layadmin-user-display-show" id="LAY-user-login" style="display: none;">
+    <div class="layadmin-user-login-main">
+      <div class="layadmin-user-login-box layadmin-user-login-header">
+        <h2>注册</h2>
+        <p>test注册</p>
+      </div>
+      <div class="layadmin-user-login-box layadmin-user-login-body layui-form">
+	  
+        <div class="layui-form-item">
+          <label class="layadmin-user-login-icon layui-icon layui-icon-username" for="LAY-user-login-nickname"></label>
+          <input type="text" name="username" id="LAY-user-login-nickname" lay-verify="required" lay-reqtext="昵称是必填项，岂能为空？" placeholder="昵称" class="layui-input">
+		  
+        </div>
+        <div class="layui-form-item">
+          <label class="layadmin-user-login-icon layui-icon layui-icon-cellphone" for="LAY-user-login-cellphone"></label>
+          <input type="text" name="phone" id="LAY-user-login-cellphone" lay-verify="required|phone" placeholder="手机" class="layui-input">
+        </div>
+		
+		
+        <div class="layui-form-item">
+          <div class="layui-row">
+            <div class="layui-col-xs7">
+              <label class="layadmin-user-login-icon layui-icon layui-icon-vercode" for="LAY-user-login-vercode"></label>
+              <input type="text" name="vercode" id="LAY-user-login-vercode" lay-verify="required" placeholder="验证码" class="layui-input">
+            </div>
+            <div class="layui-col-xs5">
+              <div style="margin-left: 10px;">
+			    <div  style="display:flex;">
+                    <div><button type="button" class="layui-btn layui-btn-primary layui-btn-fluid" id="LAY-user-getsmscode" >获取验证码</button></div>
+					<div id='time_ico' style="display:none;">
+						<div style='margin-top:11px'><a class='layui-icon layui-icon-time'></a></div>
+						<div class='time' id='test'>
+						</div> 
+					</div> 
+				</div>
+				<!-- layui-btn-disabled -->
+				<!-- class="layui-btn layui-btn-primary layui-btn-fluid" -->
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="layui-form-item">
+          <label class="layadmin-user-login-icon layui-icon layui-icon-password" for="LAY-user-login-password"></label>
+          <input type="password" name="pwd" id="LAY-user-login-password"  lay-verify="pass" placeholder="密码" class="layui-input">
+        </div>
+        <div class="layui-form-item">
+          <label class="layadmin-user-login-icon layui-icon layui-icon-password" for="LAY-user-login-repass"></label>
+          <input type="password" name="repass" id="LAY-user-login-repass"  lay-verify="pass2" placeholder="确认密码" class="layui-input">
+        </div>
+
+        <div class="layui-form-item">
+          <input type="checkbox" name="agreement" lay-verify="xy" lay-skin="primary" title="同意用户协议" checked>
+
+        </div>
+        <div class="layui-form-item">
+          <button class="layui-btn layui-btn-fluid" id="zc" lay-submit lay-filter="demo1">注 册</button>
+        </div>
+         <div class="layui-trans layui-form-item layadmin-user-login-other">
+<!--           <label>社交账号注册</label>
+          <a href="javascript:;"><i class="layui-icon layui-icon-login-qq"></i></a>
+          <a href="javascript:;"><i class="layui-icon layui-icon-login-wechat"></i></a>
+          <a href="javascript:;"><i class="layui-icon layui-icon-login-weibo"></i></a>
+           -->
+          <a href="/Top/login/" class="layadmin-user-jump-change layadmin-link layui-hide-xs">用已有帐号登入</a>
+          <!-- <a href="login.html" class="layadmin-user-jump-change layadmin-link layui-hide-sm layui-show-xs-inline-block">登入</a> -->
+        </div> 
+      </div>
+    </div>
+
+
+  </div>
+  
+</form>
+
+  <script src={% static "vipapp01/jquery/jquery/jquery-3.3.1.min.js" %} charset="utf-8"></script>
+  <script src={% static "vipapp01/layui-v2.5.6/layui-v2.5.6/layui-v2.5.6/layui/layui.js" %} charset="utf-8"></script>
+  <script>
+  
+  
+layui.use(['form','upload','layedit', 'laydate','table','layer','util'], function(){
+  var form = layui.form
+  var layer = layui.layer
+  var layedit = layui.layedit
+  var laydate = layui.laydate
+  var upload = layui.upload
+  var table = layui.table;
+  var util = layui.util;
+
+
+
+ 
+  
+  
+
+  form.verify({
+    pass: [
+      /^[\S]{6,12}$/
+      ,'密码必须6到12位，且不能出现空格'
+    ]
+    ,pass2: [
+      /^[\S]{6,12}$/
+      ,'确认密码必须6到12位，且不能出现空格'
+    ]
+	,pass2: function(value){
+		var repassvalue = $('#LAY-user-login-password').val();
+		if(value != repassvalue){
+			return '两次输入的密码不一致!';
+		}
+	}
+	,xy: function(value){
+        var value=$("input[type='checkbox']").is(':checked')
+        if (value!=true){
+		    return '请阅读并勾选协议!';
+		}
+	}
+    ,content: function(value){
+      layedit.sync(editIndex);
+    }
+  });
+  
+  layui.$('#LAY-user-getsmscode').on('click', function(){
+	$(this).hide() //示例
+	$('#time_ico').css({ display:'flex' });
+
+ //示例
+	
+    var endTime = new Date().getTime(); //假设为结束日期
+    endTime += 600060
+    var serverTime = new Date().getTime(); //假设为当前服务器时间，这里采用的是本地时间，实际使用一般是取服务端的
+    util.countdown(endTime, serverTime, function(date, serverTime, timer){
+    var str = date[3]
+    layui.$('#test').html( str+'秒后再试');
+	
+	if (str=='1'){
+	    console.log(str)
+	    $('#LAY-user-getsmscode').show()
+		$('#time_ico').hide()
+
+		layui.$('#test').html('');
+	}
+    });
+    form.render()
+    });
+
+
+
+
+    layui.$('#zc').on('click', function(){
+       var data = form.val('example');
+       alert(JSON.stringify(data));
+
+    });
+
+
+
+  
+    layui.$('#LAY-user-getsmscode').on('click', function(){
+
+			var httpRequest = new XMLHttpRequest();//第一步：建立所需的对象
+			httpRequest.open('GET', '/name_select/', true)
+			httpRequest.send();//第三步：发送请求  将请求参数写在URL中
+			httpRequest.onreadystatechange = function () {
+				if (httpRequest.readyState == 4 && httpRequest.status == 200) {
+					var json = httpRequest.responseText;//获取到json字符串，还需解析
+					var json=JSON.parse(json)
+				}
+			};
+	});
+
+
+    form.on('submit(demo1)', function(data){
+   		   $.ajax({
+				   url:"/Top/registerdetail/",
+				   type:"POST",                    
+				   data:{
+					   'csrfmiddlewaretoken': $("input[name='csrfmiddlewaretoken']").val(),
+					   'username':$("#LAY-user-login-nickname").val(),
+					   'phone':$("#LAY-user-login-cellphone").val(),
+					   'pwd':$("#LAY-user-login-password").val(),
+				   },
+
+				   success:function (data) {
+                            var json=JSON.parse(data)
+                            console.log(json['data'],'sssssssssssssssssssssssssssssssssssssss');
+                            location.href = json['data'];
+                   },
+				   error:function (data) {
+					   layer.msg("失败",data);
+				   } 
+			});
+            return false;
+    });
+});
+
+  
+  </script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    {%block yyy%}{%endblock yyy%}
+</head>
+<body>
+<h1>logo</h1>
+<hr>
+{% block zld%}
+<h1>1234</h1>
+{%endblock zld%}
+<hr>
+{#转义#}
+&lt;h1&gt;contact&lt;/h1&gt
+<hr>
+{%autoescape off%}
+{{f1}}
+{%endautoescape%}
+</body>
+</html>

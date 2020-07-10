@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>登录</title>
+  <meta name="renderer" content="webkit">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  <link rel="stylesheet" href=" ../layuiAdmin.pro-v1.4.0/start/layui/css/layui.css" media="all">
+  <link rel="stylesheet" href="../static/layuiAdmin.pro-v1.4.0/dist/style/admin.css" media="all">
+  <link rel="stylesheet" href="../static/layuiAdmin.pro-v1.4.0/src/style/login.css" media="all">
+  
+ <style>
+    .time{
+	    line-height:38px;
+		margin-left:5px;
+		color: #FF0000;
+	}
+	.layadmin-user-login-other {
+		position: relative;
+		font-size: 0;
+		line-height: 38px;
+		padding-top: 0px;
+	}
+ </style>
+</head>
+<body>
+<form class="layui-form" action="" lay-filter="example">
+
+  <div class="layadmin-user-login layadmin-user-display-show" id="LAY-user-login" style="display: none;">
+    <div class="layadmin-user-login-main">
+      <div class="layadmin-user-login-box layadmin-user-login-header">
+        <h2>登录</h2>
+        <p>test登录</p>
+      </div>
+      <div class="layadmin-user-login-box layadmin-user-login-body layui-form">
+	  
+        <div class="layui-form-item">
+          <label class="layadmin-user-login-icon layui-icon layui-icon-username" for="LAY-user-login-nickname"></label>
+          <input type="text" name="nickname" id="LAY-user-login-nickname" lay-verify="required" lay-reqtext="昵称是必填项，岂能为空？" placeholder="昵称" class="layui-input">
+		  
+        </div>
+		
+
+        <div class="layui-form-item">
+          <label class="layadmin-user-login-icon layui-icon layui-icon-password" for="LAY-user-login-password"></label>
+          <input type="password" name="password" id="LAY-user-login-password"  lay-verify="pass" placeholder="密码" class="layui-input">
+        </div>
+
+        <!-- <div style='display:none'> -->
+			<div class="layui-form-item">
+			  <div class="layui-row">
+				<div class="layui-col-xs7">
+				  <label class="layadmin-user-login-icon layui-icon layui-icon-vercode" for="LAY-user-login-vercode"></label>
+				  <input type="text" name="vercode" id="LAY-user-login-vercode" lay-verify="required" placeholder="验证码" class="layui-input">
+				</div>
+			  </div>
+			</div>
+        <!-- </div> -->
+		
+        <div class="layui-form-item">
+          <button class="layui-btn layui-btn-fluid" id="zc" lay-submit lay-filter="LAY-user-reg-submit">登录</button>
+        </div>
+	  <div class="layui-trans layui-form-item layadmin-user-login-other">
+          <a href="/register/" class="layadmin-user-jump-change layadmin-link layui-hide-xs">跳转到注册页</a>
+       </div> 
+      </div>
+
+    </div>
+
+
+  </div>
+  
+</form>
+
+  <script src="../static/jquery/jquery-3.3.1.min.js" charset="utf-8"></script>
+  <script src="../static/layui-v2.5.6/layui-v2.5.6/layui/layui.js" charset="utf-8"></script>
+  <script src="../static/layuiAdmin.pro-v1.4.0/start/layui/layui.js"></script>  
+  <script>
+  
+  
+layui.use(['form','upload','layedit', 'laydate','table','layer','util'], function(){
+  var form = layui.form
+  var layer = layui.layer
+  var layedit = layui.layedit
+  var laydate = layui.laydate
+  var upload = layui.upload
+  var table = layui.table;
+  var util = layui.util;
+
+
+
+ 
+  
+  
+
+  form.verify({
+    pass: [
+      /^[\S]{6,12}$/
+      ,'密码必须6到12位，且不能出现空格'
+    ]
+    ,pass2: [
+      /^[\S]{6,12}$/
+      ,'确认密码必须6到12位，且不能出现空格'
+    ]
+	,pass2: function(value){
+		var repassvalue = $('#LAY-user-login-password').val();
+		if(value != repassvalue){
+			return '两次输入的密码不一致!';
+		}
+	}
+    ,content: function(value){
+      layedit.sync(editIndex);
+    }
+  });
+  
+
+
+  layui.$('#zc').on('click', function(){
+     var data = form.val('example');
+     alert(JSON.stringify(data));
+
+  });
+
+
+
+
+});
+
+  
+  </script>
+</body>
+</html>
+
+
+
+
+
+
