@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ea0204e5-b63c-4993-b33e-3b5a4ef09201" name="Default Changelist" comment="" />
+    <list default="true" id="ea0204e5-b63c-4993-b33e-3b5a4ef09201" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +18,13 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/vipapp01/views.py">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="481">
               <caret line="158" column="89" lean-forward="true" selection-start-line="158" selection-start-column="89" selection-end-line="158" selection-end-column="89" />
+=======
+            <state relative-caret-position="17">
+              <caret line="71" selection-start-line="71" selection-end-line="71" />
+>>>>>>> 0c31dd2d56c93d97591b011ccc44967322061b3a
               <folding>
                 <element signature="e#0#44#0" expanded="true" />
               </folding>
@@ -28,8 +35,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vipapp01/myexception.py">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="170">
               <caret line="10" column="38" lean-forward="true" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
+=======
+            <state relative-caret-position="289">
+              <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+>>>>>>> 0c31dd2d56c93d97591b011ccc44967322061b3a
               <folding>
                 <element signature="e#0#44#0" expanded="true" />
               </folding>
@@ -40,11 +52,16 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vipapp01/models.py">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="259">
               <caret line="38" column="30" lean-forward="true" selection-start-line="38" selection-start-column="30" selection-end-line="38" selection-end-column="30" />
               <folding>
                 <element signature="e#14#42#0" expanded="true" />
               </folding>
+=======
+            <state relative-caret-position="10047">
+              <caret line="597" column="4" selection-start-line="597" selection-start-column="4" selection-end-line="597" selection-end-column="4" />
+>>>>>>> 0c31dd2d56c93d97591b011ccc44967322061b3a
             </state>
           </provider>
         </entry>
@@ -52,11 +69,16 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vipapp01/urls.py">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="340">
               <caret line="20" column="19" lean-forward="true" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
               </folding>
+=======
+            <state relative-caret-position="51">
+              <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+>>>>>>> 0c31dd2d56c93d97591b011ccc44967322061b3a
             </state>
           </provider>
         </entry>
@@ -74,10 +96,26 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
         <entry file="file://$PROJECT_DIR$/django03/settings.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-1047">
               <caret line="40" column="10" lean-forward="true" selection-start-line="40" selection-start-column="10" selection-end-line="40" selection-end-column="10" />
+=======
+        <entry file="file://$PROJECT_DIR$/templates/vipapp01/register.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4420">
+              <caret line="260" column="18" selection-start-line="260" selection-start-column="18" selection-end-line="260" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/vipapp01/login1.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+>>>>>>> 0c31dd2d56c93d97591b011ccc44967322061b3a
             </state>
           </provider>
         </entry>
@@ -97,6 +135,9 @@
       <find>77551</find>
       <find>upload</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -124,6 +165,7 @@
     <option name="width" value="1680" />
     <option name="height" value="1027" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -144,8 +186,13 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+<<<<<<< HEAD
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+=======
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+>>>>>>> 0c31dd2d56c93d97591b011ccc44967322061b3a
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -253,15 +300,21 @@
       <workItem from="1593774782694" duration="162000" />
       <workItem from="1594085183130" duration="5596000" />
       <workItem from="1594093371972" duration="373000" />
+<<<<<<< HEAD
       <workItem from="1594629037644" duration="5000" />
       <workItem from="1594629078569" duration="2000" />
       <workItem from="1594629086775" duration="34537000" />
       <workItem from="1595312915929" duration="31000" />
       <workItem from="1595333462082" duration="7093000" />
+=======
+      <workItem from="1594628977472" duration="48000" />
+      <workItem from="1594629050616" duration="19000" />
+>>>>>>> 0c31dd2d56c93d97591b011ccc44967322061b3a
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="71527000" />
   </component>
   <component name="TodoView">
@@ -272,11 +325,18 @@
       <are-packages-shown value="true" />
       <is-autoscroll-to-source value="true" />
     </todo-panel>
+=======
+    <option name="totallyTimeSpent" value="29926000" />
+>>>>>>> 0c31dd2d56c93d97591b011ccc44967322061b3a
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1027" extended-state="0" />
     <layout>
+<<<<<<< HEAD
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32661784" />
+=======
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.31562883" />
+>>>>>>> 0c31dd2d56c93d97591b011ccc44967322061b3a
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -540,6 +600,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/static/media/742922243-1 .jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -581,15 +642,31 @@
           <folding>
             <element signature="e#224#233#0" expanded="true" />
           </folding>
+=======
+    <entry file="file://$PROJECT_DIR$/uwsgi.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="497">
+          <caret line="1584" column="57" selection-start-line="1584" selection-start-column="42" selection-end-line="1584" selection-end-column="57" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/django03/urls.py">
+    <entry file="file://$PROJECT_DIR$/uwsgi.pid">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/importlib/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="13" />
+        <state relative-caret-position="543">
+          <caret line="117" column="11" selection-start-line="117" selection-start-column="7" selection-end-line="117" selection-end-column="11" />
+>>>>>>> 0c31dd2d56c93d97591b011ccc44967322061b3a
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vipapp01/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="71" selection-start-line="71" selection-end-line="71" />
           <folding>
-            <element signature="e#632#664#0" expanded="true" />
+            <element signature="e#0#44#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -603,14 +680,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/vipapp01/urls.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="340">
           <caret line="20" column="19" lean-forward="true" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+=======
+        <state relative-caret-position="289">
+          <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+>>>>>>> 0c31dd2d56c93d97591b011ccc44967322061b3a
           <folding>
             <element signature="e#0#32#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/vipapp01/myexception.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -634,24 +717,58 @@
           <caret line="38" column="30" lean-forward="true" selection-start-line="38" selection-start-column="30" selection-end-line="38" selection-end-column="30" />
           <folding>
             <element signature="e#14#42#0" expanded="true" />
+=======
+    <entry file="file://$PROJECT_DIR$/venv/lib/python3.8/site-packages/PIL/ImageFont.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="10047">
+          <caret line="597" column="4" selection-start-line="597" selection-start-column="4" selection-end-line="597" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/uwsgi.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/django03/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="13" />
+          <folding>
+            <element signature="e#632#664#0" expanded="true" />
+>>>>>>> 0c31dd2d56c93d97591b011ccc44967322061b3a
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/venv/lib/python3.8/site-packages/django/http/response.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="310">
           <caret line="551" column="34" selection-start-line="551" selection-start-column="17" selection-end-line="551" selection-end-column="34" />
+=======
+    <entry file="file://$PROJECT_DIR$/templates/vipapp01/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4420">
+          <caret line="260" column="18" selection-start-line="260" selection-start-column="18" selection-end-line="260" selection-end-column="18" />
+>>>>>>> 0c31dd2d56c93d97591b011ccc44967322061b3a
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vipapp01/views.py">
+    <entry file="file://$PROJECT_DIR$/templates/vipapp01/login1.html">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="481">
           <caret line="158" column="89" lean-forward="true" selection-start-line="158" selection-start-column="89" selection-end-line="158" selection-end-column="89" />
           <folding>
             <element signature="e#0#44#0" expanded="true" />
           </folding>
+=======
+        <state relative-caret-position="119">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+>>>>>>> 0c31dd2d56c93d97591b011ccc44967322061b3a
         </state>
       </provider>
     </entry>
