@@ -18,7 +18,7 @@ class myexception1(MiddlewareMixin):
         return redirect(reverse('vipapp01:register'))'''
     '''def process_exception(req,reps,exception):
         print(123)
-        return HttpResponse('df454')
+        return HttpResponse(None)
     def process_response(req,resp,error1):
         #return render(req,'vipapp01/register.html')
         #return redirect(reverse('vipapp01:login'))

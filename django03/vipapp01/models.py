@@ -7,7 +7,7 @@ from django.db.models import F,Q,Max,Min,Avg,Count
 #自定义管理器
 class User_Manager(models.Manager):
     def get_queryset(self):
-        return super(User_Manager,self).get_queryset().filter(pwd='63648215zld')
+        return super(User_Manager,self).get_queryset()
     def create(self,adduser,addpwd,phone=None):
         topuser = Top_Register_User()
         topuser.user=adduser
@@ -16,15 +16,17 @@ class User_Manager(models.Manager):
         return topuser
 
 class Group_Manager(models.Manager):
-    def create(self,groupname):
+    def create(self,groupname,describe):
         topgroup=Top_User_Group()
         topgroup.group_name=groupname
+        topgroup.describe=describe
         return topgroup
 
 
 #
 class Top_User_Group(models.Model):
     group_name=models.CharField(max_length=200,db_column='groupname')
+    describe=models.CharField(max_length=10000,null=True)
     group_state=models.BooleanField(db_column='state',default=False)
     group_create=models.DateTimeField(auto_now_add=True,db_column='create_time')
     group_update=models.DateTimeField(auto_now=True,db_column='update_time')
@@ -45,6 +47,7 @@ class Top_Register_User(models.Model):
     isdelete=models.BooleanField(default=False)
     userManager=User_Manager()
     userphone=models.CharField(max_length=100,null=True,blank=True,db_column='phone')
+    update_image=models.ImageField(upload_to='vipapp01',null=True,blank=True)
     user_group=models.ManyToManyField(Top_User_Group)
     class Meta:
         db_table='top_register_user'

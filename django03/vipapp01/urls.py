@@ -12,7 +12,10 @@ urlpatterns = [
     path('loginextend/',views.loginextend,name='loginextend'),
     path('loginout/',views.loginout,name='loginout'),
     path('middleware/',views.exception),
-    path('verifycode/',views.verifycode)
+    path('verifycode/',views.verifycode),
+    path('uploadfile/',views.uploadfile),
+    path('uploadhaldle/',views.uploadhaldle),
+    path('search_user/',views.search_user)
 ]
 
 app_name='vipapp01'

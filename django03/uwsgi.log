@@ -2439,3 +2439,1074 @@ Not Found: /static/vipapp01/jquery/jquery/jquery-3.3.1.min.js
 [pid: 82126|app: 0|req: 1/4] 127.0.0.1 () {46 vars in 1063 bytes} [Thu Jul  9 03:40:49 2020] GET /static/vipapp01/jquery/jquery/jquery-3.3.1.min.js => generated 2192 bytes in 62 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 1)
 Not Found: /static/vipapp01/layui-v2.5.6/layui-v2.5.6/layui-v2.5.6/layui/layui.js
 [pid: 82127|app: 0|req: 4/5] 127.0.0.1 () {44 vars in 1048 bytes} [Thu Jul  9 03:40:49 2020] GET /static/vipapp01/layui-v2.5.6/layui-v2.5.6/layui-v2.5.6/layui/layui.js => generated 2252 bytes in 2 msecs (HTTP/1.1 404) 4 headers in 129 bytes (1 switches on core 1)
+[pid: 82127|app: 0|req: 5/6] 127.0.0.1 () {48 vars in 1094 bytes} [Fri Jul 10 03:25:47 2020] GET /Top/register/ => generated 9040 bytes in 55 msecs (HTTP/1.1 200) 6 headers in 319 bytes (1 switches on core 0)
+Not Found: /static/vipapp01/layuiAdmin.pro-v1.4.0/layuiAdmin.pro-v1.4.0/start/layui/css/layui.css
+[pid: 82127|app: 0|req: 7/7] 127.0.0.1 () {44 vars in 1095 bytes} [Fri Jul 10 03:25:47 2020] GET /static/vipapp01/layuiAdmin.pro-v1.4.0/layuiAdmin.pro-v1.4.0/start/layui/css/layui.css => generated 2300 bytes in 12 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 1)
+Not Found: /static/vipapp01/layuiAdmin.pro-v1.4.0/layuiAdmin.pro-v1.4.0/dist/style/admin.css
+[pid: 82127|app: 0|req: 7/8] 127.0.0.1 () {44 vars in 1085 bytes} [Fri Jul 10 03:25:47 2020] GET /static/vipapp01/layuiAdmin.pro-v1.4.0/layuiAdmin.pro-v1.4.0/dist/style/admin.css => generated 2285 bytes in 10 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 0)
+Not Found: /static/vipapp01/layuiAdmin.pro-v1.4.0/layuiAdmin.pro-v1.4.0/src/style/login.css
+[pid: 82126|app: 0|req: 2/9] 127.0.0.1 () {44 vars in 1083 bytes} [Fri Jul 10 03:25:47 2020] GET /static/vipapp01/layuiAdmin.pro-v1.4.0/layuiAdmin.pro-v1.4.0/src/style/login.css => generated 2282 bytes in 20 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 0)
+Not Found: /static/vipapp01/images/WechatIMG224.jpeg
+[pid: 82126|app: 0|req: 3/10] 127.0.0.1 () {44 vars in 1026 bytes} [Fri Jul 10 03:25:47 2020] GET /static/vipapp01/images/WechatIMG224.jpeg => generated 2165 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 129 bytes (1 switches on core 1)
+Not Found: /static/vipapp01/jquery/jquery/jquery-3.3.1.min.js
+Not Found: /static/vipapp01/layui-v2.5.6/layui-v2.5.6/layui-v2.5.6/layui/layui.js
+[pid: 82124|app: 0|req: 1/12] 127.0.0.1 () {44 vars in 1049 bytes} [Fri Jul 10 03:25:47 2020] GET /static/vipapp01/layui-v2.5.6/layui-v2.5.6/layui-v2.5.6/layui/layui.js => generated 2252 bytes in 92 msecs (HTTP/1.1 404) 4 headers in 129 bytes (1 switches on core 0)
+[pid: 82125|app: 0|req: 1/12] 127.0.0.1 () {44 vars in 1009 bytes} [Fri Jul 10 03:25:47 2020] GET /static/vipapp01/jquery/jquery/jquery-3.3.1.min.js => generated 2192 bytes in 93 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 0)
+Not Found: /favicon.ico
+[pid: 82127|app: 0|req: 8/13] 127.0.0.1 () {44 vars in 968 bytes} [Fri Jul 10 03:25:47 2020] GET /favicon.ico => generated 2078 bytes in 2 msecs (HTTP/1.1 404) 4 headers in 129 bytes (1 switches on core 1)
+[pid: 82125|app: 0|req: 2/14] 127.0.0.1 () {48 vars in 1094 bytes} [Fri Jul 10 03:25:50 2020] GET /Top/register/ => generated 9040 bytes in 26 msecs (HTTP/1.1 200) 6 headers in 319 bytes (2 switches on core 1)
+Not Found: /static/vipapp01/layuiAdmin.pro-v1.4.0/layuiAdmin.pro-v1.4.0/start/layui/css/layui.css
+[pid: 82127|app: 0|req: 9/15] 127.0.0.1 () {44 vars in 1095 bytes} [Fri Jul 10 03:25:50 2020] GET /static/vipapp01/layuiAdmin.pro-v1.4.0/layuiAdmin.pro-v1.4.0/start/layui/css/layui.css => generated 2300 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 129 bytes (1 switches on core 0)
+Not Found: /static/vipapp01/layui-v2.5.6/layui-v2.5.6/layui-v2.5.6/layui/layui.js
+Not Found: /static/vipapp01/jquery/jquery/jquery-3.3.1.min.js
+[pid: 82124|app: 0|req: 2/17] 127.0.0.1 () {44 vars in 1009 bytes} [Fri Jul 10 03:25:50 2020] GET /static/vipapp01/jquery/jquery/jquery-3.3.1.min.js => generated 2192 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 1)
+[pid: 82126|app: 0|req: 4/17] 127.0.0.1 () {44 vars in 1049 bytes} [Fri Jul 10 03:25:50 2020] GET /static/vipapp01/layui-v2.5.6/layui-v2.5.6/layui-v2.5.6/layui/layui.js => generated 2252 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 0)
+Not Found: /static/vipapp01/layuiAdmin.pro-v1.4.0/layuiAdmin.pro-v1.4.0/dist/style/admin.css
+Not Found: /static/vipapp01/layuiAdmin.pro-v1.4.0/layuiAdmin.pro-v1.4.0/src/style/login.css
+[pid: 82127|app: 0|req: 11/19] 127.0.0.1 () {44 vars in 1085 bytes} [Fri Jul 10 03:25:50 2020] GET /static/vipapp01/layuiAdmin.pro-v1.4.0/layuiAdmin.pro-v1.4.0/dist/style/admin.css => generated 2285 bytes in 6 msecs (HTTP/1.1 404) 4 headers in 129 bytes (1 switches on core 1)
+[pid: 82127|app: 0|req: 11/19] 127.0.0.1 () {44 vars in 1083 bytes} [Fri Jul 10 03:25:50 2020] GET /static/vipapp01/layuiAdmin.pro-v1.4.0/layuiAdmin.pro-v1.4.0/src/style/login.css => generated 2282 bytes in 6 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 0)
+Not Found: /static/vipapp01/layui-v2.5.6/layui-v2.5.6/layui-v2.5.6/layui/layui.js
+[pid: 82127|app: 0|req: 13/20] 127.0.0.1 () {44 vars in 1049 bytes} [Fri Jul 10 03:25:50 2020] GET /static/vipapp01/layui-v2.5.6/layui-v2.5.6/layui-v2.5.6/layui/layui.js => generated 2252 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 1)
+Not Found: /static/vipapp01/images/WechatIMG224.jpeg
+[pid: 82127|app: 0|req: 13/21] 127.0.0.1 () {44 vars in 1026 bytes} [Fri Jul 10 03:25:50 2020] GET /static/vipapp01/images/WechatIMG224.jpeg => generated 2165 bytes in 5 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 0)
+SIGINT/SIGQUIT received...killing workers...
+gateway "uWSGI http 1" has been buried (pid: 82128)
+worker 4 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 1 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.19.1 (64bit) on [Fri Jul 10 11:26:08 2020] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 11.0.0 (clang-1100.0.33.16) on 07 July 2020 01:25:37
+os: Darwin-19.4.0 Darwin Kernel Version 19.4.0: Wed Mar  4 22:28:40 PST 2020; root:xnu-6153.101.6~15/RELEASE_X86_64
+nodename: TopdeMacBook-Pro.local
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 12
+current working directory: /Users/top/Django/django03
+writing pidfile to uwsgi.pid
+detected binary path: /Users/top/Django/django03/venv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /Users/top/Django/django03/
+your processes number limit is 2784
+your memory page size is 4096 bytes
+detected max file descriptor number: 10240
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 127.0.0.1:8000 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:49379 (port auto-assigned) fd 3
+Python version: 3.8.0 (v3.8.0:fa919fdf25, Oct 14 2019, 10:23:27)  [Clang 6.0 (clang-600.0.57)]
+Python main interpreter initialized at 0x7fc7f340b000
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416640 bytes (406 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x7fc7f340b000 pid: 84464 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 84464)
+spawned uWSGI worker 1 (pid: 84468, cores: 2)
+spawned uWSGI worker 2 (pid: 84469, cores: 2)
+spawned uWSGI worker 3 (pid: 84470, cores: 2)
+spawned uWSGI worker 4 (pid: 84471, cores: 2)
+spawned uWSGI http 1 (pid: 84472)
+[pid: 84469|app: 0|req: 1/1] 127.0.0.1 () {48 vars in 1094 bytes} [Fri Jul 10 03:26:11 2020] GET /Top/register/ => generated 9040 bytes in 66 msecs (HTTP/1.1 200) 6 headers in 319 bytes (1 switches on core 0)
+Not Found: /static/vipapp01/layuiAdmin.pro-v1.4.0/layuiAdmin.pro-v1.4.0/start/layui/css/layui.css
+[pid: 84469|app: 0|req: 2/2] 127.0.0.1 () {44 vars in 1095 bytes} [Fri Jul 10 03:26:11 2020] GET /static/vipapp01/layuiAdmin.pro-v1.4.0/layuiAdmin.pro-v1.4.0/start/layui/css/layui.css => generated 2300 bytes in 6 msecs (HTTP/1.1 404) 4 headers in 129 bytes (1 switches on core 1)
+Not Found: /static/vipapp01/layuiAdmin.pro-v1.4.0/layuiAdmin.pro-v1.4.0/dist/style/admin.css
+Not Found: /static/vipapp01/jquery/jquery/jquery-3.3.1.min.js
+[pid: 84469|app: 0|req: 4/4] 127.0.0.1 () {44 vars in 1085 bytes} [Fri Jul 10 03:26:11 2020] GET /static/vipapp01/layuiAdmin.pro-v1.4.0/layuiAdmin.pro-v1.4.0/dist/style/admin.css => generated 2285 bytes in 8 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 0)
+[pid: 84469|app: 0|req: 4/4] 127.0.0.1 () {44 vars in 1009 bytes} [Fri Jul 10 03:26:11 2020] GET /static/vipapp01/jquery/jquery/jquery-3.3.1.min.js => generated 2192 bytes in 7 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 1)
+Not Found: /static/vipapp01/layuiAdmin.pro-v1.4.0/layuiAdmin.pro-v1.4.0/src/style/login.css
+Not Found: /static/vipapp01/layui-v2.5.6/layui-v2.5.6/layui-v2.5.6/layui/layui.js
+[pid: 84470|app: 0|req: 1/6] 127.0.0.1 () {44 vars in 1083 bytes} [Fri Jul 10 03:26:11 2020] GET /static/vipapp01/layuiAdmin.pro-v1.4.0/layuiAdmin.pro-v1.4.0/src/style/login.css => generated 2282 bytes in 43 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 1)
+[pid: 84471|app: 0|req: 1/6] 127.0.0.1 () {44 vars in 1049 bytes} [Fri Jul 10 03:26:11 2020] GET /static/vipapp01/layui-v2.5.6/layui-v2.5.6/layui-v2.5.6/layui/layui.js => generated 2252 bytes in 42 msecs (HTTP/1.1 404) 4 headers in 129 bytes (1 switches on core 0)
+Not Found: /static/vipapp01/layui-v2.5.6/layui-v2.5.6/layui-v2.5.6/layui/layui.js
+[pid: 84471|app: 0|req: 3/7] 127.0.0.1 () {44 vars in 1049 bytes} [Fri Jul 10 03:26:11 2020] GET /static/vipapp01/layui-v2.5.6/layui-v2.5.6/layui-v2.5.6/layui/layui.js => generated 2252 bytes in 5 msecs (HTTP/1.1 404) 4 headers in 129 bytes (1 switches on core 1)
+Not Found: /static/vipapp01/images/WechatIMG224.jpeg
+[pid: 84471|app: 0|req: 3/8] 127.0.0.1 () {44 vars in 1026 bytes} [Fri Jul 10 03:26:11 2020] GET /static/vipapp01/images/WechatIMG224.jpeg => generated 2165 bytes in 5 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 0)
+[pid: 84470|app: 0|req: 2/9] 127.0.0.1 () {48 vars in 1094 bytes} [Fri Jul 10 03:26:13 2020] GET /Top/register/ => generated 9040 bytes in 12 msecs (HTTP/1.1 200) 6 headers in 319 bytes (1 switches on core 0)
+Not Found: /static/vipapp01/layuiAdmin.pro-v1.4.0/layuiAdmin.pro-v1.4.0/start/layui/css/layui.css
+[pid: 84471|app: 0|req: 4/10] 127.0.0.1 () {44 vars in 1095 bytes} [Fri Jul 10 03:26:13 2020] GET /static/vipapp01/layuiAdmin.pro-v1.4.0/layuiAdmin.pro-v1.4.0/start/layui/css/layui.css => generated 2300 bytes in 2 msecs (HTTP/1.1 404) 4 headers in 129 bytes (1 switches on core 1)
+Not Found: /static/vipapp01/layuiAdmin.pro-v1.4.0/layuiAdmin.pro-v1.4.0/src/style/login.css
+Not Found: /static/vipapp01/layuiAdmin.pro-v1.4.0/layuiAdmin.pro-v1.4.0/dist/style/admin.css
+[pid: 84469|app: 0|req: 5/12] 127.0.0.1 () {44 vars in 1083 bytes} [Fri Jul 10 03:26:13 2020] GET /static/vipapp01/layuiAdmin.pro-v1.4.0/layuiAdmin.pro-v1.4.0/src/style/login.css => generated 2282 bytes in 2 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 1)
+[pid: 84470|app: 0|req: 3/12] 127.0.0.1 () {44 vars in 1085 bytes} [Fri Jul 10 03:26:13 2020] GET /static/vipapp01/layuiAdmin.pro-v1.4.0/layuiAdmin.pro-v1.4.0/dist/style/admin.css => generated 2285 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 1)
+Not Found: /static/vipapp01/jquery/jquery/jquery-3.3.1.min.js
+[pid: 84471|app: 0|req: 6/13] 127.0.0.1 () {44 vars in 1009 bytes} [Fri Jul 10 03:26:13 2020] GET /static/vipapp01/jquery/jquery/jquery-3.3.1.min.js => generated 2192 bytes in 4 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 0)
+Not Found: /static/vipapp01/layui-v2.5.6/layui-v2.5.6/layui-v2.5.6/layui/layui.js
+[pid: 84471|app: 0|req: 6/14] 127.0.0.1 () {44 vars in 1049 bytes} [Fri Jul 10 03:26:13 2020] GET /static/vipapp01/layui-v2.5.6/layui-v2.5.6/layui-v2.5.6/layui/layui.js => generated 2252 bytes in 6 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 1)
+Not Found: /static/vipapp01/images/WechatIMG224.jpeg
+[pid: 84471|app: 0|req: 7/15] 127.0.0.1 () {44 vars in 1024 bytes} [Fri Jul 10 03:26:13 2020] GET /static/vipapp01/images/WechatIMG224.jpeg => generated 2165 bytes in 2 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 0)
+[pid: 84471|app: 0|req: 8/16] 127.0.0.1 () {48 vars in 1093 bytes} [Fri Jul 10 03:26:52 2020] GET /Top/register/ => generated 9040 bytes in 19 msecs (HTTP/1.1 200) 6 headers in 319 bytes (1 switches on core 1)
+Not Found: /static/vipapp01/layuiAdmin.pro-v1.4.0/layuiAdmin.pro-v1.4.0/start/layui/css/layui.css
+[pid: 84471|app: 0|req: 9/17] 127.0.0.1 () {44 vars in 1094 bytes} [Fri Jul 10 03:26:52 2020] GET /static/vipapp01/layuiAdmin.pro-v1.4.0/layuiAdmin.pro-v1.4.0/start/layui/css/layui.css => generated 2300 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 0)
+Not Found: /static/vipapp01/jquery/jquery/jquery-3.3.1.min.js
+Not Found: /static/vipapp01/layuiAdmin.pro-v1.4.0/layuiAdmin.pro-v1.4.0/src/style/login.css
+[pid: 84471|app: 0|req: 11/18] 127.0.0.1 () {44 vars in 1008 bytes} [Fri Jul 10 03:26:52 2020] GET /static/vipapp01/jquery/jquery/jquery-3.3.1.min.js => generated 2192 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 0)
+[pid: 84470|app: 0|req: 5/19] 127.0.0.1 () {44 vars in 1082 bytes} [Fri Jul 10 03:26:52 2020] GET /static/vipapp01/layuiAdmin.pro-v1.4.0/layuiAdmin.pro-v1.4.0/src/style/login.css => generated 2282 bytes in 5 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 0)
+Not Found: /static/vipapp01/layuiAdmin.pro-v1.4.0/layuiAdmin.pro-v1.4.0/dist/style/admin.css
+Not Found: /static/vipapp01/layui-v2.5.6/layui-v2.5.6/layui-v2.5.6/layui/layui.js
+[pid: 84471|app: 0|req: 11/20] 127.0.0.1 () {44 vars in 1084 bytes} [Fri Jul 10 03:26:52 2020] GET /static/vipapp01/layuiAdmin.pro-v1.4.0/layuiAdmin.pro-v1.4.0/dist/style/admin.css => generated 2285 bytes in 6 msecs (HTTP/1.1 404) 4 headers in 129 bytes (1 switches on core 1)
+[pid: 84470|app: 0|req: 5/21] 127.0.0.1 () {44 vars in 1048 bytes} [Fri Jul 10 03:26:52 2020] GET /static/vipapp01/layui-v2.5.6/layui-v2.5.6/layui-v2.5.6/layui/layui.js => generated 2252 bytes in 6 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 1)
+Not Found: /static/vipapp01/images/WechatIMG224.jpeg
+[pid: 84471|app: 0|req: 12/22] 127.0.0.1 () {44 vars in 1025 bytes} [Fri Jul 10 03:26:52 2020] GET /static/vipapp01/images/WechatIMG224.jpeg => generated 2165 bytes in 2 msecs (HTTP/1.1 404) 4 headers in 129 bytes (1 switches on core 0)
+[pid: 84471|app: 0|req: 13/23] 127.0.0.1 () {48 vars in 1093 bytes} [Fri Jul 10 03:26:54 2020] GET /Top/register/ => generated 9040 bytes in 1 msecs (HTTP/1.1 200) 6 headers in 319 bytes (1 switches on core 1)
+Not Found: /static/vipapp01/layuiAdmin.pro-v1.4.0/layuiAdmin.pro-v1.4.0/start/layui/css/layui.css
+[pid: 84471|app: 0|req: 14/24] 127.0.0.1 () {44 vars in 1094 bytes} [Fri Jul 10 03:26:54 2020] GET /static/vipapp01/layuiAdmin.pro-v1.4.0/layuiAdmin.pro-v1.4.0/start/layui/css/layui.css => generated 2300 bytes in 2 msecs (HTTP/1.1 404) 4 headers in 129 bytes (1 switches on core 0)
+Not Found: /static/vipapp01/jquery/jquery/jquery-3.3.1.min.js
+Not Found: /static/vipapp01/layui-v2.5.6/layui-v2.5.6/layui-v2.5.6/layui/layui.js
+[pid: 84471|app: 0|req: 15/25] 127.0.0.1 () {44 vars in 1008 bytes} [Fri Jul 10 03:26:54 2020] GET /static/vipapp01/jquery/jquery/jquery-3.3.1.min.js => generated 2192 bytes in 2 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 1)
+[pid: 84469|app: 0|req: 6/26] 127.0.0.1 () {44 vars in 1048 bytes} [Fri Jul 10 03:26:54 2020] GET /static/vipapp01/layui-v2.5.6/layui-v2.5.6/layui-v2.5.6/layui/layui.js => generated 2252 bytes in 2 msecs (HTTP/1.1 404) 4 headers in 129 bytes (1 switches on core 0)
+Not Found: /static/vipapp01/layuiAdmin.pro-v1.4.0/layuiAdmin.pro-v1.4.0/dist/style/admin.css
+[pid: 84470|app: 0|req: 7/27] 127.0.0.1 () {44 vars in 1084 bytes} [Fri Jul 10 03:26:54 2020] GET /static/vipapp01/layuiAdmin.pro-v1.4.0/layuiAdmin.pro-v1.4.0/dist/style/admin.css => generated 2285 bytes in 4 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 1)
+Not Found: /static/vipapp01/layuiAdmin.pro-v1.4.0/layuiAdmin.pro-v1.4.0/src/style/login.css
+[pid: 84470|app: 0|req: 7/28] 127.0.0.1 () {44 vars in 1082 bytes} [Fri Jul 10 03:26:54 2020] GET /static/vipapp01/layuiAdmin.pro-v1.4.0/layuiAdmin.pro-v1.4.0/src/style/login.css => generated 2282 bytes in 6 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 0)
+Not Found: /static/vipapp01/layui-v2.5.6/layui-v2.5.6/layui-v2.5.6/layui/layui.js
+[pid: 84469|app: 0|req: 7/29] 127.0.0.1 () {44 vars in 1049 bytes} [Fri Jul 10 03:26:54 2020] GET /static/vipapp01/layui-v2.5.6/layui-v2.5.6/layui-v2.5.6/layui/layui.js => generated 2252 bytes in 2 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 1)
+Not Found: /static/vipapp01/images/WechatIMG224.jpeg
+[pid: 84468|app: 0|req: 1/30] 127.0.0.1 () {44 vars in 1026 bytes} [Fri Jul 10 03:26:54 2020] GET /static/vipapp01/images/WechatIMG224.jpeg => generated 2165 bytes in 56 msecs (HTTP/1.1 404) 4 headers in 129 bytes (1 switches on core 1)
+[pid: 84470|app: 0|req: 8/31] 127.0.0.1 () {48 vars in 1094 bytes} [Fri Jul 10 06:20:04 2020] GET /Top/register/ => generated 9040 bytes in 4 msecs (HTTP/1.1 200) 6 headers in 319 bytes (2 switches on core 1)
+Not Found: /static/vipapp01/layuiAdmin.pro-v1.4.0/layuiAdmin.pro-v1.4.0/start/layui/css/layui.css
+[pid: 84471|app: 0|req: 17/32] 127.0.0.1 () {44 vars in 1095 bytes} [Fri Jul 10 06:20:04 2020] GET /static/vipapp01/layuiAdmin.pro-v1.4.0/layuiAdmin.pro-v1.4.0/start/layui/css/layui.css => generated 2300 bytes in 5 msecs (HTTP/1.1 404) 4 headers in 129 bytes (1 switches on core 0)
+Not Found: /static/vipapp01/jquery/jquery/jquery-3.3.1.min.js
+[pid: 84469|app: 0|req: 8/33] 127.0.0.1 () {44 vars in 1009 bytes} [Fri Jul 10 06:20:04 2020] GET /static/vipapp01/jquery/jquery/jquery-3.3.1.min.js => generated 2192 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 0)
+Not Found: /static/vipapp01/layuiAdmin.pro-v1.4.0/layuiAdmin.pro-v1.4.0/dist/style/admin.css
+[pid: 84471|app: 0|req: 17/34] 127.0.0.1 () {44 vars in 1085 bytes} [Fri Jul 10 06:20:04 2020] GET /static/vipapp01/layuiAdmin.pro-v1.4.0/layuiAdmin.pro-v1.4.0/dist/style/admin.css => generated 2285 bytes in 4 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 1)
+Not Found: /static/vipapp01/layui-v2.5.6/layui-v2.5.6/layui-v2.5.6/layui/layui.js
+[pid: 84470|app: 0|req: 10/35] 127.0.0.1 () {44 vars in 1049 bytes} [Fri Jul 10 06:20:04 2020] GET /static/vipapp01/layui-v2.5.6/layui-v2.5.6/layui-v2.5.6/layui/layui.js => generated 2252 bytes in 5 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 1)
+Not Found: /static/vipapp01/layuiAdmin.pro-v1.4.0/layuiAdmin.pro-v1.4.0/src/style/login.css
+[pid: 84470|app: 0|req: 10/36] 127.0.0.1 () {44 vars in 1083 bytes} [Fri Jul 10 06:20:04 2020] GET /static/vipapp01/layuiAdmin.pro-v1.4.0/layuiAdmin.pro-v1.4.0/src/style/login.css => generated 2282 bytes in 6 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 0)
+Not Found: /static/vipapp01/layui-v2.5.6/layui-v2.5.6/layui-v2.5.6/layui/layui.js
+[pid: 84470|app: 0|req: 11/37] 127.0.0.1 () {44 vars in 1049 bytes} [Fri Jul 10 06:20:04 2020] GET /static/vipapp01/layui-v2.5.6/layui-v2.5.6/layui-v2.5.6/layui/layui.js => generated 2252 bytes in 2 msecs (HTTP/1.1 404) 4 headers in 129 bytes (1 switches on core 1)
+Not Found: /static/vipapp01/images/WechatIMG224.jpeg
+[pid: 84469|app: 0|req: 9/38] 127.0.0.1 () {44 vars in 1026 bytes} [Fri Jul 10 06:20:04 2020] GET /static/vipapp01/images/WechatIMG224.jpeg => generated 2165 bytes in 2 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 1)
+Not Found: /favicon.ico
+[pid: 84471|app: 0|req: 18/39] 127.0.0.1 () {44 vars in 968 bytes} [Fri Jul 10 06:20:04 2020] GET /favicon.ico => generated 2078 bytes in 2 msecs (HTTP/1.1 404) 4 headers in 129 bytes (1 switches on core 0)
+[pid: 84471|app: 0|req: 19/40] 127.0.0.1 () {48 vars in 1094 bytes} [Fri Jul 10 06:20:07 2020] GET /Top/register/ => generated 9040 bytes in 3 msecs (HTTP/1.1 200) 6 headers in 319 bytes (1 switches on core 1)
+Not Found: /static/vipapp01/layuiAdmin.pro-v1.4.0/layuiAdmin.pro-v1.4.0/start/layui/css/layui.css
+[pid: 84471|app: 0|req: 20/41] 127.0.0.1 () {44 vars in 1095 bytes} [Fri Jul 10 06:20:07 2020] GET /static/vipapp01/layuiAdmin.pro-v1.4.0/layuiAdmin.pro-v1.4.0/start/layui/css/layui.css => generated 2300 bytes in 2 msecs (HTTP/1.1 404) 4 headers in 129 bytes (1 switches on core 0)
+Not Found: /static/vipapp01/layuiAdmin.pro-v1.4.0/layuiAdmin.pro-v1.4.0/src/style/login.css
+Not Found: /static/vipapp01/layui-v2.5.6/layui-v2.5.6/layui-v2.5.6/layui/layui.js
+[pid: 84469|app: 0|req: 10/43] 127.0.0.1 () {44 vars in 1083 bytes} [Fri Jul 10 06:20:07 2020] GET /static/vipapp01/layuiAdmin.pro-v1.4.0/layuiAdmin.pro-v1.4.0/src/style/login.css => generated 2282 bytes in 2 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 1)
+[pid: 84470|app: 0|req: 12/43] 127.0.0.1 () {44 vars in 1049 bytes} [Fri Jul 10 06:20:07 2020] GET /static/vipapp01/layui-v2.5.6/layui-v2.5.6/layui-v2.5.6/layui/layui.js => generated 2252 bytes in 2 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 0)
+Not Found: /static/vipapp01/jquery/jquery/jquery-3.3.1.min.js
+[pid: 84471|app: 0|req: 22/44] 127.0.0.1 () {44 vars in 1009 bytes} [Fri Jul 10 06:20:07 2020] GET /static/vipapp01/jquery/jquery/jquery-3.3.1.min.js => generated 2192 bytes in 5 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 0)
+Not Found: /static/vipapp01/layuiAdmin.pro-v1.4.0/layuiAdmin.pro-v1.4.0/dist/style/admin.css
+[pid: 84471|app: 0|req: 22/45] 127.0.0.1 () {44 vars in 1085 bytes} [Fri Jul 10 06:20:07 2020] GET /static/vipapp01/layuiAdmin.pro-v1.4.0/layuiAdmin.pro-v1.4.0/dist/style/admin.css => generated 2285 bytes in 6 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 1)
+Not Found: /static/vipapp01/layui-v2.5.6/layui-v2.5.6/layui-v2.5.6/layui/layui.js
+[pid: 84470|app: 0|req: 13/46] 127.0.0.1 () {44 vars in 1049 bytes} [Fri Jul 10 06:20:07 2020] GET /static/vipapp01/layui-v2.5.6/layui-v2.5.6/layui-v2.5.6/layui/layui.js => generated 2252 bytes in 2 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 1)
+Not Found: /static/vipapp01/images/WechatIMG224.jpeg
+[pid: 84471|app: 0|req: 23/47] 127.0.0.1 () {44 vars in 1026 bytes} [Fri Jul 10 06:20:07 2020] GET /static/vipapp01/images/WechatIMG224.jpeg => generated 2165 bytes in 2 msecs (HTTP/1.1 404) 4 headers in 129 bytes (1 switches on core 0)
+[pid: 84471|app: 0|req: 24/48] 127.0.0.1 () {48 vars in 1094 bytes} [Fri Jul 10 09:13:50 2020] GET /Top/register/ => generated 9040 bytes in 12 msecs (HTTP/1.1 200) 6 headers in 319 bytes (1 switches on core 1)
+Not Found: /static/vipapp01/layui-v2.5.6/layui-v2.5.6/layui-v2.5.6/layui/layui.js
+Not Found: /static/vipapp01/jquery/jquery/jquery-3.3.1.min.js
+[pid: 84471|app: 0|req: 26/50] 127.0.0.1 () {44 vars in 1049 bytes} [Fri Jul 10 09:13:50 2020] GET /static/vipapp01/layui-v2.5.6/layui-v2.5.6/layui-v2.5.6/layui/layui.js => generated 2252 bytes in 9 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 1)
+[pid: 84471|app: 0|req: 26/50] 127.0.0.1 () {44 vars in 1009 bytes} [Fri Jul 10 09:13:50 2020] GET /static/vipapp01/jquery/jquery/jquery-3.3.1.min.js => generated 2192 bytes in 10 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 0)
+Not Found: /static/vipapp01/layuiAdmin.pro-v1.4.0/layuiAdmin.pro-v1.4.0/dist/style/admin.css
+[pid: 84469|app: 0|req: 11/51] 127.0.0.1 () {44 vars in 1085 bytes} [Fri Jul 10 09:13:50 2020] GET /static/vipapp01/layuiAdmin.pro-v1.4.0/layuiAdmin.pro-v1.4.0/dist/style/admin.css => generated 2285 bytes in 14 msecs (HTTP/1.1 404) 4 headers in 129 bytes (1 switches on core 0)
+Not Found: /static/vipapp01/layuiAdmin.pro-v1.4.0/layuiAdmin.pro-v1.4.0/src/style/login.css
+[pid: 84470|app: 0|req: 15/52] 127.0.0.1 () {44 vars in 1083 bytes} [Fri Jul 10 09:13:50 2020] GET /static/vipapp01/layuiAdmin.pro-v1.4.0/layuiAdmin.pro-v1.4.0/src/style/login.css => generated 2282 bytes in 15 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 1)
+Not Found: /static/vipapp01/layuiAdmin.pro-v1.4.0/layuiAdmin.pro-v1.4.0/start/layui/css/layui.css
+[pid: 84470|app: 0|req: 15/53] 127.0.0.1 () {44 vars in 1095 bytes} [Fri Jul 10 09:13:50 2020] GET /static/vipapp01/layuiAdmin.pro-v1.4.0/layuiAdmin.pro-v1.4.0/start/layui/css/layui.css => generated 2300 bytes in 18 msecs (HTTP/1.1 404) 4 headers in 129 bytes (1 switches on core 0)
+Not Found: /static/vipapp01/layui-v2.5.6/layui-v2.5.6/layui-v2.5.6/layui/layui.js
+Not Found: /static/vipapp01/images/WechatIMG224.jpeg
+[pid: 84470|app: 0|req: 16/55] 127.0.0.1 () {44 vars in 1049 bytes} [Fri Jul 10 09:13:50 2020] GET /static/vipapp01/layui-v2.5.6/layui-v2.5.6/layui-v2.5.6/layui/layui.js => generated 2252 bytes in 2 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 1)
+[pid: 84471|app: 0|req: 27/55] 127.0.0.1 () {44 vars in 1026 bytes} [Fri Jul 10 09:13:50 2020] GET /static/vipapp01/images/WechatIMG224.jpeg => generated 2165 bytes in 2 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 1)
+*** Starting uWSGI 2.0.19.1 (64bit) on [Sun Jul 12 23:11:50 2020] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 11.0.0 (clang-1100.0.33.16) on 07 July 2020 01:25:37
+os: Darwin-19.4.0 Darwin Kernel Version 19.4.0: Wed Mar  4 22:28:40 PST 2020; root:xnu-6153.101.6~15/RELEASE_X86_64
+nodename: TopdeMacBook-Pro.local
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 12
+current working directory: /Users/top/Django/django03
+writing pidfile to uwsgi.pid
+detected binary path: /Users/top/Django/django03/venv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /Users/top/Django/django03/
+your processes number limit is 2784
+your memory page size is 4096 bytes
+detected max file descriptor number: 10240
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:8000).
+bind(): Address already in use [core/socket.c line 769]
+[pid: 84469|app: 0|req: 12/56] 127.0.0.1 () {48 vars in 1094 bytes} [Sun Jul 12 15:11:55 2020] GET /Top/register/ => generated 9040 bytes in 40 msecs (HTTP/1.1 200) 6 headers in 319 bytes (1 switches on core 1)
+Not Found: /static/vipapp01/layuiAdmin.pro-v1.4.0/layuiAdmin.pro-v1.4.0/dist/style/admin.css
+[pid: 84469|app: 0|req: 14/57] 127.0.0.1 () {44 vars in 1085 bytes} [Sun Jul 12 15:11:55 2020] GET /static/vipapp01/layuiAdmin.pro-v1.4.0/layuiAdmin.pro-v1.4.0/dist/style/admin.css => generated 2285 bytes in 11 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 0)
+Not Found: /static/vipapp01/layuiAdmin.pro-v1.4.0/layuiAdmin.pro-v1.4.0/src/style/login.css
+Not Found: /static/vipapp01/jquery/jquery/jquery-3.3.1.min.js
+[pid: 84469|app: 0|req: 14/58] 127.0.0.1 () {44 vars in 1009 bytes} [Sun Jul 12 15:11:55 2020] GET /static/vipapp01/jquery/jquery/jquery-3.3.1.min.js => generated 2192 bytes in 12 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 1)
+[pid: 84471|app: 0|req: 29/59] 127.0.0.1 () {44 vars in 1083 bytes} [Sun Jul 12 15:11:55 2020] GET /static/vipapp01/layuiAdmin.pro-v1.4.0/layuiAdmin.pro-v1.4.0/src/style/login.css => generated 2282 bytes in 13 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 1)
+Not Found: /static/vipapp01/layuiAdmin.pro-v1.4.0/layuiAdmin.pro-v1.4.0/start/layui/css/layui.css
+[pid: 84471|app: 0|req: 29/60] 127.0.0.1 () {44 vars in 1095 bytes} [Sun Jul 12 15:11:55 2020] GET /static/vipapp01/layuiAdmin.pro-v1.4.0/layuiAdmin.pro-v1.4.0/start/layui/css/layui.css => generated 2300 bytes in 22 msecs (HTTP/1.1 404) 4 headers in 129 bytes (1 switches on core 0)
+Not Found: /static/vipapp01/layui-v2.5.6/layui-v2.5.6/layui-v2.5.6/layui/layui.js
+[pid: 84470|app: 0|req: 17/61] 127.0.0.1 () {44 vars in 1049 bytes} [Sun Jul 12 15:11:55 2020] GET /static/vipapp01/layui-v2.5.6/layui-v2.5.6/layui-v2.5.6/layui/layui.js => generated 2252 bytes in 15 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 1)
+Not Found: /static/vipapp01/images/WechatIMG224.jpeg
+[pid: 84471|app: 0|req: 30/62] 127.0.0.1 () {44 vars in 1026 bytes} [Sun Jul 12 15:11:55 2020] GET /static/vipapp01/images/WechatIMG224.jpeg => generated 2165 bytes in 2 msecs (HTTP/1.1 404) 4 headers in 129 bytes (1 switches on core 1)
+Sun Jul 12 15:13:24 2020 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Sun Jul 12 15:13:24 2020 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Sun Jul 12 15:13:24 2020 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Sun Jul 12 15:13:24 2020 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Sun Jul 12 15:13:24 2020 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Sun Jul 12 15:13:24 2020 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Sun Jul 12 15:13:24 2020 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Sun Jul 12 15:13:24 2020 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.19.1 (64bit) on [Sun Jul 12 23:13:28 2020] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 11.0.0 (clang-1100.0.33.16) on 07 July 2020 01:25:37
+os: Darwin-19.4.0 Darwin Kernel Version 19.4.0: Wed Mar  4 22:28:40 PST 2020; root:xnu-6153.101.6~15/RELEASE_X86_64
+nodename: TopdeMacBook-Pro.local
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 12
+current working directory: /Users/top/Django/django03
+writing pidfile to uwsgi.pid
+detected binary path: /Users/top/Django/django03/venv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /Users/top/Django/django03/
+your processes number limit is 2784
+your memory page size is 4096 bytes
+detected max file descriptor number: 10240
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:8000).
+bind(): Address already in use [core/socket.c line 769]
+[uwsgi-http] unable to connect() to node "127.0.0.1:49379" (0 retries): Connection refused
+[uwsgi-http] unable to connect() to node "127.0.0.1:49379" (1 retries): Connection refused
+[uwsgi-http] unable to connect() to node "127.0.0.1:49379" (2 retries): Connection refused
+[uwsgi-http] unable to connect() to node "127.0.0.1:49379" (3 retries): Connection refused
+[uwsgi-http] unable to connect() to node "127.0.0.1:49379" (0 retries): Connection refused
+[uwsgi-http] unable to connect() to node "127.0.0.1:49379" (1 retries): Connection refused
+[uwsgi-http] unable to connect() to node "127.0.0.1:49379" (2 retries): Connection refused
+[uwsgi-http] unable to connect() to node "127.0.0.1:49379" (3 retries): Connection refused
+[uwsgi-http] unable to connect() to node "127.0.0.1:49379" (0 retries): Connection refused
+[uwsgi-http] unable to connect() to node "127.0.0.1:49379" (1 retries): Connection refused
+[uwsgi-http] unable to connect() to node "127.0.0.1:49379" (2 retries): Connection refused
+[uwsgi-http] unable to connect() to node "127.0.0.1:49379" (3 retries): Connection refused
+[uwsgi-http] unable to connect() to node "127.0.0.1:49379" (0 retries): Connection refused
+[uwsgi-http] unable to connect() to node "127.0.0.1:49379" (1 retries): Connection refused
+[uwsgi-http] unable to connect() to node "127.0.0.1:49379" (2 retries): Connection refused
+[uwsgi-http] unable to connect() to node "127.0.0.1:49379" (3 retries): Connection refused
+[uwsgi-http] unable to connect() to node "127.0.0.1:49379" (0 retries): Connection refused
+[uwsgi-http] unable to connect() to node "127.0.0.1:49379" (1 retries): Connection refused
+[uwsgi-http] unable to connect() to node "127.0.0.1:49379" (2 retries): Connection refused
+[uwsgi-http] unable to connect() to node "127.0.0.1:49379" (3 retries): Connection refused
+[uwsgi-http] unable to connect() to node "127.0.0.1:49379" (0 retries): Connection refused
+[uwsgi-http] unable to connect() to node "127.0.0.1:49379" (1 retries): Connection refused
+[uwsgi-http] unable to connect() to node "127.0.0.1:49379" (2 retries): Connection refused
+[uwsgi-http] unable to connect() to node "127.0.0.1:49379" (3 retries): Connection refused
+[uwsgi-http] unable to connect() to node "127.0.0.1:49379" (0 retries): Connection refused
+[uwsgi-http] unable to connect() to node "127.0.0.1:49379" (1 retries): Connection refused
+[uwsgi-http] unable to connect() to node "127.0.0.1:49379" (2 retries): Connection refused
+[uwsgi-http] unable to connect() to node "127.0.0.1:49379" (3 retries): Connection refused
+[uwsgi-http] unable to connect() to node "127.0.0.1:49379" (0 retries): Connection refused
+[uwsgi-http] unable to connect() to node "127.0.0.1:49379" (1 retries): Connection refused
+[uwsgi-http] unable to connect() to node "127.0.0.1:49379" (2 retries): Connection refused
+[uwsgi-http] unable to connect() to node "127.0.0.1:49379" (3 retries): Connection refused
+[uwsgi-http] unable to connect() to node "127.0.0.1:49379" (0 retries): Connection refused
+[uwsgi-http] unable to connect() to node "127.0.0.1:49379" (1 retries): Connection refused
+[uwsgi-http] unable to connect() to node "127.0.0.1:49379" (2 retries): Connection refused
+[uwsgi-http] unable to connect() to node "127.0.0.1:49379" (3 retries): Connection refused
+*** Starting uWSGI 2.0.19.1 (64bit) on [Mon Jul 13 09:58:32 2020] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 11.0.0 (clang-1100.0.33.16) on 07 July 2020 01:25:37
+os: Darwin-19.4.0 Darwin Kernel Version 19.4.0: Wed Mar  4 22:28:40 PST 2020; root:xnu-6153.101.6~15/RELEASE_X86_64
+nodename: TopdeMacBook-Pro.local
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 12
+current working directory: /Users/top/Django/django03
+writing pidfile to uwsgi.pid
+detected binary path: /Users/top/Django/django03/venv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /Users/top/Django/django03/
+your processes number limit is 2784
+your memory page size is 4096 bytes
+detected max file descriptor number: 10240
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 127.0.0.1:8000 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:62665 (port auto-assigned) fd 3
+Python version: 3.8.0 (v3.8.0:fa919fdf25, Oct 14 2019, 10:23:27)  [Clang 6.0 (clang-600.0.57)]
+Python main interpreter initialized at 0x7fd416f068e0
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416640 bytes (406 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x7fd416f068e0 pid: 89610 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 89610)
+spawned uWSGI worker 1 (pid: 89614, cores: 2)
+spawned uWSGI worker 2 (pid: 89615, cores: 2)
+spawned uWSGI worker 3 (pid: 89616, cores: 2)
+spawned uWSGI worker 4 (pid: 89617, cores: 2)
+spawned uWSGI http 1 (pid: 89618)
+123
+abc
+[pid: 89617|app: 0|req: 1/1] 127.0.0.1 () {48 vars in 1098 bytes} [Mon Jul 13 01:58:36 2020] GET /Top/middleware/ => generated 4 bytes in 51 msecs (HTTP/1.1 200) 4 headers in 134 bytes (1 switches on core 0)
+SIGINT/SIGQUIT received...killing workers...
+gateway "uWSGI http 1" has been buried (pid: 89618)
+worker 4 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 1 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.19.1 (64bit) on [Mon Jul 13 09:58:59 2020] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 11.0.0 (clang-1100.0.33.16) on 07 July 2020 01:25:37
+os: Darwin-19.4.0 Darwin Kernel Version 19.4.0: Wed Mar  4 22:28:40 PST 2020; root:xnu-6153.101.6~15/RELEASE_X86_64
+nodename: TopdeMacBook-Pro.local
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 12
+current working directory: /Users/top/Django/django03
+writing pidfile to uwsgi.pid
+detected binary path: /Users/top/Django/django03/venv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /Users/top/Django/django03/
+your processes number limit is 2784
+your memory page size is 4096 bytes
+detected max file descriptor number: 10240
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 127.0.0.1:8000 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:62684 (port auto-assigned) fd 3
+Python version: 3.8.0 (v3.8.0:fa919fdf25, Oct 14 2019, 10:23:27)  [Clang 6.0 (clang-600.0.57)]
+Python main interpreter initialized at 0x7fa01b508060
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416640 bytes (406 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x7fa01b508060 pid: 89627 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 89627)
+spawned uWSGI worker 1 (pid: 89629, cores: 2)
+spawned uWSGI worker 2 (pid: 89630, cores: 2)
+spawned uWSGI worker 3 (pid: 89631, cores: 2)
+spawned uWSGI worker 4 (pid: 89632, cores: 2)
+spawned uWSGI http 1 (pid: 89633)
+123
+abc
+[pid: 89632|app: 0|req: 1/1] 127.0.0.1 () {48 vars in 1098 bytes} [Mon Jul 13 01:59:02 2020] GET /Top/middleware/ => generated 4 bytes in 29 msecs (HTTP/1.1 200) 4 headers in 134 bytes (2 switches on core 0)
+SIGINT/SIGQUIT received...killing workers...
+gateway "uWSGI http 1" has been buried (pid: 89633)
+worker 4 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 1 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.19.1 (64bit) on [Mon Jul 13 09:59:32 2020] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 11.0.0 (clang-1100.0.33.16) on 07 July 2020 01:25:37
+os: Darwin-19.4.0 Darwin Kernel Version 19.4.0: Wed Mar  4 22:28:40 PST 2020; root:xnu-6153.101.6~15/RELEASE_X86_64
+nodename: TopdeMacBook-Pro.local
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 12
+current working directory: /Users/top/Django/django03
+writing pidfile to uwsgi.pid
+detected binary path: /Users/top/Django/django03/venv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /Users/top/Django/django03/
+your processes number limit is 2784
+your memory page size is 4096 bytes
+detected max file descriptor number: 10240
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 127.0.0.1:8000 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:62689 (port auto-assigned) fd 3
+Python version: 3.8.0 (v3.8.0:fa919fdf25, Oct 14 2019, 10:23:27)  [Clang 6.0 (clang-600.0.57)]
+Python main interpreter initialized at 0x7ff1010061e0
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416640 bytes (406 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x7ff1010061e0 pid: 89650 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 89650)
+spawned uWSGI worker 1 (pid: 89652, cores: 2)
+spawned uWSGI worker 2 (pid: 89653, cores: 2)
+spawned uWSGI worker 3 (pid: 89654, cores: 2)
+spawned uWSGI worker 4 (pid: 89655, cores: 2)
+spawned uWSGI http 1 (pid: 89656)
+123
+[pid: 89652|app: 0|req: 1/1] 127.0.0.1 () {48 vars in 1098 bytes} [Mon Jul 13 01:59:34 2020] GET /Top/middleware/ => generated 4 bytes in 29 msecs (HTTP/1.1 200) 4 headers in 134 bytes (2 switches on core 0)
+gateway "uWSGI http 1" has been buried (pid: 89656)
+...brutally killing workers...
+worker 4 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 1 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /Users/top/Django/django03
+closing all non-uwsgi socket fds > 2 (max_fd = 10240)...
+found fd 3 mapped to socket 0 (127.0.0.1:62689)
+running /Users/top/Django/django03/venv/bin/uwsgi
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 2.0.19.1 (64bit) on [Mon Jul 13 04:19:55 2020] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 11.0.0 (clang-1100.0.33.16) on 07 July 2020 01:25:37
+os: Darwin-19.4.0 Darwin Kernel Version 19.4.0: Wed Mar  4 22:28:40 PST 2020; root:xnu-6153.101.6~15/RELEASE_X86_64
+nodename: TopdeMacBook-Pro.local
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 12
+current working directory: /Users/top/Django/django03
+detected binary path: /Users/top/Django/django03/venv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /Users/top/Django/django03/
+your processes number limit is 2784
+your memory page size is 4096 bytes
+detected max file descriptor number: 10240
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 127.0.0.1:8000 fd 5
+uwsgi socket 0 bound to TCP address 127.0.0.1:49847 (port auto-assigned) fd 4
+Python version: 3.8.0 (v3.8.0:fa919fdf25, Oct 14 2019, 10:23:27)  [Clang 6.0 (clang-600.0.57)]
+Python main interpreter initialized at 0x7ffc2ec0bc50
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416640 bytes (406 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x7ffc2ec0bc50 pid: 89650 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 89650)
+spawned uWSGI worker 1 (pid: 90449, cores: 2)
+spawned uWSGI worker 2 (pid: 90450, cores: 2)
+spawned uWSGI worker 3 (pid: 90451, cores: 2)
+spawned uWSGI worker 4 (pid: 90452, cores: 2)
+spawned uWSGI http 1 (pid: 90453)
+*** Starting uWSGI 2.0.19.1 (64bit) on [Tue Jul 14 22:26:21 2020] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 11.0.0 (clang-1100.0.33.16) on 07 July 2020 01:25:37
+os: Darwin-19.5.0 Darwin Kernel Version 19.5.0: Tue May 26 20:41:44 PDT 2020; root:xnu-6153.121.2~2/RELEASE_X86_64
+nodename: TopdeMacBook-Pro.local
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 12
+current working directory: /Users/top/Django/django03
+writing pidfile to uwsgi.pid
+detected binary path: /Users/top/Django/django03/venv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /Users/top/Django/django03/
+your processes number limit is 2784
+your memory page size is 4096 bytes
+detected max file descriptor number: 10240
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 127.0.0.1:8000 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:63765 (port auto-assigned) fd 3
+Python version: 3.8.0 (v3.8.0:fa919fdf25, Oct 14 2019, 10:23:27)  [Clang 6.0 (clang-600.0.57)]
+Python main interpreter initialized at 0x7f9536005d90
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416640 bytes (406 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x7f9536005d90 pid: 6800 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 6800)
+spawned uWSGI worker 1 (pid: 6804, cores: 2)
+spawned uWSGI worker 2 (pid: 6805, cores: 2)
+spawned uWSGI worker 3 (pid: 6806, cores: 2)
+spawned uWSGI worker 4 (pid: 6807, cores: 2)
+spawned uWSGI http 1 (pid: 6808)
+123
+[pid: 6804|app: 0|req: 1/1] 127.0.0.1 () {48 vars in 1098 bytes} [Tue Jul 14 14:26:25 2020] GET /Top/middleware/ => generated 4 bytes in 126 msecs (HTTP/1.1 200) 4 headers in 134 bytes (2 switches on core 0)
+Not Found: /favicon.ico
+[pid: 6807|app: 0|req: 1/2] 127.0.0.1 () {44 vars in 971 bytes} [Tue Jul 14 14:26:26 2020] GET /favicon.ico => generated 2078 bytes in 27 msecs (HTTP/1.1 404) 4 headers in 129 bytes (1 switches on core 0)
+SIGINT/SIGQUIT received...killing workers...
+gateway "uWSGI http 1" has been buried (pid: 6808)
+worker 4 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 1 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.19.1 (64bit) on [Tue Jul 14 22:44:54 2020] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 11.0.0 (clang-1100.0.33.16) on 07 July 2020 01:25:37
+os: Darwin-19.5.0 Darwin Kernel Version 19.5.0: Tue May 26 20:41:44 PDT 2020; root:xnu-6153.121.2~2/RELEASE_X86_64
+nodename: TopdeMacBook-Pro.local
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 12
+current working directory: /Users/top/Django/django03
+writing pidfile to uwsgi.pid
+detected binary path: /Users/top/Django/django03/venv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /Users/top/Django/django03/
+your processes number limit is 2784
+your memory page size is 4096 bytes
+detected max file descriptor number: 10240
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 127.0.0.1:8000 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:51859 (port auto-assigned) fd 3
+Python version: 3.8.0 (v3.8.0:fa919fdf25, Oct 14 2019, 10:23:27)  [Clang 6.0 (clang-600.0.57)]
+Python main interpreter initialized at 0x7ffb00c0bce0
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416640 bytes (406 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x7ffb00c0bce0 pid: 6890 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 6890)
+spawned uWSGI worker 1 (pid: 6892, cores: 2)
+spawned uWSGI worker 2 (pid: 6893, cores: 2)
+spawned uWSGI worker 3 (pid: 6894, cores: 2)
+spawned uWSGI worker 4 (pid: 6895, cores: 2)
+spawned uWSGI http 1 (pid: 6896)
+123
+[pid: 6895|app: 0|req: 1/1] 127.0.0.1 () {48 vars in 1099 bytes} [Tue Jul 14 14:44:58 2020] GET /Top/middleware/ => generated 4 bytes in 34 msecs (HTTP/1.1 200) 4 headers in 134 bytes (2 switches on core 0)
+Not Found: /Top/uploadfiles/
+[pid: 6895|app: 0|req: 2/2] 127.0.0.1 () {46 vars in 1070 bytes} [Tue Jul 14 14:45:15 2020] GET /Top/uploadfiles/ => generated 3895 bytes in 7 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 1)
+Internal Server Error: /Top/uploadfile/
+Traceback (most recent call last):
+  File "/Users/top/Django/django03/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/top/Django/django03/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    raise ValueError(
+ValueError: The view vipapp01.views.uploadfile didn't return an HttpResponse object. It returned None instead.
+[pid: 6895|app: 0|req: 3/3] 127.0.0.1 () {46 vars in 1068 bytes} [Tue Jul 14 14:45:19 2020] GET /Top/uploadfile/ => generated 52290 bytes in 112 msecs (HTTP/1.1 500) 5 headers in 156 bytes (1 switches on core 0)
+SIGINT/SIGQUIT received...killing workers...
+gateway "uWSGI http 1" has been buried (pid: 6896)
+worker 4 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 1 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.19.1 (64bit) on [Tue Jul 14 22:46:23 2020] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 11.0.0 (clang-1100.0.33.16) on 07 July 2020 01:25:37
+os: Darwin-19.5.0 Darwin Kernel Version 19.5.0: Tue May 26 20:41:44 PDT 2020; root:xnu-6153.121.2~2/RELEASE_X86_64
+nodename: TopdeMacBook-Pro.local
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 12
+current working directory: /Users/top/Django/django03
+writing pidfile to uwsgi.pid
+detected binary path: /Users/top/Django/django03/venv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /Users/top/Django/django03/
+your processes number limit is 2784
+your memory page size is 4096 bytes
+detected max file descriptor number: 10240
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 127.0.0.1:8000 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:52235 (port auto-assigned) fd 3
+Python version: 3.8.0 (v3.8.0:fa919fdf25, Oct 14 2019, 10:23:27)  [Clang 6.0 (clang-600.0.57)]
+Python main interpreter initialized at 0x7fdd2cc0be40
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416640 bytes (406 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x7fdd2cc0be40 pid: 6912 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 6912)
+spawned uWSGI worker 1 (pid: 6914, cores: 2)
+spawned uWSGI worker 2 (pid: 6915, cores: 2)
+spawned uWSGI worker 3 (pid: 6916, cores: 2)
+spawned uWSGI worker 4 (pid: 6917, cores: 2)
+spawned uWSGI http 1 (pid: 6918)
+[pid: 6917|app: 0|req: 1/1] 127.0.0.1 () {48 vars in 1098 bytes} [Tue Jul 14 14:46:27 2020] GET /Top/uploadfile/ => generated 290 bytes in 38 msecs (HTTP/1.1 200) 4 headers in 136 bytes (1 switches on core 0)
+SIGINT/SIGQUIT received...killing workers...
+gateway "uWSGI http 1" has been buried (pid: 6918)
+worker 4 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 1 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.19.1 (64bit) on [Tue Jul 14 23:24:26 2020] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 11.0.0 (clang-1100.0.33.16) on 07 July 2020 01:25:37
+os: Darwin-19.5.0 Darwin Kernel Version 19.5.0: Tue May 26 20:41:44 PDT 2020; root:xnu-6153.121.2~2/RELEASE_X86_64
+nodename: TopdeMacBook-Pro.local
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 12
+current working directory: /Users/top/Django/django03
+writing pidfile to uwsgi.pid
+detected binary path: /Users/top/Django/django03/venv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /Users/top/Django/django03/
+your processes number limit is 2784
+your memory page size is 4096 bytes
+detected max file descriptor number: 10240
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 127.0.0.1:8000 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:59341 (port auto-assigned) fd 3
+Python version: 3.8.0 (v3.8.0:fa919fdf25, Oct 14 2019, 10:23:27)  [Clang 6.0 (clang-600.0.57)]
+Python main interpreter initialized at 0x7ff88640bd50
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416640 bytes (406 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x7ff88640bd50 pid: 7060 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 7060)
+spawned uWSGI worker 1 (pid: 7064, cores: 2)
+spawned uWSGI worker 2 (pid: 7065, cores: 2)
+spawned uWSGI worker 3 (pid: 7066, cores: 2)
+spawned uWSGI worker 4 (pid: 7067, cores: 2)
+spawned uWSGI http 1 (pid: 7068)
+[pid: 7066|app: 0|req: 1/1] 127.0.0.1 () {48 vars in 1099 bytes} [Tue Jul 14 15:24:32 2020] GET /Top/uploadfile/ => generated 290 bytes in 59 msecs (HTTP/1.1 200) 4 headers in 136 bytes (2 switches on core 0)
+Not Found: /favicon.ico
+[pid: 7067|app: 0|req: 1/2] 127.0.0.1 () {44 vars in 971 bytes} [Tue Jul 14 15:24:32 2020] GET /favicon.ico => generated 2078 bytes in 30 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 0)
+SIGINT/SIGQUIT received...killing workers...
+gateway "uWSGI http 1" has been buried (pid: 7068)
+worker 4 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 1 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.19.1 (64bit) on [Tue Jul 14 23:25:21 2020] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 11.0.0 (clang-1100.0.33.16) on 07 July 2020 01:25:37
+os: Darwin-19.5.0 Darwin Kernel Version 19.5.0: Tue May 26 20:41:44 PDT 2020; root:xnu-6153.121.2~2/RELEASE_X86_64
+nodename: TopdeMacBook-Pro.local
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 12
+current working directory: /Users/top/Django/django03
+writing pidfile to uwsgi.pid
+detected binary path: /Users/top/Django/django03/venv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /Users/top/Django/django03/
+your processes number limit is 2784
+your memory page size is 4096 bytes
+detected max file descriptor number: 10240
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 127.0.0.1:8000 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:59564 (port auto-assigned) fd 3
+Python version: 3.8.0 (v3.8.0:fa919fdf25, Oct 14 2019, 10:23:27)  [Clang 6.0 (clang-600.0.57)]
+Python main interpreter initialized at 0x7f9754f05fb0
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416640 bytes (406 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x7f9754f05fb0 pid: 7078 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 7078)
+spawned uWSGI worker 1 (pid: 7080, cores: 2)
+spawned uWSGI worker 2 (pid: 7081, cores: 2)
+spawned uWSGI worker 3 (pid: 7082, cores: 2)
+spawned uWSGI worker 4 (pid: 7083, cores: 2)
+spawned uWSGI http 1 (pid: 7084)
+[pid: 7081|app: 0|req: 1/1] 127.0.0.1 () {50 vars in 1121 bytes} [Tue Jul 14 15:25:23 2020] GET /Top/uploadfile/ => generated 289 bytes in 40 msecs (HTTP/1.1 200) 4 headers in 136 bytes (1 switches on core 0)
+SIGINT/SIGQUIT received...killing workers...
+gateway "uWSGI http 1" has been buried (pid: 7084)
+worker 4 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 1 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.19.1 (64bit) on [Tue Jul 14 23:28:00 2020] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 11.0.0 (clang-1100.0.33.16) on 07 July 2020 01:25:37
+os: Darwin-19.5.0 Darwin Kernel Version 19.5.0: Tue May 26 20:41:44 PDT 2020; root:xnu-6153.121.2~2/RELEASE_X86_64
+nodename: TopdeMacBook-Pro.local
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 12
+current working directory: /Users/top/Django/django03
+writing pidfile to uwsgi.pid
+detected binary path: /Users/top/Django/django03/venv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /Users/top/Django/django03/
+your processes number limit is 2784
+your memory page size is 4096 bytes
+detected max file descriptor number: 10240
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 127.0.0.1:8000 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:60229 (port auto-assigned) fd 3
+Python version: 3.8.0 (v3.8.0:fa919fdf25, Oct 14 2019, 10:23:27)  [Clang 6.0 (clang-600.0.57)]
+Python main interpreter initialized at 0x7fa97d606370
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416640 bytes (406 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x7fa97d606370 pid: 7106 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 7106)
+spawned uWSGI worker 1 (pid: 7108, cores: 2)
+spawned uWSGI worker 2 (pid: 7109, cores: 2)
+spawned uWSGI worker 3 (pid: 7110, cores: 2)
+spawned uWSGI worker 4 (pid: 7111, cores: 2)
+spawned uWSGI http 1 (pid: 7112)
+[pid: 7110|app: 0|req: 1/1] 127.0.0.1 () {50 vars in 1121 bytes} [Tue Jul 14 15:28:11 2020] GET /Top/uploadfile/ => generated 312 bytes in 40 msecs (HTTP/1.1 200) 4 headers in 136 bytes (1 switches on core 0)
+SIGINT/SIGQUIT received...killing workers...
+gateway "uWSGI http 1" has been buried (pid: 7112)
+worker 4 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 1 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.19.1 (64bit) on [Tue Jul 14 23:31:09 2020] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 11.0.0 (clang-1100.0.33.16) on 07 July 2020 01:25:37
+os: Darwin-19.5.0 Darwin Kernel Version 19.5.0: Tue May 26 20:41:44 PDT 2020; root:xnu-6153.121.2~2/RELEASE_X86_64
+nodename: TopdeMacBook-Pro.local
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 12
+current working directory: /Users/top/Django/django03
+writing pidfile to uwsgi.pid
+detected binary path: /Users/top/Django/django03/venv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /Users/top/Django/django03/
+your processes number limit is 2784
+your memory page size is 4096 bytes
+detected max file descriptor number: 10240
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 127.0.0.1:8000 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:61004 (port auto-assigned) fd 3
+Python version: 3.8.0 (v3.8.0:fa919fdf25, Oct 14 2019, 10:23:27)  [Clang 6.0 (clang-600.0.57)]
+Python main interpreter initialized at 0x7faad2105dd0
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416640 bytes (406 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x7faad2105dd0 pid: 7133 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 7133)
+spawned uWSGI worker 1 (pid: 7135, cores: 2)
+spawned uWSGI worker 2 (pid: 7136, cores: 2)
+spawned uWSGI worker 3 (pid: 7137, cores: 2)
+spawned uWSGI worker 4 (pid: 7138, cores: 2)
+spawned uWSGI http 1 (pid: 7139)
+[pid: 7138|app: 0|req: 1/1] 127.0.0.1 () {50 vars in 1121 bytes} [Tue Jul 14 15:31:13 2020] GET /Top/uploadfile/ => generated 312 bytes in 41 msecs (HTTP/1.1 200) 4 headers in 136 bytes (1 switches on core 0)
+Not Found: /Top/uploadhaldle
+[uwsgi-http key: 127.0.0.1:8000 client_addr: 127.0.0.1 client_port: 23278] hr_instance_read(): Connection reset by peer [plugins/http/http.c line 647]
+[pid: 7138|app: 0|req: 2/2] 127.0.0.1 () {58 vars in 1328 bytes} [Tue Jul 14 15:31:16 2020] POST /Top/uploadhaldle => generated 3896 bytes in 7 msecs (HTTP/1.1 404) 4 headers in 129 bytes (1 switches on core 1)
+SIGINT/SIGQUIT received...killing workers...
+gateway "uWSGI http 1" has been buried (pid: 7139)
+worker 4 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 1 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.19.1 (64bit) on [Tue Jul 14 23:32:10 2020] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 11.0.0 (clang-1100.0.33.16) on 07 July 2020 01:25:37
+os: Darwin-19.5.0 Darwin Kernel Version 19.5.0: Tue May 26 20:41:44 PDT 2020; root:xnu-6153.121.2~2/RELEASE_X86_64
+nodename: TopdeMacBook-Pro.local
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 12
+current working directory: /Users/top/Django/django03
+writing pidfile to uwsgi.pid
+detected binary path: /Users/top/Django/django03/venv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /Users/top/Django/django03/
+your processes number limit is 2784
+your memory page size is 4096 bytes
+detected max file descriptor number: 10240
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 127.0.0.1:8000 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:61250 (port auto-assigned) fd 3
+Python version: 3.8.0 (v3.8.0:fa919fdf25, Oct 14 2019, 10:23:27)  [Clang 6.0 (clang-600.0.57)]
+Python main interpreter initialized at 0x7fb5f3e06040
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416640 bytes (406 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x7fb5f3e06040 pid: 7156 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 7156)
+spawned uWSGI worker 1 (pid: 7160, cores: 2)
+spawned uWSGI worker 2 (pid: 7161, cores: 2)
+spawned uWSGI worker 3 (pid: 7162, cores: 2)
+spawned uWSGI worker 4 (pid: 7163, cores: 2)
+spawned uWSGI http 1 (pid: 7164)
+Internal Server Error: /Top/uploadhaldle
+Traceback (most recent call last):
+  File "/Users/top/Django/django03/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/top/Django/django03/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    raise ValueError(
+ValueError: The view vipapp01.views.uploadhaldle didn't return an HttpResponse object. It returned None instead.
+[pid: 7163|app: 0|req: 1/1] 127.0.0.1 () {50 vars in 1123 bytes} [Tue Jul 14 15:32:16 2020] GET /Top/uploadhaldle => generated 52582 bytes in 116 msecs (HTTP/1.1 500) 5 headers in 156 bytes (1 switches on core 0)
+[pid: 7162|app: 0|req: 1/2] 127.0.0.1 () {50 vars in 1121 bytes} [Tue Jul 14 15:32:26 2020] GET /Top/uploadfile/ => generated 312 bytes in 45 msecs (HTTP/1.1 200) 4 headers in 136 bytes (2 switches on core 0)
+[pid: 7163|app: 0|req: 2/3] 127.0.0.1 () {50 vars in 1121 bytes} [Tue Jul 14 15:32:36 2020] GET /Top/uploadfile/ => generated 312 bytes in 9 msecs (HTTP/1.1 200) 4 headers in 136 bytes (2 switches on core 1)
+Forbidden (CSRF token missing or incorrect.): /Top/uploadhaldle
+[pid: 7163|app: 0|req: 3/4] 127.0.0.1 () {58 vars in 1328 bytes} [Tue Jul 14 15:57:56 2020] POST /Top/uploadhaldle => generated 2508 bytes in 10 msecs (HTTP/1.1 403) 4 headers in 129 bytes (23 switches on core 0)
+SIGINT/SIGQUIT received...killing workers...
+gateway "uWSGI http 1" has been buried (pid: 7164)
+worker 4 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 1 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.19.1 (64bit) on [Tue Jul 14 23:58:28 2020] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 11.0.0 (clang-1100.0.33.16) on 07 July 2020 01:25:37
+os: Darwin-19.5.0 Darwin Kernel Version 19.5.0: Tue May 26 20:41:44 PDT 2020; root:xnu-6153.121.2~2/RELEASE_X86_64
+nodename: TopdeMacBook-Pro.local
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 12
+current working directory: /Users/top/Django/django03
+writing pidfile to uwsgi.pid
+detected binary path: /Users/top/Django/django03/venv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /Users/top/Django/django03/
+your processes number limit is 2784
+your memory page size is 4096 bytes
+detected max file descriptor number: 10240
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 127.0.0.1:8000 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:52587 (port auto-assigned) fd 3
+Python version: 3.8.0 (v3.8.0:fa919fdf25, Oct 14 2019, 10:23:27)  [Clang 6.0 (clang-600.0.57)]
+Python main interpreter initialized at 0x7fee78106390
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416640 bytes (406 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x7fee78106390 pid: 7260 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 7260)
+spawned uWSGI worker 1 (pid: 7264, cores: 2)
+spawned uWSGI worker 2 (pid: 7265, cores: 2)
+spawned uWSGI worker 3 (pid: 7266, cores: 2)
+spawned uWSGI worker 4 (pid: 7267, cores: 2)
+spawned uWSGI http 1 (pid: 7268)
+Internal Server Error: /Top/uploadhaldle
+Traceback (most recent call last):
+  File "/Users/top/Django/django03/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/top/Django/django03/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 124, in _get_response
+    raise ValueError(
+ValueError: The view vipapp01.views.uploadhaldle didn't return an HttpResponse object. It returned None instead.
+[pid: 7267|app: 0|req: 1/1] 127.0.0.1 () {50 vars in 1123 bytes} [Tue Jul 14 15:58:32 2020] GET /Top/uploadhaldle => generated 52582 bytes in 109 msecs (HTTP/1.1 500) 5 headers in 156 bytes (1 switches on core 0)
+[pid: 7267|app: 0|req: 2/2] 127.0.0.1 () {50 vars in 1121 bytes} [Tue Jul 14 15:58:52 2020] GET /Top/uploadfile/ => generated 438 bytes in 15 msecs (HTTP/1.1 200) 6 headers in 318 bytes (2 switches on core 1)
+123
+[pid: 7267|app: 0|req: 3/3] 127.0.0.1 () {58 vars in 1328 bytes} [Tue Jul 14 16:08:32 2020] POST /Top/uploadhaldle => generated 4 bytes in 2 msecs (HTTP/1.1 200) 4 headers in 134 bytes (2 switches on core 0)
+SIGINT/SIGQUIT received...killing workers...
+gateway "uWSGI http 1" has been buried (pid: 7268)
+worker 4 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 1 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.19.1 (64bit) on [Wed Jul 15 00:09:23 2020] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 11.0.0 (clang-1100.0.33.16) on 07 July 2020 01:25:37
+os: Darwin-19.5.0 Darwin Kernel Version 19.5.0: Tue May 26 20:41:44 PDT 2020; root:xnu-6153.121.2~2/RELEASE_X86_64
+nodename: TopdeMacBook-Pro.local
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 12
+current working directory: /Users/top/Django/django03
+writing pidfile to uwsgi.pid
+detected binary path: /Users/top/Django/django03/venv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /Users/top/Django/django03/
+your processes number limit is 2784
+your memory page size is 4096 bytes
+detected max file descriptor number: 10240
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 127.0.0.1:8000 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:55865 (port auto-assigned) fd 3
+Python version: 3.8.0 (v3.8.0:fa919fdf25, Oct 14 2019, 10:23:27)  [Clang 6.0 (clang-600.0.57)]
+Python main interpreter initialized at 0x7ff839c0c280
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416640 bytes (406 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x7ff839c0c280 pid: 7311 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 7311)
+spawned uWSGI worker 1 (pid: 7313, cores: 2)
+spawned uWSGI worker 2 (pid: 7314, cores: 2)
+spawned uWSGI worker 3 (pid: 7315, cores: 2)
+spawned uWSGI worker 4 (pid: 7316, cores: 2)
+spawned uWSGI http 1 (pid: 7317)
+[pid: 7316|app: 0|req: 1/1] 127.0.0.1 () {50 vars in 1121 bytes} [Tue Jul 14 16:09:25 2020] GET /Top/uploadfile/ => generated 438 bytes in 44 msecs (HTTP/1.1 200) 6 headers in 318 bytes (1 switches on core 0)
+[pid: 7316|app: 0|req: 2/2] 127.0.0.1 () {50 vars in 1121 bytes} [Tue Jul 14 16:09:27 2020] GET /Top/uploadfile/ => generated 438 bytes in 1 msecs (HTTP/1.1 200) 6 headers in 318 bytes (1 switches on core 1)
+123
+[pid: 7316|app: 0|req: 3/3] 127.0.0.1 () {58 vars in 1328 bytes} [Tue Jul 14 16:09:33 2020] POST /Top/uploadhaldle => generated 4 bytes in 2 msecs (HTTP/1.1 200) 4 headers in 134 bytes (2 switches on core 0)
+SIGINT/SIGQUIT received...killing workers...
+gateway "uWSGI http 1" has been buried (pid: 7317)
+worker 4 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 1 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.19.1 (64bit) on [Mon Jul 20 17:05:30 2020] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 11.0.0 (clang-1100.0.33.16) on 07 July 2020 01:25:37
+os: Darwin-19.5.0 Darwin Kernel Version 19.5.0: Tue May 26 20:41:44 PDT 2020; root:xnu-6153.121.2~2/RELEASE_X86_64
+nodename: TopdeMacBook-Pro.local
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 12
+current working directory: /Users/top/Django/django03
+writing pidfile to uwsgi.pid
+detected binary path: /Users/top/Django/django03/venv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /Users/top/Django/django03/
+your processes number limit is 2784
+your memory page size is 4096 bytes
+detected max file descriptor number: 10240
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 127.0.0.1:8000 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:65399 (port auto-assigned) fd 3
+Python version: 3.8.0 (v3.8.0:fa919fdf25, Oct 14 2019, 10:23:27)  [Clang 6.0 (clang-600.0.57)]
+Python main interpreter initialized at 0x7facc8c0bfc0
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416640 bytes (406 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x7facc8c0bfc0 pid: 17718 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 17718)
+spawned uWSGI worker 1 (pid: 17721, cores: 2)
+spawned uWSGI worker 2 (pid: 17722, cores: 2)
+spawned uWSGI worker 3 (pid: 17723, cores: 2)
+spawned uWSGI worker 4 (pid: 17724, cores: 2)
+spawned uWSGI http 1 (pid: 17725)
+*** Starting uWSGI 2.0.19.1 (64bit) on [Tue Jul 21 13:55:20 2020] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 11.0.0 (clang-1100.0.33.16) on 07 July 2020 01:25:37
+os: Darwin-19.5.0 Darwin Kernel Version 19.5.0: Tue May 26 20:41:44 PDT 2020; root:xnu-6153.121.2~2/RELEASE_X86_64
+nodename: TopdeMacBook-Pro.local
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 12
+current working directory: /Users/top/Django/django03
+writing pidfile to uwsgi.pid
+detected binary path: /Users/top/Django/django03/venv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /Users/top/Django/django03/
+your processes number limit is 2784
+your memory page size is 4096 bytes
+detected max file descriptor number: 10240
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:8000).
+bind(): Address already in use [core/socket.c line 769]
+[{'pk': 4, 'user': '周浏栋2号', 'create_time': datetime.datetime(2020, 5, 14, 3, 13, 22, 922791, tzinfo=<UTC>), 'update_time': datetime.datetime(2020, 5, 14, 3, 13, 22, 922849, tzinfo=<UTC>), 'userphone': '13916843740', 'user_group': <django.db.models.fields.related_descriptors.create_forward_many_to_many_manager.<locals>.ManyRelatedManager object at 0x7faccd8b7ac0>}, {'pk': 5, 'user': 'top', 'create_time': datetime.datetime(2020, 5, 14, 3, 18, 38, 229034, tzinfo=<UTC>), 'update_time': datetime.datetime(2020, 5, 14, 3, 18, 38, 229083, tzinfo=<UTC>), 'userphone': '', 'user_group': <django.db.models.fields.related_descriptors.create_forward_many_to_many_manager.<locals>.ManyRelatedManager object at 0x7faccdc130d0>}, {'pk': 6, 'user': '周浏栋8号', 'create_time': datetime.datetime(2020, 5, 14, 4, 9, 17, 197477, tzinfo=<UTC>), 'update_time': datetime.datetime(2020, 5, 14, 4, 9, 17, 197532, tzinfo=<UTC>), 'userphone': '13916843740', 'user_group': <django.db.models.fields.related_descriptors.create_forward_many_to_many_manager.<locals>.ManyRelatedManager object at 0x7faccdc1e580>}, {'pk': 7, 'user': '周浏栋7号', 'create_time': datetime.datetime(2020, 5, 14, 7, 33, 7, 967192, tzinfo=<UTC>), 'update_time': datetime.datetime(2020, 5, 14, 7, 33, 7, 967240, tzinfo=<UTC>), 'userphone': '13916843740', 'user_group': <django.db.models.fields.related_descriptors.create_forward_many_to_many_manager.<locals>.ManyRelatedManager object at 0x7faccdc1e5e0>}, {'pk': 8, 'user': '周浏栋710号', 'create_time': datetime.datetime(2020, 5, 14, 8, 26, 32, 56066, tzinfo=<UTC>), 'update_time': datetime.datetime(2020, 5, 14, 8, 26, 32, 56128, tzinfo=<UTC>), 'userphone': '13916843740', 'user_group': <django.db.models.fields.related_descriptors.create_forward_many_to_many_manager.<locals>.ManyRelatedManager object at 0x7faccdc1e670>}, {'pk': 9, 'user': '周浏栋10号', 'create_time': datetime.datetime(2020, 5, 18, 9, 7, 19, 973386, tzinfo=<UTC>), 'update_time': datetime.datetime(2020, 5, 18, 9, 7, 19, 973420, tzinfo=<UTC>), 'userphone': '13916843740', 'user_group': <django.db.models.fields.related_descriptors.create_forward_many_to_many_manager.<locals>.ManyRelatedManager object at 0x7faccdc1e700>}, {'pk': 11, 'user': '周浏栋26号', 'create_time': datetime.datetime(2020, 5, 25, 3, 22, 41, 363610, tzinfo=<UTC>), 'update_time': datetime.datetime(2020, 5, 25, 3, 22, 41, 363671, tzinfo=<UTC>), 'userphone': None, 'user_group': <django.db.models.fields.related_descriptors.create_forward_many_to_many_manager.<locals>.ManyRelatedManager object at 0x7faccdc1e790>}, {'pk': 12, 'user': '周浏栋22号', 'create_time': datetime.datetime(2020, 6, 4, 6, 4, 41, 781693, tzinfo=<UTC>), 'update_time': datetime.datetime(2020, 6, 4, 6, 4, 41, 781737, tzinfo=<UTC>), 'userphone': '13916843740', 'user_group': <django.db.models.fields.related_descriptors.create_forward_many_to_many_manager.<locals>.ManyRelatedManager object at 0x7faccdc1e820>}, {'pk': 13, 'user': '周浏栋23号', 'create_time': datetime.datetime(2020, 6, 4, 7, 11, 27, 585811, tzinfo=<UTC>), 'update_time': datetime.datetime(2020, 6, 4, 7, 11, 27, 585851, tzinfo=<UTC>), 'userphone': '13916843740', 'user_group': <django.db.models.fields.related_descriptors.create_forward_many_to_many_manager.<locals>.ManyRelatedManager object at 0x7faccdc1e8b0>}, {'pk': 18, 'user': '周浏栋890号', 'create_time': datetime.datetime(2020, 6, 5, 1, 44, 44, 620077, tzinfo=<UTC>), 'update_time': datetime.datetime(2020, 6, 5, 1, 44, 44, 620119, tzinfo=<UTC>), 'userphone': '', 'user_group': <django.db.models.fields.related_descriptors.create_forward_many_to_many_manager.<locals>.ManyRelatedManager object at 0x7faccdc1e940>}, {'pk': 31, 'user': '周浏栋323号', 'create_time': datetime.datetime(2020, 6, 5, 2, 44, 43, 523137, tzinfo=<UTC>), 'update_time': datetime.datetime(2020, 6, 5, 2, 44, 43, 523180, tzinfo=<UTC>), 'userphone': '', 'user_group': <django.db.models.fields.related_descriptors.create_forward_many_to_many_manager.<locals>.ManyRelatedManager object at 0x7faccdc1e9d0>}, {'pk': 32, 'user': '周浏栋23232号', 'create_time': datetime.datetime(2020, 6, 5, 2, 45, 38, 892230, tzinfo=<UTC>), 'update_time': datetime.datetime(2020, 6, 5, 2, 45, 38, 892265, tzinfo=<UTC>), 'userphone': '', 'user_group': <django.db.models.fields.related_descriptors.create_forward_many_to_many_manager.<locals>.ManyRelatedManager object at 0x7faccdc1ea60>}, {'pk': 33, 'user': '周浏栋233号', 'create_time': datetime.datetime(2020, 6, 11, 3, 43, 48, 406963, tzinfo=<UTC>), 'update_time': datetime.datetime(2020, 6, 11, 3, 43, 48, 407021, tzinfo=<UTC>), 'userphone': '43', 'user_group': <django.db.models.fields.related_descriptors.create_forward_many_to_many_manager.<locals>.ManyRelatedManager object at 0x7faccdc1eaf0>}, {'pk': 34, 'user': '周浏栋2000号', 'create_time': datetime.datetime(2020, 7, 3, 4, 0, 23, 606370, tzinfo=<UTC>), 'update_time': datetime.datetime(2020, 7, 3, 4, 0, 23, 606428, tzinfo=<UTC>), 'userphone': '13916843740', 'user_group': <django.db.models.fields.related_descriptors.create_forward_many_to_many_manager.<locals>.ManyRelatedManager object at 0x7faccdc1eb80>}, {'pk': 35, 'user': '周浏栋3334号', 'create_time': datetime.datetime(2020, 7, 8, 9, 47, 13, 45728, tzinfo=<UTC>), 'update_time': datetime.datetime(2020, 7, 8, 9, 47, 13, 45775, tzinfo=<UTC>), 'userphone': '13916843740', 'user_group': <django.db.models.fields.related_descriptors.create_forward_many_to_many_manager.<locals>.ManyRelatedManager object at 0x7faccdc1ec10>}, {'pk': 36, 'user': '周浏栋3333号', 'create_time': datetime.datetime(2020, 7, 8, 9, 53, 20, 41274, tzinfo=<UTC>), 'update_time': datetime.datetime(2020, 7, 8, 9, 53, 20, 41316, tzinfo=<UTC>), 'userphone': '13916843740', 'user_group': <django.db.models.fields.related_descriptors.create_forward_many_to_many_manager.<locals>.ManyRelatedManager object at 0x7faccdc1eca0>}, {'pk': 37, 'user': '周浏栋3332号', 'create_time': datetime.datetime(2020, 7, 8, 9, 58, 46, 532704, tzinfo=<UTC>), 'update_time': datetime.datetime(2020, 7, 8, 9, 58, 46, 532745, tzinfo=<UTC>), 'userphone': '13916843740', 'user_group': <django.db.models.fields.related_descriptors.create_forward_many_to_many_manager.<locals>.ManyRelatedManager object at 0x7faccdc1ed30>}, {'pk': 38, 'user': '周浏栋4333号', 'create_time': datetime.datetime(2020, 7, 8, 10, 14, 52, 731096, tzinfo=<UTC>), 'update_time': datetime.datetime(2020, 7, 8, 10, 14, 52, 731156, tzinfo=<UTC>), 'userphone': '13916843740', 'user_group': <django.db.models.fields.related_descriptors.create_forward_many_to_many_manager.<locals>.ManyRelatedManager object at 0x7faccdc1edc0>}, {'pk': 39, 'user': '周浏栋3033号', 'create_time': datetime.datetime(2020, 7, 8, 10, 25, 2, 791725, tzinfo=<UTC>), 'update_time': datetime.datetime(2020, 7, 8, 10, 25, 2, 791759, tzinfo=<UTC>), 'userphone': '13916843740', 'user_group': <django.db.models.fields.related_descriptors.create_forward_many_to_many_manager.<locals>.ManyRelatedManager object at 0x7faccdc1ee50>}, {'pk': 40, 'user': '周浏栋5333号', 'create_time': datetime.datetime(2020, 7, 8, 10, 28, 56, 680879, tzinfo=<UTC>), 'update_time': datetime.datetime(2020, 7, 8, 10, 28, 56, 680913, tzinfo=<UTC>), 'userphone': '13916843740', 'user_group': <django.db.models.fields.related_descriptors.create_forward_many_to_many_manager.<locals>.ManyRelatedManager object at 0x7faccdc1eee0>}, {'pk': 41, 'user': '周浏栋6666号', 'create_time': datetime.datetime(2020, 7, 8, 10, 53, 5, 192040, tzinfo=<UTC>), 'update_time': datetime.datetime(2020, 7, 8, 10, 53, 5, 192097, tzinfo=<UTC>), 'userphone': '13916843740', 'user_group': <django.db.models.fields.related_descriptors.create_forward_many_to_many_manager.<locals>.ManyRelatedManager object at 0x7faccdc1ef70>}, {'pk': 42, 'user': '周浏栋7777号', 'create_time': datetime.datetime(2020, 7, 8, 10, 55, 48, 781226, tzinfo=<UTC>), 'update_time': datetime.datetime(2020, 7, 8, 10, 55, 48, 781271, tzinfo=<UTC>), 'userphone': '13916843740', 'user_group': <django.db.models.fields.related_descriptors.create_forward_many_to_many_manager.<locals>.ManyRelatedManager object at 0x7faccdc28040>}, {'pk': 43, 'user': '大龄男孩达文西', 'create_time': datetime.datetime(2020, 7, 10, 8, 42, 25, 737379, tzinfo=<UTC>), 'update_time': datetime.datetime(2020, 7, 10, 8, 42, 25, 737379, tzinfo=<UTC>), 'userphone': '13795312054', 'user_group': <django.db.models.fields.related_descriptors.create_forward_many_to_many_manager.<locals>.ManyRelatedManager object at 0x7faccdc280d0>}, {'pk': 44, 'user': 'fangyan', 'create_time': datetime.datetime(2020, 7, 15, 8, 10, 50, 509587, tzinfo=<UTC>), 'update_time': datetime.datetime(2020, 7, 15, 8, 12, 25, 851909, tzinfo=<UTC>), 'userphone': None, 'user_group': <django.db.models.fields.related_descriptors.create_forward_many_to_many_manager.<locals>.ManyRelatedManager object at 0x7faccdc28160>}]
+24
+Internal Server Error: /Top/search_user/
+Traceback (most recent call last):
+  File "/Users/top/Django/django03/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 34, in inner
+    response = get_response(request)
+  File "/Users/top/Django/django03/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/top/Django/django03/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "./vipapp01/views.py", line 146, in search_user
+    return JsonResponse(json.dumps(userlist),safe=False)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/json/__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type datetime is not JSON serializable
+[pid: 17722|app: 0|req: 1/1] 127.0.0.1 () {48 vars in 1101 bytes} [Tue Jul 21 05:55:25 2020] GET /Top/search_user/ => generated 109532 bytes in 312 msecs (HTTP/1.1 500) 5 headers in 157 bytes (2 switches on core 0)
+Not Found: /favicon.ico
+[pid: 17724|app: 0|req: 1/2] 127.0.0.1 () {44 vars in 972 bytes} [Tue Jul 21 05:55:26 2020] GET /favicon.ico => generated 2078 bytes in 40 msecs (HTTP/1.1 404) 4 headers in 129 bytes (1 switches on core 0)
+[pid: 17722|app: 0|req: 2/3] 127.0.0.1 () {46 vars in 1064 bytes} [Tue Jul 21 05:56:54 2020] GET /Top/register/ => generated 9040 bytes in 19 msecs (HTTP/1.1 200) 6 headers in 319 bytes (2 switches on core 1)
+Not Found: /static/vipapp01/layui-v2.5.6/layui-v2.5.6/layui-v2.5.6/layui/layui.js
+[pid: 17722|app: 0|req: 3/4] 127.0.0.1 () {44 vars in 1050 bytes} [Tue Jul 21 05:56:54 2020] GET /static/vipapp01/layui-v2.5.6/layui-v2.5.6/layui-v2.5.6/layui/layui.js => generated 2252 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 0)
+Not Found: /static/vipapp01/layuiAdmin.pro-v1.4.0/layuiAdmin.pro-v1.4.0/dist/style/admin.css
+[pid: 17724|app: 0|req: 3/5] 127.0.0.1 () {44 vars in 1086 bytes} [Tue Jul 21 05:56:54 2020] GET /static/vipapp01/layuiAdmin.pro-v1.4.0/layuiAdmin.pro-v1.4.0/dist/style/admin.css => generated 2285 bytes in 5 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 1)
+Not Found: /static/vipapp01/jquery/jquery/jquery-3.3.1.min.js
+[pid: 17724|app: 0|req: 3/6] 127.0.0.1 () {44 vars in 1010 bytes} [Tue Jul 21 05:56:54 2020] GET /static/vipapp01/jquery/jquery/jquery-3.3.1.min.js => generated 2192 bytes in 7 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 0)
+Not Found: /static/vipapp01/layuiAdmin.pro-v1.4.0/layuiAdmin.pro-v1.4.0/start/layui/css/layui.css
+Not Found: /static/vipapp01/layuiAdmin.pro-v1.4.0/layuiAdmin.pro-v1.4.0/src/style/login.css
+[pid: 17723|app: 0|req: 2/8] 127.0.0.1 () {44 vars in 1096 bytes} [Tue Jul 21 05:56:54 2020] GET /static/vipapp01/layuiAdmin.pro-v1.4.0/layuiAdmin.pro-v1.4.0/start/layui/css/layui.css => generated 2300 bytes in 46 msecs (HTTP/1.1 404) 4 headers in 129 bytes (1 switches on core 0)
+[pid: 17723|app: 0|req: 2/8] 127.0.0.1 () {44 vars in 1084 bytes} [Tue Jul 21 05:56:54 2020] GET /static/vipapp01/layuiAdmin.pro-v1.4.0/layuiAdmin.pro-v1.4.0/src/style/login.css => generated 2282 bytes in 38 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 1)
+Not Found: /static/vipapp01/layui-v2.5.6/layui-v2.5.6/layui-v2.5.6/layui/layui.js
+[pid: 17724|app: 0|req: 4/9] 127.0.0.1 () {44 vars in 1050 bytes} [Tue Jul 21 05:56:54 2020] GET /static/vipapp01/layui-v2.5.6/layui-v2.5.6/layui-v2.5.6/layui/layui.js => generated 2252 bytes in 2 msecs (HTTP/1.1 404) 4 headers in 129 bytes (1 switches on core 1)
+Not Found: /static/vipapp01/images/WechatIMG224.jpeg
+[pid: 17723|app: 0|req: 3/10] 127.0.0.1 () {44 vars in 1027 bytes} [Tue Jul 21 05:56:54 2020] GET /static/vipapp01/images/WechatIMG224.jpeg => generated 2165 bytes in 2 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 0)
+[pid: 17723|app: 0|req: 4/11] 127.0.0.1 () {48 vars in 1095 bytes} [Tue Jul 21 05:57:02 2020] GET /Top/register/ => generated 9040 bytes in 13 msecs (HTTP/1.1 200) 6 headers in 319 bytes (1 switches on core 1)
+Not Found: /static/vipapp01/layuiAdmin.pro-v1.4.0/layuiAdmin.pro-v1.4.0/start/layui/css/layui.css
+[pid: 17722|app: 0|req: 4/12] 127.0.0.1 () {44 vars in 1096 bytes} [Tue Jul 21 05:57:02 2020] GET /static/vipapp01/layuiAdmin.pro-v1.4.0/layuiAdmin.pro-v1.4.0/start/layui/css/layui.css => generated 2300 bytes in 2 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 1)
+Not Found: /static/vipapp01/jquery/jquery/jquery-3.3.1.min.js
+Not Found: /static/vipapp01/layui-v2.5.6/layui-v2.5.6/layui-v2.5.6/layui/layui.js
+[pid: 17723|app: 0|req: 5/14] 127.0.0.1 () {44 vars in 1010 bytes} [Tue Jul 21 05:57:02 2020] GET /static/vipapp01/jquery/jquery/jquery-3.3.1.min.js => generated 2192 bytes in 2 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 1)
+[pid: 17722|app: 0|req: 5/14] 127.0.0.1 () {44 vars in 1050 bytes} [Tue Jul 21 05:57:02 2020] GET /static/vipapp01/layui-v2.5.6/layui-v2.5.6/layui-v2.5.6/layui/layui.js => generated 2252 bytes in 2 msecs (HTTP/1.1 404) 4 headers in 129 bytes (1 switches on core 0)
+Not Found: /static/vipapp01/layuiAdmin.pro-v1.4.0/layuiAdmin.pro-v1.4.0/dist/style/admin.css
+[pid: 17724|app: 0|req: 6/15] 127.0.0.1 () {44 vars in 1086 bytes} [Tue Jul 21 05:57:02 2020] GET /static/vipapp01/layuiAdmin.pro-v1.4.0/layuiAdmin.pro-v1.4.0/dist/style/admin.css => generated 2285 bytes in 4 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 0)
+Not Found: /static/vipapp01/layuiAdmin.pro-v1.4.0/layuiAdmin.pro-v1.4.0/src/style/login.css
+[pid: 17724|app: 0|req: 6/16] 127.0.0.1 () {44 vars in 1084 bytes} [Tue Jul 21 05:57:02 2020] GET /static/vipapp01/layuiAdmin.pro-v1.4.0/layuiAdmin.pro-v1.4.0/src/style/login.css => generated 2282 bytes in 5 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 1)
+Not Found: /static/vipapp01/layui-v2.5.6/layui-v2.5.6/layui-v2.5.6/layui/layui.js
+Not Found: /static/vipapp01/images/WechatIMG224.jpeg
+[pid: 17722|app: 0|req: 6/18] 127.0.0.1 () {44 vars in 1050 bytes} [Tue Jul 21 05:57:02 2020] GET /static/vipapp01/layui-v2.5.6/layui-v2.5.6/layui-v2.5.6/layui/layui.js => generated 2252 bytes in 3 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 1)
+[pid: 17724|app: 0|req: 7/18] 127.0.0.1 () {44 vars in 1027 bytes} [Tue Jul 21 05:57:02 2020] GET /static/vipapp01/images/WechatIMG224.jpeg => generated 2165 bytes in 2 msecs (HTTP/1.1 404) 4 headers in 129 bytes (1 switches on core 0)
+SIGINT/SIGQUIT received...killing workers...
+gateway "uWSGI http 1" has been buried (pid: 17725)
+worker 4 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 1 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.19.1 (64bit) on [Tue Jul 21 13:58:33 2020] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 11.0.0 (clang-1100.0.33.16) on 07 July 2020 01:25:37
+os: Darwin-19.5.0 Darwin Kernel Version 19.5.0: Tue May 26 20:41:44 PDT 2020; root:xnu-6153.121.2~2/RELEASE_X86_64
+nodename: TopdeMacBook-Pro.local
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 12
+current working directory: /Users/top/Django/django03
+writing pidfile to uwsgi.pid
+detected binary path: /Users/top/Django/django03/venv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /Users/top/Django/django03/
+your processes number limit is 2784
+your memory page size is 4096 bytes
+detected max file descriptor number: 10240
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 127.0.0.1:8000 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:62164 (port auto-assigned) fd 3
+Python version: 3.8.0 (v3.8.0:fa919fdf25, Oct 14 2019, 10:23:27)  [Clang 6.0 (clang-600.0.57)]
+Python main interpreter initialized at 0x7ff304e05ee0
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416640 bytes (406 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x7ff304e05ee0 pid: 23578 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 23578)
+spawned uWSGI worker 1 (pid: 23580, cores: 2)
+spawned uWSGI worker 2 (pid: 23581, cores: 2)
+spawned uWSGI worker 3 (pid: 23582, cores: 2)
+spawned uWSGI worker 4 (pid: 23583, cores: 2)
+spawned uWSGI http 1 (pid: 23584)
+[pid: 23582|app: 0|req: 1/1] 127.0.0.1 () {48 vars in 1095 bytes} [Tue Jul 21 05:58:40 2020] GET /Top/register/ => generated 9040 bytes in 66 msecs (HTTP/1.1 200) 6 headers in 319 bytes (1 switches on core 0)
+Not Found: /static/vipapp01/layuiAdmin.pro-v1.4.0/layuiAdmin.pro-v1.4.0/start/layui/css/layui.css
+[pid: 23582|app: 0|req: 3/2] 127.0.0.1 () {44 vars in 1096 bytes} [Tue Jul 21 05:58:40 2020] GET /static/vipapp01/layuiAdmin.pro-v1.4.0/layuiAdmin.pro-v1.4.0/start/layui/css/layui.css => generated 2300 bytes in 6 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 1)
+Not Found: /static/vipapp01/layuiAdmin.pro-v1.4.0/layuiAdmin.pro-v1.4.0/dist/style/admin.css
+[pid: 23582|app: 0|req: 3/3] 127.0.0.1 () {44 vars in 1086 bytes} [Tue Jul 21 05:58:40 2020] GET /static/vipapp01/layuiAdmin.pro-v1.4.0/layuiAdmin.pro-v1.4.0/dist/style/admin.css => generated 2285 bytes in 4 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 0)
+Not Found: /static/vipapp01/layui-v2.5.6/layui-v2.5.6/layui-v2.5.6/layui/layui.js
+Not Found: /static/vipapp01/layuiAdmin.pro-v1.4.0/layuiAdmin.pro-v1.4.0/src/style/login.css
+Not Found: /static/vipapp01/jquery/jquery/jquery-3.3.1.min.js
+[pid: 23583|app: 0|req: 1/6] 127.0.0.1 () {44 vars in 1050 bytes} [Tue Jul 21 05:58:40 2020] GET /static/vipapp01/layui-v2.5.6/layui-v2.5.6/layui-v2.5.6/layui/layui.js => generated 2252 bytes in 34 msecs (HTTP/1.1 404) 4 headers in 129 bytes (1 switches on core 0)
+[pid: 23581|app: 0|req: 1/6] 127.0.0.1 () {44 vars in 1084 bytes} [Tue Jul 21 05:58:40 2020] GET /static/vipapp01/layuiAdmin.pro-v1.4.0/layuiAdmin.pro-v1.4.0/src/style/login.css => generated 2282 bytes in 34 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 1)
+[pid: 23580|app: 0|req: 1/6] 127.0.0.1 () {44 vars in 1010 bytes} [Tue Jul 21 05:58:40 2020] GET /static/vipapp01/jquery/jquery/jquery-3.3.1.min.js => generated 2192 bytes in 34 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 0)
+Not Found: /static/vipapp01/layui-v2.5.6/layui-v2.5.6/layui-v2.5.6/layui/layui.js
+Not Found: /static/vipapp01/images/WechatIMG224.jpeg
+[pid: 23582|app: 0|req: 4/7] 127.0.0.1 () {44 vars in 1050 bytes} [Tue Jul 21 05:58:40 2020] GET /static/vipapp01/layui-v2.5.6/layui-v2.5.6/layui-v2.5.6/layui/layui.js => generated 2252 bytes in 2 msecs (HTTP/1.1 404) 4 headers in 129 bytes (1 switches on core 1)
+[pid: 23580|app: 0|req: 2/8] 127.0.0.1 () {44 vars in 1027 bytes} [Tue Jul 21 05:58:40 2020] GET /static/vipapp01/images/WechatIMG224.jpeg => generated 2165 bytes in 2 msecs (HTTP/1.1 404) 4 headers in 129 bytes (2 switches on core 1)
+SIGINT/SIGQUIT received...killing workers...
+gateway "uWSGI http 1" has been buried (pid: 23584)
+worker 4 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 1 buried after 1 seconds
+goodbye to uWSGI.

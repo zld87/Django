@@ -4,8 +4,9 @@ from django.http import *
 from django.urls import reverse
 from django.db.models import F,Q
 from datetime import timedelta,datetime
-import json
+import json,os
 from PIL import Image, ImageDraw, ImageFont
+from django.conf import settings
 
 
 #注册
@@ -101,11 +102,67 @@ def verifycode(req):
     image.save(buf,format='png')
     return HttpResponse(buf.getvalue(),content_type='image/png')
 
-
+#中间件
 def exception(req):
     #a=int('abc')
     #return HttpResponse('安全')
     return render(req,'vipapp01/register.html')
+
+
+#文件上传
+def uploadfile(req):
+    return render(req,'vipapp01/uploadfile.html')
+
+#文件处理
+def uploadhaldle(req):
+    if req.method=='POST':
+        pic=req.FILES.get('pic1')
+        content=req.FILES.get('content')
+        print(123)
+        picpath=os.path.join(settings.MEDIA_ROOT,pic.name)
+        with open(picpath,'wb') as f:
+            for i in pic.chunks():
+                f.write(i)
+        return HttpResponse(picpath)
+    else:
+        return HttpResponse('error')
+
+#重写json处理datetime对象时间
+class DateEncoder(json.JSONEncoder):
+    def default(self, obj):
+        if isinstance(obj, datetime.datetime):
+            return obj.strftime('%Y-%m-%d %H:%M:%S')
+        elif isinstance(obj, datetime.date):
+            return obj.strftime("%Y-%m-%d")
+        else:
+            return json.JSONEncoder.default(self, obj)
+
+
+#用户列表页增删改查
+def search_user(req):
+    if req.method=='GET':
+        all_user_num=Top_Register_User.userManager.count()
+        all_user=Top_Register_User.userManager.all()
+        userlist=[]
+        for i in all_user:
+            pk=i.pk
+            user=i.user
+            create_time=i.create_time.strftime('%Y-%m-%d %H:%M:%S')
+            update_time=i.update_time.strftime('%Y-%m-%d %H:%M:%S')
+            userphone=i.userphone
+            #user_group=i.user_group
+            user_info={'pk':pk,'user':user,'create_time':create_time,'update_time':update_time,'userphone':userphone}
+            userlist.append(user_info)
+        #print(userlist)
+        print(userlist)
+        #json_dumps_params返回中文unicode
+        return JsonResponse(userlist,safe=False,json_dumps_params={'ensure_ascii':False})
+    else:
+        HttpResponse('error')
+
+
+
+
 
 
 
