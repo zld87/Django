@@ -101,11 +101,113 @@ def verifycode(req):
     image.save(buf,format='png')
     return HttpResponse(buf.getvalue(),content_type='image/png')
 
-
+#中间件
 def exception(req):
     #a=int('abc')
     #return HttpResponse('安全')
     return render(req,'vipapp01/register.html')
+
+
+#文件上传
+def uploadfile(req):
+    return render(req,'vipapp01/uploadfile.html')
+
+#文件处理
+def uploadhaldle(req):
+    if req.method=='POST':
+        pic=req.FILES.get('pic1')
+        content=req.FILES.get('content')
+        print(123)
+        picpath=os.path.join(settings.MEDIA_ROOT,pic.name)
+        with open(picpath,'wb') as f:
+            for i in pic.chunks():
+                f.write(i)
+        return HttpResponse(picpath)
+    else:
+        return HttpResponse('error')
+
+#重写json处理datetime对象时间
+class DateEncoder(json.JSONEncoder):
+    def default(self, obj):
+        if isinstance(obj, datetime.datetime):
+            return obj.strftime('%Y-%m-%d %H:%M:%S')
+        elif isinstance(obj, datetime.date):
+            return obj.strftime("%Y-%m-%d")
+        else:
+            return json.JSONEncoder.default(self, obj)
+
+
+#用户列表页增删改查
+def search_user(req,page,num):
+    if req.method=='GET':
+        all_user_num=Top_Register_User.userManager.count()
+        all_user_list=Top_Register_User.userManager.all()
+        onepage_list=Paginator(all_user_list,num)
+        page=onepage_list.page(page)
+        print(page,'zzzzzz')
+        userlist=[]
+        for i in page:
+            pk=i.pk
+            user=i.user
+            create_time=i.create_time.strftime('%Y-%m-%d %H:%M:%S')
+            update_time=i.update_time.strftime('%Y-%m-%d %H:%M:%S')
+            userphone=i.userphone
+            #user_group=i.user_group
+            user_info={'pk':pk,'user':user,'create_time':create_time,'update_time':update_time,'userphone':userphone}
+            userlist.append(user_info)
+        data = {"code": 200, "msg": '返回成功','num': len(page.object_list),'data': userlist}
+        #print(userlist)
+        return HttpResponse(json.dumps(data,ensure_ascii=False),content_type='application/json')
+        #json_dumps_params返回中文unicode
+        #return JsonResponse(data,json_dumps_params={'ensure_ascii':False})
+    elif req.method=='POST':
+        usernameinfo=req.POST.getlist('username',default='未登录')
+        status=req.POST['status']
+        if usernameinfo=='未登录':
+            data = {"code":200,'msg':'没有该账号'}
+            return HttpResponse(json.dumps(data),content_type='application/json')
+        else:
+            #删除用户
+            if status==2:
+                usernameinfo=req.POST.getlist('username')
+                for username in usernameinfo:
+                    selectuser=Top_Register_User.userManager.get(user=username)
+                    selectuser.delete()
+                    data={'code':200,'msg':'删除成功'}
+                return HttpResponse(json.dumps(data,ensure_ascii=False),content_type='application/json')
+            #修改用户
+            elif status==3:
+                username=req.POST['username']
+                pwd=req.POST['pwd']
+                userphone=req.POST['userphone']
+                user=Top_Register_User.userManager.get(user=username)
+                user.userphone=userphone
+                user.pwd=pwd
+                user.save()
+            #新增用户
+            elif status==1:
+                username = req.POST['username']
+                pwd = req.POST['pwd']
+                phone = req.POST.get('userphone',default=None)
+                if username == '':
+                    data = {"code": 200, "msg": '用户名不能为空'}
+                    return HttpResponse(json.dumps(data,ensure_ascii=False))
+                elif not Top_Register_User.userManager.get(user__exact=username):
+                    new_user = Top_Register_User.userManager.create(username, pwd, phone)
+                    new_user.save()
+                    data = {"code": 200, "msg": '添加成功'}
+                    return HttpResponse(json.dumps(data,ensure_ascii=False))
+                else:
+                    data={"code": 200, "msg": '请从新输入'}
+                    return HttpResponse(json.dumps(data,ensure_ascii=False))
+            else:
+                data={'code':200,'msg':'请确认请求状态'}
+                return HttpResponse(json.dumps(data,ensure_ascii=False))
+
+    else:
+        data = {'code': 200, 'msg': '请求格式有误，请重试！'}
+        HttpResponse(json.dumps(data,ensure_ascii=False))
+
 
 
 
