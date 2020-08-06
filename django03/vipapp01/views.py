@@ -4,8 +4,10 @@ from django.http import *
 from django.urls import reverse
 from django.db.models import F,Q
 from datetime import timedelta,datetime
-import json
+import json,os
 from PIL import Image, ImageDraw, ImageFont
+from django.conf import settings
+from django.core.paginator import *
 
 
 #注册

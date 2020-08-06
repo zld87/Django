@@ -5,6 +5,11 @@
     <title>Title</title>
 </head>
 <body>
-
+<form method="post" action="/Top/uploadhaldle/" enctype="multipart/form-data">
+    {% csrf_token %}
+    请上传图片：<input type="file" name="pic1">
+    <br>
+    <input type="submit" value="提交">
+</form>
 </body>
 </html>
