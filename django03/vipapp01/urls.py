@@ -1,6 +1,7 @@
 from django.contrib import admin
-from django.urls import path,include
+from django.urls import path,include,re_path
 from vipapp01 import views
+
 
 urlpatterns = [
     path('admin/', admin.site.urls),
@@ -14,7 +15,9 @@ urlpatterns = [
     path('middleware/',views.exception),
     path('verifycode/',views.verifycode),
     path('uploadfile/',views.uploadfile),
-    path('uploadhaldle/',views.uploadhaldle)
+    path('uploadhaldle/',views.uploadhaldle),
+    re_path('search_user/(?P<page>\d+)/(?P<num>\d+)/',views.search_user,name='search_user'),
+    path('process_template_response/',views.process_template_response)
 ]
 
 app_name='vipapp01'

@@ -8,12 +8,15 @@ import json,os
 from PIL import Image, ImageDraw, ImageFont
 from django.conf import settings
 from django.core.paginator import *
+from django.views.decorators.cache import cache_page
+from django.core.cache import cache
 
 
 #注册
 def register(req):
     return render(req,'vipapp01/register.html')
 
+cache.zadd
 #注册处理
 def registerdetail(req):
     if req.method=='POST':
@@ -34,6 +37,7 @@ def registerdetail(req):
                 #redirect(reverse('vipapp01:register'))
 
 #登陆
+
 def login(req):
     return render(req,'vipapp01/login.html')
 
@@ -42,20 +46,21 @@ def login_handle(req):
     if req.method=='POST':
         username=req.POST['username']
         pwd=req.POST['pwd']
-        if Top_Register_User.userManager.filter(user=username):
-            user=Top_Register_User.userManager.filter(user=username)
-            for user in user:
-                if user.pwd==pwd:
-                    req.session['myuser']=username
-                    req.session['pwd']=pwd
-                    req.session.set_expiry(0)
-                    data = {"code": 200, "msg": '返回成功', "data": reverse('vipapp01:login_show')}
-                    return HttpResponse(json.dumps(data))
-                        #redirect(reverse('vipapp01:login_show'))
-                else:
-                    data = {"code": 200, "msg": '返回成功', "data": reverse('vipapp01:login')}
-                    return HttpResponse(json.dumps(data))
-                        #redirect(reverse('vipapp01:login'))
+        if Top_Register_User.userManager.get(user=username):
+            user=Top_Register_User.userManager.get(user=username)
+            if user.pwd==pwd:
+                req.session['myuser']=username
+                req.session['pwd']=pwd
+                req.session.set_expiry(0)
+                #req.session.flush()
+                #req.session.clear()
+                data = {"code": 200, "msg": '返回成功', "data": reverse('vipapp01:search_user',kwargs={'num':10,'page':1})}
+                return HttpResponse(json.dumps(data))
+                    #redirect(reverse('vipapp01:login_show'))
+            else:
+                data = {"code": 200, "msg": '返回成功', "data": reverse('vipapp01:login')}
+                return HttpResponse(json.dumps(data))
+                    #redirect(reverse('vipapp01:login'))
         else:
             data = {"code": 200, "msg": '返回成功', "data": reverse('vipapp01:login')}
             return HttpResponse(json.loads(data))
@@ -69,7 +74,7 @@ def login_show(req):
     #req.session.clear()
     return render(req,'vipapp01/login_show.html',content)
 
-
+#转义
 def loginextend(req):
     content={'f1':'<h1>abcd</h1>'}
     return render(req,'vipapp01/loginextend.html',content)
@@ -137,6 +142,18 @@ class DateEncoder(json.JSONEncoder):
             return obj.strftime("%Y-%m-%d")
         else:
             return json.JSONEncoder.default(self, obj)
+
+#调用process_template_response中间件
+class Foo():
+    def __init__(self,requ):
+        self.req=requ
+    def render(self):
+        return HttpResponse(self.req.path_info)
+
+def process_template_response(request):
+    print("执行index")
+    obj=Foo(request)
+    return obj
 
 
 #用户列表页增删改查
@@ -209,6 +226,11 @@ def search_user(req,page,num):
     else:
         data = {'code': 200, 'msg': '请求格式有误，请重试！'}
         HttpResponse(json.dumps(data,ensure_ascii=False))
+
+
+
+def my_home(req):
+    render(req,'vipapp01/ld_home.html')
 
 
 

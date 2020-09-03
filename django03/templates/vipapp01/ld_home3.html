@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <title>layout 后台大布局 - Layui</title>
+  <link rel="stylesheet" href="../static/layui-v2.5.6/layui-v2.5.6/layui/css/layui.css"  media="all">
+<style>
+
+</style>
+</head>
+
+<body class="layui-layout-body">
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Layui</title>
+  <meta name="renderer" content="webkit">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <link rel="stylesheet" href="//res.layui.com/layui/dist/css/layui.css"  media="all">
+  <!-- 注意：如果你直接复制所有代码到本地，上述css路径需要改成你本地的 -->
+</head>
+<body>
+<div class="layui-row">
+    <div class="layui-col-md7" style="padding:10px">
+		<div class="layui-card">
+		  <div class="layui-card-header" style="font-size:20px">
+			 <strong>我的计划<strong>
+		  </div>
+		  <div class="layui-card-body">
+             <table class="layui-hide" id="test" lay-filter="test"></table>
+
+		  </div>
+		</div>
+	  
+	  
+	  
+    </div>
+    <div class="layui-col-md5" style="padding:10px">
+		<div class="layui-card">
+		  <div class="layui-card-header" style="font-size:20px">
+			 <strong>最近测试<strong>
+		  </div>
+		  <div class="layui-card-body">
+             <table class="layui-hide" id="test2" lay-filter="test2"></table>
+
+		  </div>
+		</div>
+	  
+    </div>
+  </div>
+
+
+<script src="../static/jquery/jquery-3.3.1.min.js" charset="utf-8"></script>
+<script src="../static/layui-v2.5.6/layui-v2.5.6/layui/layui.js" charset="utf-8"></script>
+<script src="../static/layuiAdmin.pro-v1.4.0/start/layui/layui.js"></script>
+<script>
+	//***重点***：需要把使用到的layui组件table和element都引用进来
+    layui.use([ 'table','element'], function(){
+        var table = layui.table;
+        var element = layui.element;
+ 
+        table.render({
+            elem: '#test'
+            ,url:'memberStatus?search=1'    
+            ,cellMinWidth: 80 //全局定义常规单元格的最小宽度，layui 2.2.1 新增
+            //,data: []   //也可以不用url改为使用data直接传数据
+            // ,autoSort: false //取消自动排序
+            ,cols: [
+                [
+                // {field:'id', title: 'ID', align: 'center',sort: true}
+                ,{field:'memberName', title: '名称', align: 'center',sort: true} 
+				//***重点***：将队伍装换为layui图表，根据队伍值设置图标颜色
+                ,{field:'team', title: '状态', align: 'center', sort: true,templet: function(d){
+                    if(parseInt(d.team) =='1'){
+                        return '<i class="layui-icon layui-icon-group" style="font-size: 30px; color: #FF5722;"></i>  '
+                    }else if(parseInt(d.team)=='2') {
+                        return '<i class="layui-icon layui-icon-group" style="font-size: 30px; color: #01AAED;"></i>  '
+                    }else{
+                        return d.team
+                    }
+                }} //单元格内容水平居中
+                ,{field:'deviceCode', title: '通过率', align: 'center',sort: true} 
+                ,{field:'deviceCode', title: '已测率', align: 'center',sort: true} 
+                // ***重点***：通过血量的值拼接element组件中的进度条，进度条的样式可以去layui官网找
+                ,{field:'hp', title: '测试进度', align: 'center',sort: true,templet: function(d){
+                        //***重点***：判断颜色
+                        var ys = '';
+                        if(30<d.hp && d.hp<100){
+                            ys='layui-bg-orange'
+                        }else if(0<d.hp && d.hp<=30){
+                            ys='layui-bg-red'
+                        }
+						//***重点***：拼接进度条
+                        return '<div class="layui-progress layui-progress-big" lay-showpercent="true"><div class="layui-progress-bar '+ys+'" lay-percent="'+d.hp+'%"></div></div><br>'
+                    }}
+                ,{field:'hitedNumber', title: '测试阶段', align: 'center',sort: true}
+                ,{field:'hitNumber', title: '所属项目', align: 'center',sort: true}
+ 
+            ]
+            ]
+			//***重点***：***重点***：***重点***：如果没有这一步，进度条是不会生效的。应为table渲染之后没有渲染element
+            ,done:function (res,currentCount) {
+				//***重点***：table渲染完成后渲染element进度条
+                element.render()
+            }
+        });
+ 
+ 
+		table.render({
+            elem: '#test2'
+            ,url:'memberStatus?search=1'    
+            ,cellMinWidth: 80 //全局定义常规单元格的最小宽度，layui 2.2.1 新增
+            //,data: []   //也可以不用url改为使用data直接传数据
+            // ,autoSort: false //取消自动排序
+            ,cols: [
+                [
+                // {field:'id', title: 'ID', align: 'center',sort: true}
+                ,{field:'memberName', title: '名称', align: 'center',sort: true} 
+				//***重点***：将队伍装换为layui图表，根据队伍值设置图标颜色
+                ,{field:'team', title: '优先级', align: 'center', sort: true,templet: function(d){
+                    if(parseInt(d.team) =='1'){
+                        return '<i class="layui-icon layui-icon-group" style="font-size: 30px; color: #FF5722;"></i>  '
+                    }else if(parseInt(d.team)=='2') {
+                        return '<i class="layui-icon layui-icon-group" style="font-size: 30px; color: #01AAED;"></i>  '
+                    }else{
+                        return d.team
+                    }
+                }} //单元格内容水平居中
+                ,{field:'deviceCode', title: '类型', align: 'center',sort: true} 
+                // ***重点***：通过血量的值拼接element组件中的进度条，进度条的样式可以去layui官网找
+                ,{field:'hp', title: '执行结果', align: 'center',sort: true,templet: function(d){
+                        //***重点***：判断颜色
+                        var ys = '';
+                        if(30<d.hp && d.hp<100){
+                            ys='layui-bg-orange'
+                        }else if(0<d.hp && d.hp<=30){
+                            ys='layui-bg-red'
+                        }
+						//***重点***：拼接进度条
+                        return '<div class="layui-progress layui-progress-big" lay-showpercent="true"><div class="layui-progress-bar '+ys+'" lay-percent="'+d.hp+'%"></div></div><br>'
+                    }}
+                ,{field:'hitedNumber', title: '测试计划', align: 'center',sort: true}
+ 
+            ]
+            ]
+			//***重点***：***重点***：***重点***：如果没有这一步，进度条是不会生效的。应为table渲染之后没有渲染element
+            ,done:function (res,currentCount) {
+				//***重点***：table渲染完成后渲染element进度条
+                element.render()
+            }
+        });
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+    });
+
+
+
+
+
+</script>
+</body>
+</html>
+      

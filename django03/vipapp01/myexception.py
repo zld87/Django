@@ -23,6 +23,6 @@ class myexception1(MiddlewareMixin):
         #return render(req,'vipapp01/register.html')
         #return redirect(reverse('vipapp01:login'))
         return HttpResponse(2333)'''
-    '''def process_template_response(self,req,resp):
+    def process_template_response(self,req,rsp):
         print('zld')
-        return render(req,'vipapp01/login.html')'''
+        return rsp
