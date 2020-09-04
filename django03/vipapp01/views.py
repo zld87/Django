@@ -16,7 +16,6 @@ from django.core.cache import cache
 def register(req):
     return render(req,'vipapp01/register.html')
 
-cache.zadd
 #注册处理
 def registerdetail(req):
     if req.method=='POST':
@@ -217,7 +216,7 @@ def search_user(req,page,num):
                     data = {"code": 200, "msg": '添加成功'}
                     return HttpResponse(json.dumps(data,ensure_ascii=False))
                 else:
-                    data={"code": 200, "msg": '请从新输入'}
+                    data={"code": 200, "msg":'请从新输入'}
                     return HttpResponse(json.dumps(data,ensure_ascii=False))
             else:
                 data={'code':200,'msg':'请确认请求状态'}
@@ -230,7 +229,11 @@ def search_user(req,page,num):
 
 
 def my_home(req):
-    render(req,'vipapp01/ld_home.html')
+    return render(req,'vipapp01/ld_home.html')
+def my_home2(req):
+    return render(req,'vipapp01/ld_home2.html')
+def my_home3(req):
+    return render(req,'vipapp01/ld_home3.html')
 
 
 
