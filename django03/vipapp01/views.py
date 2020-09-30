@@ -5,6 +5,7 @@ from django.urls import reverse
 from django.db.models import F,Q
 from datetime import timedelta,datetime
 import json,os
+from .task import *
 from PIL import Image, ImageDraw, ImageFont
 from django.conf import settings
 from django.core.paginator import *
@@ -156,7 +157,7 @@ def process_template_response(request):
 
 
 #用户列表页增删改查
-def search_user(req,page,num):
+def search_user(req,page=1,num=10):
     if req.method=='GET':
         all_user_num=Top_Register_User.userManager.count()
         all_user_list=Top_Register_User.userManager.all()
@@ -234,6 +235,12 @@ def my_home2(req):
     return render(req,'vipapp01/ld_home2.html')
 def my_home3(req):
     return render(req,'vipapp01/ld_home3.html')
+
+
+
+def celery(req):
+    sayhello.delay()
+    return HttpResponse('ok')
 
 
 

@@ -38,7 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'vipapp01.apps.Vipapp01Config',
-    'PIL',
+    'djcelery',
 ]
 
 MIDDLEWARE = [
@@ -145,3 +145,11 @@ CACHES={
         'TIMEOUT':60,
     },
 }
+
+CELERY_TIMEZONE='Asia/Shanghai'
+import djcelery
+djcelery.setup_loader()
+BROKER_URL='redis://127.0.0.1:6379/0'
+CELERY_IMPORTS=('vipapp01.task')
+
+
