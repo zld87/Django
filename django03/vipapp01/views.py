@@ -184,7 +184,7 @@ def search_user(req,page=1,num=10):
         status=req.POST['status']
         if usernameinfo=='未登录':
             data = {"code":200,'msg':'没有该账号'}
-            return HttpResponse(json.dumps(data),content_type='application/json')
+            return HttpResponse(json.dumps(data,ensure_ascii=False),content_type='application/json')
         else:
             #删除用户
             if status==2:
@@ -239,8 +239,21 @@ def my_home3(req):
 
 
 def celery(req):
-    sayhello.delay()
+    #sayhello.delay()
+    sayhello()
     return HttpResponse('ok')
+
+#保存接口到数据库
+def Interface_Case(req):
+    if req.method=='POST':
+        headers=req.POST['headers']
+        server=req.POST['server']
+        port = req.POST['port']
+        path = req.POST['path']
+        parameter =req.POST['parameter']
+        method = req.POST['method']
+        protocol = req.POST['protocol']
+        Assertion = req.POST['Assertion']       #json格式
 
 
 

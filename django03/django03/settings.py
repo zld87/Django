@@ -125,7 +125,7 @@ MEDIA_ROOT=os.path.join(BASE_DIR,'static/media')
 
 LANGUAGE_CODE = 'zh-Hans' #'en-us'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'Asia/Shanghai'
 
 USE_I18N = True
 
@@ -146,10 +146,11 @@ CACHES={
     },
 }
 
-CELERY_TIMEZONE='Asia/Shanghai'
+#CELERY_TIMEZONE='Asia/Shanghai'
 import djcelery
 djcelery.setup_loader()
 BROKER_URL='redis://127.0.0.1:6379/0'
 CELERY_IMPORTS=('vipapp01.task')
+
 
 

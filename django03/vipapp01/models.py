@@ -116,32 +116,52 @@ class Test_Case(models.Model):
         return self.case_name
 
 class function_Case_Content(models.Model):
-    content_parameter=models.TextField(max_length=50000)                                #用例内容：[{步骤:结果},{步骤,结果}....]
-    describe= models.TextField(max_length=2000)                                         #备注描述
-    function_Preconditions =models.TextField(max_length=2000)                           #前置条件
+    content_parameter=models.TextField(max_length=50000)                                          #用例内容：[{步骤:结果},{步骤,结果}....]
+    describe= models.TextField(max_length=2000,null=True)                                         #备注描述
+    function_Preconditions =models.TextField(max_length=2000,null=True)                           #前置条件
+    function_case=models.OneToOneField(Test_Case,null=True,blank=True,on_delete=models.PROTECT)   #用例类型为1，关联测试用例
     class Meta:
         db_table='function_Case_Content'
 
 
 class PeInt_Case_Content(models.Model):
     function_Preconditions =models.TextField(max_length=2000)                            #前置条件
-    content_parameter=models.ManyToManyField('Interface_Case')                           #关联接口
+    associated_interface=models.ManyToManyField('Interface_Case',null=True)              #关联接口
+    describe= models.TextField(max_length=2000,null=True)                                #备注描述
+    interface_test_case=models.OneToOneField(Test_Case,null=True,blank=True,on_delete=models.PROTECT)    #用例类型为2或者3，关联测试用例
     class Meta:
         db_table='PeInt_Case_Content'
+
+#自定义管理器
+class Interface_Manager(models.Manager):
+    def create(self,headers,server,port,path,parameter,method,protocol,Assertion):
+        InterfaceCase = Interface_Case()
+        Interface_Case.headers=headers
+        Interface_Case.server=server
+        Interface_Case.port=port
+        Interface_Case.path=path
+        Interface_Case.parameter=parameter
+        Interface_Case.method=method
+        Interface_Case.protocol=protocol
+        Interface_Case.Assertion=Assertion
 
 
 
 class Interface_Case(models.Model):
+    it_name = models.CharField(max_length=2000)                                          #接口名称
+    create_time = models.DateTimeField(auto_now_add=True,null=True)
+    update_time = models.DateTimeField(auto_now=True,null=True)
+    data_type = models.IntegerField(default=1)                                           #1.表单  2.json 3.xml
+    create_user=models.CharField(max_length=200)                                         #请求用户
     headers = models.CharField(max_length=4000,null=True,blank=True)                     #请求头
     server = models.CharField(max_length=2000)                                           #域名或ip
     port = models.CharField(max_length=100,null=True,blank=True)                         #端口
     path = models.TextField(max_length=50000)                                            #路径
-    parameter = models.TextField(max_length=50000,null=True,blank=True)                  #参数
+    parameter = models.TextField(max_length=50000,null=True,blank=True)                  #参数 (不管是哪种传参格式的参数)
     method = models.CharField(max_length=100)                                            #请求方式
     protocol= models.CharField(max_length=100)                                           #协议
-    Assertion=models.TextField(max_length=50000,null=True,blank=True)                    #断言
-    state = models.IntegerField(default=3)                                               #1.通过 2.未通过 3.未执行
-    content_parameter=models.ManyToManyField('PeInt_Case_Content')                       #关联接口用例
+    assertion=models.TextField(max_length=50000,null=True,blank=True)                    #断言
+    state = models.IntegerField(default=3)                                               #接口状态    1.通过 2.未通过 3.未执行
     class Meta:
         db_table='Interface_Case'
 
