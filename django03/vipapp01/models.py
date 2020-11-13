@@ -134,8 +134,11 @@ class PeInt_Case_Content(models.Model):
 
 #自定义管理器
 class Interface_Manager(models.Manager):
-    def create(self,headers,server,port,path,parameter,method,protocol,Assertion):
+    def create(self,it_name,data_type,create_user,headers,server,port,path,parameter,method,protocol,assertion):
         InterfaceCase = Interface_Case()
+        Interface_Case.it_name=it_name
+        Interface_Case.data_type=data_type
+        Interface_Case.create_user=create_user
         Interface_Case.headers=headers
         Interface_Case.server=server
         Interface_Case.port=port
@@ -143,12 +146,13 @@ class Interface_Manager(models.Manager):
         Interface_Case.parameter=parameter
         Interface_Case.method=method
         Interface_Case.protocol=protocol
-        Interface_Case.Assertion=Assertion
+        Interface_Case.Assertion=assertion
+        return InterfaceCase
 
 
 
 class Interface_Case(models.Model):
-    it_name = models.CharField(max_length=2000)                                          #接口名称
+    it_name = models.CharField(max_length=250,unique=True)                              #接口名称
     create_time = models.DateTimeField(auto_now_add=True,null=True)
     update_time = models.DateTimeField(auto_now=True,null=True)
     data_type = models.IntegerField(default=1)                                           #1.表单  2.json 3.xml
@@ -162,6 +166,7 @@ class Interface_Case(models.Model):
     protocol= models.CharField(max_length=100)                                           #协议
     assertion=models.TextField(max_length=50000,null=True,blank=True)                    #断言
     state = models.IntegerField(default=3)                                               #接口状态    1.通过 2.未通过 3.未执行
+    icaseManager=Interface_Manager()                                                     #自定义管理器
     class Meta:
         db_table='Interface_Case'
 

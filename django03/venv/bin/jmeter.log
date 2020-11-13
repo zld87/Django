@@ -1,0 +1,135 @@
+2020-11-03 16:16:56,715 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2020-11-03 16:16:56,744 INFO o.a.j.JMeter: Loading user properties from: /Users/top/apache-jmeter-5.1.1/bin/user.properties
+2020-11-03 16:16:56,744 INFO o.a.j.JMeter: Loading system properties from: /Users/top/apache-jmeter-5.1.1/bin/system.properties
+2020-11-03 16:16:56,750 INFO o.a.j.JMeter: Copyright (c) 1998-2019 The Apache Software Foundation
+2020-11-03 16:16:56,751 INFO o.a.j.JMeter: Version 5.1.1 r1855137
+2020-11-03 16:16:56,751 INFO o.a.j.JMeter: java.version=12.0.2
+2020-11-03 16:16:56,751 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2020-11-03 16:16:56,751 INFO o.a.j.JMeter: os.name=Mac OS X
+2020-11-03 16:16:56,751 INFO o.a.j.JMeter: os.arch=x86_64
+2020-11-03 16:16:56,751 INFO o.a.j.JMeter: os.version=10.15.7
+2020-11-03 16:16:56,751 INFO o.a.j.JMeter: file.encoding=UTF-8
+2020-11-03 16:16:56,751 INFO o.a.j.JMeter: java.awt.headless=null
+2020-11-03 16:16:56,751 INFO o.a.j.JMeter: Max memory     =1073741824
+2020-11-03 16:16:56,751 INFO o.a.j.JMeter: Available Processors =12
+2020-11-03 16:16:56,762 INFO o.a.j.JMeter: Default Locale=English (EN)
+2020-11-03 16:16:56,762 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2020-11-03 16:16:56,762 INFO o.a.j.JMeter: JMeterHome=/Users/top/apache-jmeter-5.1.1
+2020-11-03 16:16:56,762 INFO o.a.j.JMeter: user.dir  =/Users/top/DjangoGit/Django/django03/venv/bin
+2020-11-03 16:16:56,762 INFO o.a.j.JMeter: PWD       =/Users/top/DjangoGit/Django/django03/venv/bin
+2020-11-03 16:16:56,763 INFO o.a.j.JMeter: IP: 10.0.0.139 Name: TopdeMacBook-Pro.local FullName: 10.0.0.139
+2020-11-03 16:16:58,213 INFO o.a.j.g.a.LookAndFeelCommand: Installing Darcula LAF
+2020-11-03 16:16:58,220 INFO o.a.j.g.a.LookAndFeelCommand: Using look and feel: com.bulenkov.darcula.DarculaLaf [Darcula]
+2020-11-03 16:16:58,220 INFO o.a.j.JMeter: Setting LAF to: com.bulenkov.darcula.DarculaLaf
+2020-11-03 16:16:58,320 INFO o.a.j.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties
+2020-11-03 16:16:59,097 INFO o.j.r.JARSourceHTTP: Found cached repo
+2020-11-03 16:16:59,224 WARN o.j.r.Plugin: Unable to load class: kg.apc.jmeter.vizualizers.PageDataExtractorOverTimeGui
+java.lang.NoClassDefFoundError: kg/apc/jmeter/CMDLineArgumentsProcessor
+	at java.lang.ClassLoader.defineClass1(Native Method) ~[?:?]
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:1016) ~[?:?]
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:151) ~[?:?]
+	at java.net.URLClassLoader.defineClass(URLClassLoader.java:515) ~[?:?]
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:423) ~[?:?]
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:417) ~[?:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:689) ~[?:?]
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:416) ~[?:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:588) ~[?:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:521) ~[?:?]
+	at org.jmeterplugins.repository.Plugin.getJARPath(Plugin.java:202) [jmeter-plugins-manager-1.4.jar:?]
+	at org.jmeterplugins.repository.Plugin.detectInstalledPlugin(Plugin.java:108) [jmeter-plugins-manager-1.4.jar:?]
+	at org.jmeterplugins.repository.Plugin.detectInstalled(Plugin.java:97) [jmeter-plugins-manager-1.4.jar:?]
+	at org.jmeterplugins.repository.PluginManager.load(PluginManager.java:86) [jmeter-plugins-manager-1.4.jar:?]
+	at org.jmeterplugins.repository.PluginManagerMenuItem$1.run(PluginManagerMenuItem.java:41) [jmeter-plugins-manager-1.4.jar:?]
+Caused by: java.lang.ClassNotFoundException: kg.apc.jmeter.CMDLineArgumentsProcessor
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:436) ~[?:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:588) ~[?:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:521) ~[?:?]
+	... 15 more
+2020-11-03 16:16:59,235 INFO o.j.r.PluginManager: Plugins Status: [jpgc-graphs-basic=2.0, jpgc-graphs-additional=Extras, jpgc-autostop=Extras, jpgc-functions=2.1, jpgc-casutg=2.9, jpgc-dbmon=Extras, jpgc-graphs-dist=Extras, jpgc-dummy=0.4, jpgc-ffw=2.0, jpgc-ggl=Extras, jpgc-httpraw=Extras, jpgc-sts=Extras, jpgc-fifo=0.2, jpgc-jmxmon=Extras, jpgc-graphs-vs=Extras, jpgc-lockfile=Extras, jpgc-prmctl=Extras, jpgc-perfmon=2.1, jpgc-plugins-manager=1.4, jpgc-redis=0.3, jpgc-tst=2.5, jpgc-udp=Extras, jpgc-csvars=Extras, jpgc-xml=Extras, jmeter-core=5.1.1, jmeter-ftp=5.1.1, jmeter-http=5.1.1, jmeter-jdbc=5.1.1, jmeter-jms=5.1.1, jmeter-junit=5.1.1, jmeter-java=5.1.1, jmeter-ldap=5.1.1, jmeter-mail=5.1.1, jmeter-mongodb=5.1.1, jmeter-native=5.1.1, jmeter-tcp=5.1.1, jmeter-components=5.1.1, jpgc-standard=2.0]
+2020-11-03 16:17:00,482 WARN o.a.j.g.u.MenuFactory: Could not instantiate class: kg.apc.jmeter.vizualizers.MergeResultsGui
+java.lang.reflect.InvocationTargetException: null
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) ~[?:?]
+	at java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500) ~[?:?]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:481) ~[?:?]
+	at org.apache.jmeter.gui.util.MenuFactory.getGUIComponent(MenuFactory.java:174) [ApacheJMeter_core.jar:5.1.1 r1855137]
+	at org.apache.jmeter.gui.util.MenuFactory.initializeMenus(MenuFactory.java:141) [ApacheJMeter_core.jar:5.1.1 r1855137]
+	at org.apache.jmeter.gui.util.MenuFactory.<clinit>(MenuFactory.java:106) [ApacheJMeter_core.jar:5.1.1 r1855137]
+	at org.apache.jmeter.control.gui.TestPlanGui.createPopupMenu(TestPlanGui.java:92) [ApacheJMeter_core.jar:5.1.1 r1855137]
+	at org.apache.jmeter.gui.tree.JMeterTreeNode.createPopupMenu(JMeterTreeNode.java:185) [ApacheJMeter_core.jar:5.1.1 r1855137]
+	at org.apache.jmeter.gui.action.EditCommand.doAction(EditCommand.java:46) [ApacheJMeter_core.jar:5.1.1 r1855137]
+	at org.apache.jmeter.gui.action.ActionRouter.performAction(ActionRouter.java:88) [ApacheJMeter_core.jar:5.1.1 r1855137]
+	at org.apache.jmeter.gui.action.ActionRouter.lambda$actionPerformed$0(ActionRouter.java:70) [ApacheJMeter_core.jar:5.1.1 r1855137]
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:313) [?:?]
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:770) [?:?]
+	at java.awt.EventQueue$4.run(EventQueue.java:721) [?:?]
+	at java.awt.EventQueue$4.run(EventQueue.java:715) [?:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:389) [?:?]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85) [?:?]
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:740) [?:?]
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203) [?:?]
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124) [?:?]
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113) [?:?]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109) [?:?]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101) [?:?]
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:90) [?:?]
+Caused by: java.lang.NoClassDefFoundError: org/jmeterplugins/save/MergeResultsService
+	at java.lang.Class.getDeclaredMethods0(Native Method) ~[?:?]
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:3171) ~[?:?]
+	at java.lang.Class.getDeclaredMethod(Class.java:2478) ~[?:?]
+	at java.awt.Component.isCoalesceEventsOverriden(Component.java:6317) ~[?:?]
+	at java.awt.Component$3.run(Component.java:6271) ~[?:?]
+	at java.awt.Component$3.run(Component.java:6269) ~[?:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:310) ~[?:?]
+	at java.awt.Component.checkCoalescing(Component.java:6268) ~[?:?]
+	at java.awt.Component.<init>(Component.java:6237) ~[?:?]
+	at java.awt.Container.<init>(Container.java:296) ~[?:?]
+	at javax.swing.JComponent.<init>(JComponent.java:598) ~[?:?]
+	at javax.swing.JPanel.<init>(JPanel.java:82) ~[?:?]
+	at javax.swing.JPanel.<init>(JPanel.java:109) ~[?:?]
+	at javax.swing.JPanel.<init>(JPanel.java:117) ~[?:?]
+	at org.apache.jmeter.gui.AbstractJMeterGuiComponent.<init>(AbstractJMeterGuiComponent.java:77) ~[ApacheJMeter_core.jar:5.1.1 r1855137]
+	at org.apache.jmeter.visualizers.gui.AbstractListenerGui.<init>(AbstractListenerGui.java:32) ~[ApacheJMeter_core.jar:5.1.1 r1855137]
+	at org.apache.jmeter.visualizers.gui.AbstractVisualizer.<init>(AbstractVisualizer.java:127) ~[ApacheJMeter_core.jar:5.1.1 r1855137]
+	at kg.apc.jmeter.graphs.AbstractGraphPanelVisualizer.<init>(AbstractGraphPanelVisualizer.java:102) ~[jmeter-plugins-cmn-jmeter-0.4.jar:?]
+	at kg.apc.jmeter.vizualizers.MergeResultsGui.<init>(MergeResultsGui.java:141) ~[JMeterPlugins-Extras.jar:?]
+	... 26 more
+Caused by: java.lang.ClassNotFoundException: org.jmeterplugins.save.MergeResultsService
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:436) ~[?:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:588) ~[?:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:521) ~[?:?]
+	at java.lang.Class.getDeclaredMethods0(Native Method) ~[?:?]
+	at java.lang.Class.privateGetDeclaredMethods(Class.java:3171) ~[?:?]
+	at java.lang.Class.getDeclaredMethod(Class.java:2478) ~[?:?]
+	at java.awt.Component.isCoalesceEventsOverriden(Component.java:6317) ~[?:?]
+	at java.awt.Component$3.run(Component.java:6271) ~[?:?]
+	at java.awt.Component$3.run(Component.java:6269) ~[?:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:310) ~[?:?]
+	at java.awt.Component.checkCoalescing(Component.java:6268) ~[?:?]
+	at java.awt.Component.<init>(Component.java:6237) ~[?:?]
+	at java.awt.Container.<init>(Container.java:296) ~[?:?]
+	at javax.swing.JComponent.<init>(JComponent.java:598) ~[?:?]
+	at javax.swing.JPanel.<init>(JPanel.java:82) ~[?:?]
+	at javax.swing.JPanel.<init>(JPanel.java:109) ~[?:?]
+	at javax.swing.JPanel.<init>(JPanel.java:117) ~[?:?]
+	at org.apache.jmeter.gui.AbstractJMeterGuiComponent.<init>(AbstractJMeterGuiComponent.java:77) ~[ApacheJMeter_core.jar:5.1.1 r1855137]
+	at org.apache.jmeter.visualizers.gui.AbstractListenerGui.<init>(AbstractListenerGui.java:32) ~[ApacheJMeter_core.jar:5.1.1 r1855137]
+	at org.apache.jmeter.visualizers.gui.AbstractVisualizer.<init>(AbstractVisualizer.java:127) ~[ApacheJMeter_core.jar:5.1.1 r1855137]
+	at kg.apc.jmeter.graphs.AbstractGraphPanelVisualizer.<init>(AbstractGraphPanelVisualizer.java:102) ~[jmeter-plugins-cmn-jmeter-0.4.jar:?]
+	at kg.apc.jmeter.vizualizers.MergeResultsGui.<init>(MergeResultsGui.java:141) ~[JMeterPlugins-Extras.jar:?]
+	... 26 more
+2020-11-03 16:17:00,890 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-11-03 16:17:00,890 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-11-03 16:17:00,890 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-11-03 16:17:00,890 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2020-11-03 16:17:00,890 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2020-11-03 16:17:00,890 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2020-11-03 16:17:01,143 INFO o.a.j.e.KeyToolUtils: keytool found at 'keytool'
+2020-11-03 16:17:01,143 INFO o.a.j.p.h.p.ProxyControl: HTTP(S) Test Script Recorder SSL Proxy will use keys that support embedded 3rd party resources in file /Users/top/apache-jmeter-5.1.1/bin/proxyserver.jks
+2020-11-03 16:17:01,237 INFO o.a.j.s.FileServer: Default base='/Users/top/DjangoGit/Django/django03/venv/bin'
+2020-11-03 16:17:01,440 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2020-11-03 16:17:01,440 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2020-11-03 16:17:01,440 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2020-11-03 16:17:01,440 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2020-11-03 16:17:01,456 INFO o.a.j.v.ViewResultsFullVisualizer: Add JavaFX to your Java installation if you want to use renderer: org.apache.jmeter.visualizers.RenderInBrowser

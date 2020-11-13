@@ -63,7 +63,7 @@ def login_handle(req):
                     #redirect(reverse('vipapp01:login'))
         else:
             data = {"code": 200, "msg": '返回成功', "data": reverse('vipapp01:login')}
-            return HttpResponse(json.loads(data))
+            return HttpResponse(json.dumps(data))
                 #redirect(reverse('vipapp01:register'))
 
 
@@ -243,17 +243,56 @@ def celery(req):
     sayhello()
     return HttpResponse('ok')
 
-#保存接口到数据库
+#异常类
+class info_lack(Exception):
+    def __init__(self,Info):
+        self.error=Info
+
+
+#处理接口并且保存到数据库
 def Interface_Case(req):
     if req.method=='POST':
-        headers=req.POST['headers']
-        server=req.POST['server']
-        port = req.POST['port']
-        path = req.POST['path']
-        parameter =req.POST['parameter']
-        method = req.POST['method']
-        protocol = req.POST['protocol']
-        Assertion = req.POST['Assertion']       #json格式
+        try:
+            it_name=req.POST.get('it_name',defulat=None)
+            data_type=req.POST.get('data_type',defulat=None)
+            create_user=req.POST.get('create_user',defulat=None)
+            headers=req.POST.get('headers',defulat=None)
+            server=req.POST.get('server',defulat=None)
+            port = req.POST.get('port',defulat=None)
+            path = req.POST.get('path',defulat=None)
+            parameter =req.POST.get('parameter',defulat=None)
+            method = req.POST.get('method',defulat=None)
+            protocol = req.POST.get('protocol',defulat=None)
+            assertion = req.POST.get('assertion',defulat=None)       #json格式
+            parameter_list=[it_name,data_type,create_user,headers,server,port,path,parameter,method,protocol,assertion]
+            for i in parameter_list:
+                if i == None:
+                    raise info_lack('缺少参数,请重试')
+        except info_lack as infolack:
+            data={"code": 200,"msg": infolack}
+            return HttpResponse(json.dumps(data))
+        else:
+            icase=Interface_Case.icaseManager.create(it_name,data_type,create_user,headers,server,port,path,parameter,method,protocol,assertion)
+            icase.save()
+            icaseitem=Interface_Case.icaseManager.filter(it_name=it_name).values()
+            data = {"code": 200,"msg": '返回成功','data':icaseitem}
+            return HttpResponse(json.dumps(data,ensure_ascii=False))
+
+def action_icase(req):
+    import requests
+    if req.method=='POST':
+        id=req.POST.get('id')
+        case_obj=Interface_Case.icaseManager.filter(id=id).values()
+        if case_obj['data_type']==1:   #表单
+            i=requests.post()
+        elif case_obj['data_type']==2: #json
+            i=requests.post()
+
+
+
+
+
+
 
 
 

@@ -23,6 +23,7 @@ urlpatterns = [
     path('ld_home2/',views.my_home2,name='ld_home2'),
     path('ld_home3/',views.my_home3,name='ld_home3'),
     path('celery/',views.celery,name='celery'),
+    path('Interface_Case/',views.Interface_Case,name='Interface_Case')
 
 ]
 
