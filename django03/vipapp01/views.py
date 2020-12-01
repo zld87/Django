@@ -12,7 +12,6 @@ from django.core.paginator import *
 from django.views.decorators.cache import cache_page
 from django.core.cache import cache
 
-
 #注册
 def register(req):
     return render(req,'vipapp01/register.html')
