@@ -17,6 +17,7 @@ def register(req):
     return render(req,'vipapp01/register.html')
 
 #注册处理
+@cache_page(60)
 def registerdetail(req):
     if req.method=='POST':
         username=req.POST['username']
@@ -63,6 +64,7 @@ def login_handle(req):
         else:
             data = {"code": 200, "msg": '返回成功', "data": reverse('vipapp01:login')}
             return HttpResponse(json.dumps(data))
+            return H
                 #redirect(reverse('vipapp01:register'))
 
 
@@ -149,9 +151,9 @@ class Foo():
     def render(self):
         return HttpResponse(self.req.path_info)
 
-def process_template_response(request):
+def process_template_response(req):
     print("执行index")
-    obj=Foo(request)
+    obj=Foo(req)
     return obj
 
 
