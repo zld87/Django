@@ -1,0 +1,40 @@
+2021-01-05 10:51:01,164 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2021-01-05 10:51:01,193 INFO o.a.j.JMeter: Loading user properties from: /Users/zhouliudong/apache-jmeter-5.2.1/bin/user.properties
+2021-01-05 10:51:01,194 INFO o.a.j.JMeter: Loading system properties from: /Users/zhouliudong/apache-jmeter-5.2.1/bin/system.properties
+2021-01-05 10:51:01,195 INFO o.a.j.JMeter: Copyright (c) 1998-2019 The Apache Software Foundation
+2021-01-05 10:51:01,196 INFO o.a.j.JMeter: Version 5.2.1
+2021-01-05 10:51:01,196 INFO o.a.j.JMeter: java.version=15.0.1
+2021-01-05 10:51:01,196 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2021-01-05 10:51:01,196 INFO o.a.j.JMeter: os.name=Mac OS X
+2021-01-05 10:51:01,196 INFO o.a.j.JMeter: os.arch=x86_64
+2021-01-05 10:51:01,196 INFO o.a.j.JMeter: os.version=10.16
+2021-01-05 10:51:01,196 INFO o.a.j.JMeter: file.encoding=UTF-8
+2021-01-05 10:51:01,196 INFO o.a.j.JMeter: java.awt.headless=null
+2021-01-05 10:51:01,196 INFO o.a.j.JMeter: Max memory     =1073741824
+2021-01-05 10:51:01,196 INFO o.a.j.JMeter: Available Processors =12
+2021-01-05 10:51:01,205 INFO o.a.j.JMeter: Default Locale=English (EN)
+2021-01-05 10:51:01,205 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2021-01-05 10:51:01,205 INFO o.a.j.JMeter: JMeterHome=/Users/zhouliudong/apache-jmeter-5.2.1
+2021-01-05 10:51:01,205 INFO o.a.j.JMeter: user.dir  =/Users/zhouliudong/djangogit/Django/django03
+2021-01-05 10:51:01,205 INFO o.a.j.JMeter: PWD       =/Users/zhouliudong/djangogit/Django/django03
+2021-01-05 10:51:01,207 INFO o.a.j.JMeter: IP: 10.0.1.168 Name: TopdeMacBook-Pro.local FullName: 10.0.1.168
+2021-01-05 10:51:03,137 INFO o.a.j.g.a.LookAndFeelCommand: Installing Darcula LAF
+2021-01-05 10:51:03,146 INFO o.a.j.g.a.LookAndFeelCommand: Using look and feel: com.bulenkov.darcula.DarculaLaf [Darcula]
+2021-01-05 10:51:03,147 INFO o.a.j.JMeter: Setting LAF to: com.bulenkov.darcula.DarculaLaf
+2021-01-05 10:51:03,234 INFO o.a.j.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties
+2021-01-05 10:51:04,724 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2021-01-05 10:51:04,725 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2021-01-05 10:51:04,725 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2021-01-05 10:51:04,725 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2021-01-05 10:51:04,725 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2021-01-05 10:51:04,726 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2021-01-05 10:51:05,012 INFO o.a.j.e.KeyToolUtils: keytool found at 'keytool'
+2021-01-05 10:51:05,012 INFO o.a.j.p.h.p.ProxyControl: HTTP(S) Test Script Recorder SSL Proxy will use keys that support embedded 3rd party resources in file /Users/zhouliudong/apache-jmeter-5.2.1/bin/proxyserver.jks
+2021-01-05 10:51:05,101 INFO o.a.j.s.FileServer: Default base='/Users/zhouliudong/djangogit/Django/django03'
+2021-01-05 10:51:05,344 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2021-01-05 10:51:05,345 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2021-01-05 10:51:05,345 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2021-01-05 10:51:05,345 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2021-01-05 10:51:05,358 INFO o.a.j.v.ViewResultsFullVisualizer: Add JavaFX to your Java installation if you want to use renderer: org.apache.jmeter.visualizers.RenderInBrowser
+2021-01-05 10:58:30,060 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2021-01-05 10:58:30,060 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'

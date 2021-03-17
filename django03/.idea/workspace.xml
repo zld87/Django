@@ -20,31 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ecf71c10-a06f-437b-8d37-c0567cf64864" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/redis-3.5.3.dist-info/INSTALLER" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/redis-3.5.3.dist-info/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/redis-3.5.3.dist-info/METADATA" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/redis-3.5.3.dist-info/RECORD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/redis-3.5.3.dist-info/REQUESTED" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/redis-3.5.3.dist-info/WHEEL" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/redis-3.5.3.dist-info/top_level.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/redis/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/redis/_compat.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/redis/client.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/redis/connection.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/redis/exceptions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/redis/lock.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/redis/sentinel.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/redis/utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/django03.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/django03.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/vipapp01/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/vipapp01/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/vipapp01/login_show.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/vipapp01/login_show.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/vipapp01/loginblock.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/vipapp01/loginblock.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/vipapp01/loginextend.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/vipapp01/loginextend.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/uwsgi.ini" beforeDir="false" afterPath="$PROJECT_DIR$/uwsgi.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/kombu/transport/redis.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/kombu/transport/redis.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vipapp01/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/vipapp01/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vipapp01/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/vipapp01/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vipapp01/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/vipapp01/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../django04/.idea/django04.iml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +38,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="JupyterTrust" id="ae7d824d-0275-486a-9976-f5de6ca62d57" />
+  <component name="JupyterTrust" id="1b6f6a8f-569e-4cde-a241-c352a250a000" />
   <component name="ProjectId" id="1l2RnvtTHCZGBLm0WpH8jEWDFr6" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -117,6 +98,15 @@
       <workItem from="1608300146770" duration="475000" />
       <workItem from="1608349521216" duration="3474000" />
       <workItem from="1608691358866" duration="7942000" />
+      <workItem from="1609985982485" duration="15157000" />
+      <workItem from="1610701786682" duration="4187000" />
+      <workItem from="1611284469906" duration="605000" />
+      <workItem from="1613722660214" duration="406000" />
+      <workItem from="1613959232136" duration="3000" />
+      <workItem from="1613959807190" duration="16217000" />
+      <workItem from="1615446578839" duration="15000" />
+      <workItem from="1615446605697" duration="8732000" />
+      <workItem from="1615959409113" duration="588000" />
     </task>
     <servers />
   </component>
@@ -128,7 +118,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -136,14 +138,14 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="562" y="468" key="FileChooserDialogImpl" timestamp="1606814582512">
+    <state x="563" y="343" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1614567735070">
       <screen x="0" y="25" width="1680" height="1025" />
     </state>
-    <state x="562" y="468" key="FileChooserDialogImpl/0.25.1680.1025@0.25.1680.1025" timestamp="1606814582512" />
-    <state x="349" y="173" key="SettingsEditor" timestamp="1608105767199">
+    <state x="563" y="343" key="#com.intellij.fileTypes.FileTypeChooser/0.25.1680.1025@0.25.1680.1025" timestamp="1614567735070" />
+    <state x="349" y="173" key="SettingsEditor" timestamp="1615947615766">
       <screen x="0" y="25" width="1680" height="1025" />
     </state>
-    <state x="349" y="173" key="SettingsEditor/0.25.1680.1025@0.25.1680.1025" timestamp="1608105767199" />
+    <state x="349" y="173" key="SettingsEditor/0.25.1680.1025@0.25.1680.1025" timestamp="1615947615766" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

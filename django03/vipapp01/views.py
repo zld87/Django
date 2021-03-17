@@ -28,7 +28,7 @@ def registerdetail(req):
         elif not Top_Register_User.userManager.filter(user__exact=username):
             new_user=Top_Register_User.userManager.create(username,pwd,phone)
             new_user.save()
-            data={"code": 200,"msg": '注册成功,请立即登陆',"data":reverse('vipapp01:login')}
+            data={"code": 200,"msg":'注册成功,请立即登陆',"data":reverse('vipapp01:login')}
             return HttpResponse(json.dumps(data))
                 #redirect(reverse('vipapp01:login'))
         else:
@@ -64,7 +64,6 @@ def login_handle(req):
         else:
             data = {"code": 200, "msg": '返回成功', "data": reverse('vipapp01:login')}
             return HttpResponse(json.dumps(data))
-            return H
                 #redirect(reverse('vipapp01:register'))
 
 
@@ -142,7 +141,7 @@ class DateEncoder(json.JSONEncoder):
         elif isinstance(obj, datetime.date):
             return obj.strftime("%Y-%m-%d")
         else:
-            return json.JSONEncoder.default(self, obj)
+            return json.JSONEncoder.default(self,obj)
 
 #调用process_template_response中间件
 class Foo():
@@ -254,23 +253,23 @@ class info_lack(Exception):
 def Interface_Case(req):
     if req.method=='POST':
         try:
-            it_name=req.POST.get('it_name',defulat=None)
-            data_type=req.POST.get('data_type',defulat=None)
-            create_user=req.POST.get('create_user',defulat=None)
-            headers=req.POST.get('headers',defulat=None)
-            server=req.POST.get('server',defulat=None)
-            port = req.POST.get('port',defulat=None)
-            path = req.POST.get('path',defulat=None)
-            parameter =req.POST.get('parameter',defulat=None)
-            method = req.POST.get('method',defulat=None)
-            protocol = req.POST.get('protocol',defulat=None)
-            assertion = req.POST.get('assertion',defulat=None)       #json格式
+            it_name=req.POST.get('it_name',default=None)
+            data_type=req.POST.get('data_type',default=None)
+            create_user=req.POST.get('create_user',default=None)
+            headers=req.POST.get('headers',default=None)
+            server=req.POST.get('server',default=None)
+            port = req.POST.get('port',default=None)
+            path = req.POST.get('path',default=None)
+            parameter =req.POST.get('parameter',default=None)
+            method = req.POST.get('method',default=None)
+            protocol = req.POST.get('protocol',default=None)
+            assertion = req.POST.get('assertion',default=None)       #json格式
             parameter_list=[it_name,data_type,create_user,headers,server,port,path,parameter,method,protocol,assertion]
             for i in parameter_list:
                 if i == None:
                     raise info_lack('缺少参数,请重试')
         except info_lack as infolack:
-            data={"code": 200,"msg": infolack}
+            data={"code": 200,"msg":infolack}
             return HttpResponse(json.dumps(data))
         else:
             icase=Interface_Case.icaseManager.create(it_name,data_type,create_user,headers,server,port,path,parameter,method,protocol,assertion)
@@ -288,6 +287,7 @@ def action_icase(req):
             i=requests.post()
         elif case_obj['data_type']==2: #json
             i=requests.post()
+
 
 
 

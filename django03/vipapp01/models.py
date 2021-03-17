@@ -14,13 +14,29 @@ class User_Manager(models.Manager):
         topuser.pwd=addpwd
         topuser.userphone=phone
         return topuser
-
+#自定义管理器
 class Group_Manager(models.Manager):
     def create(self,groupname):
         topgroup=Top_User_Group()
         topgroup.group_name=groupname
         return topgroup
 
+#自定义管理器
+class Interface_Manager(models.Manager):
+    def create(self,it_name,data_type,create_user,headers,server,port,path,parameter,method,protocol,assertion):
+        InterfaceCase = Interface_Case()
+        Interface_Case.it_name=it_name
+        Interface_Case.data_type=data_type
+        Interface_Case.create_user=create_user
+        Interface_Case.headers=headers
+        Interface_Case.server=server
+        Interface_Case.port=port
+        Interface_Case.path=path
+        Interface_Case.parameter=parameter
+        Interface_Case.method=method
+        Interface_Case.protocol=protocol
+        Interface_Case.Assertion=assertion
+        return InterfaceCase
 
 
 class Top_User_Group(models.Model):
@@ -132,22 +148,7 @@ class PeInt_Case_Content(models.Model):
     class Meta:
         db_table='PeInt_Case_Content'
 
-#自定义管理器
-class Interface_Manager(models.Manager):
-    def create(self,it_name,data_type,create_user,headers,server,port,path,parameter,method,protocol,assertion):
-        InterfaceCase = Interface_Case()
-        Interface_Case.it_name=it_name
-        Interface_Case.data_type=data_type
-        Interface_Case.create_user=create_user
-        Interface_Case.headers=headers
-        Interface_Case.server=server
-        Interface_Case.port=port
-        Interface_Case.path=path
-        Interface_Case.parameter=parameter
-        Interface_Case.method=method
-        Interface_Case.protocol=protocol
-        Interface_Case.Assertion=assertion
-        return InterfaceCase
+
 
 
 
