@@ -123,7 +123,7 @@ def uploadfile(req):
 def uploadhaldle(req):
     if req.method=='POST':
         pic=req.FILES.get('pic1')
-        content=req.FILES.get('content')
+        #content=req.FILES.get('content')
         print(123)
         picpath=os.path.join(settings.MEDIA_ROOT,pic.name)
         with open(picpath,'wb') as f:
