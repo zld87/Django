@@ -11,10 +11,16 @@ from django.conf import settings
 from django.core.paginator import *
 from django.views.decorators.cache import cache_page
 from django.core.cache import cache
+from deepdiff import DeepDiff
 
 #注册
 def register(req):
+    #return redirect(reverse('vipapp01:login_show'))
     return render(req,'vipapp01/register.html')
+
+#登陆
+def login(req):
+    return render(req,'vipapp01/login.html')
 
 #注册处理
 @cache_page(60)
@@ -36,11 +42,6 @@ def registerdetail(req):
             return HttpResponse(json.dumps(data))
                 #redirect(reverse('vipapp01:register'))
 
-#登陆
-
-def login(req):
-    return render(req,'vipapp01/login.html')
-
 #登陆处理
 def login_handle(req):
     if req.method=='POST':
@@ -52,16 +53,17 @@ def login_handle(req):
                 req.session['myuser']=username
                 req.session['pwd']=pwd
                 req.session.set_expiry(0)
-                #req.session.flush()
+                req.session.flush()
                 #req.session.clear()
                 data = {"code": 200, "msg": '返回成功', "data": reverse('vipapp01:search_user',kwargs={'num':10,'page':1})}
-                return HttpResponse(json.dumps(data))
-                    #redirect(reverse('vipapp01:login_show'))
+                #return HttpResponse(json.dumps(data))
+                #return redirect(reverse('vipapp01:login_show'))
             else:
                 data = {"code": 200, "msg": '返回成功', "data": reverse('vipapp01:login')}
-                return HttpResponse(json.dumps(data))
-                    #redirect(reverse('vipapp01:login'))
+                #return HttpResponse(json.dumps(data))
+                return redirect(reverse("vipapp01:login"))
         else:
+            print('11111')
             data = {"code": 200, "msg": '返回成功', "data": reverse('vipapp01:login')}
             return HttpResponse(json.dumps(data))
                 #redirect(reverse('vipapp01:register'))
@@ -184,7 +186,7 @@ def search_user(req,page=1,num=10):
         status=req.POST['status']
         if usernameinfo=='未登录':
             data = {"code":200,'msg':'没有该账号'}
-            return HttpResponse(json.dumps(data,ensure_ascii=False),content_type='application/json')
+            return HttpResponse(json.dumps(data,ensure_ascii=False,content_type='application/json')
         else:
             #删除用户
             if status==2:
@@ -222,7 +224,6 @@ def search_user(req,page=1,num=10):
             else:
                 data={'code':200,'msg':'请确认请求状态'}
                 return HttpResponse(json.dumps(data,ensure_ascii=False))
-
     else:
         data = {'code': 200, 'msg': '请求格式有误，请重试！'}
         HttpResponse(json.dumps(data,ensure_ascii=False))
@@ -237,13 +238,12 @@ def my_home3(req):
     return render(req,'vipapp01/ld_home3.html')
 
 
-
 def celery(req):
     #sayhello.delay()
     sayhello()
     return HttpResponse('ok')
 
-#异常类
+#缺少参数异常类
 class info_lack(Exception):
     def __init__(self,Info):
         self.error=Info
@@ -283,10 +283,46 @@ def action_icase(req):
     if req.method=='POST':
         id=req.POST.get('id')
         case_obj=Interface_Case.icaseManager.filter(id=id).values()
-        if case_obj['data_type']==1:   #表单
-            i=requests.post()
-        elif case_obj['data_type']==2: #json
-            i=requests.post()
+        if case_obj['data_type']==1:    #表单
+            data=case_obj['parameter']
+            headers=case_obj['headers']
+            it_reslut=requests.post(url=case_obj['method']+case_obj['server']+case_obj['port']+case_obj['path'],data=data,headers=headers)
+            it_reslut=it_reslut.json()
+            data={"code": 200,"msg": '返回成功','data':it_reslut}
+            return HttpResponse(json.dumps(data,ensure_ascii=False))
+        elif case_obj['data_type']==2:  #json
+            parameter=case_obj['parameter']
+            headers=case_obj['headers']
+            it_reslut=requests.get(url=case_obj['method']+case_obj['server']+case_obj['port']+case_obj['path'],params=parameter,headers=headers)
+            it_reslut=it_reslut.json()
+            data={"code": 200,"msg": '返回成功','data':it_reslut}
+            return HttpResponse(json.dumps(data,ensure_ascii=False))
+        elif case_obj["data_type"]==3:  #xml
+            pass
+        else:
+            data = {"code":200,"msg":"参数格式不正确"}
+            return HttpResponse(json.dumps(data,ensure_ascii=False))
+
+
+#test
+def setcookie(req):
+    H1=HttpResponse("ok")
+    H1.set_signed_cookie("456","zzz12",salt="mima")
+    H1.delete_cookie("1234")
+    return HttpResponse().write("3232323")
+
+def getcookie(req):
+    COO=req.COOKIES['456']
+    try:
+        foo=req.get_signed_cookie('456',salt="mima")
+    except:
+        return HttpResponse("nook")
+    print(foo)
+    print(COO)
+    prs=HttpResponse(COO)
+    prs.write(foo)
+    return prs
+
 
 
 

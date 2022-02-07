@@ -7,13 +7,16 @@ from django.db.models import F,Q,Max,Min,Avg,Count
 #自定义管理器
 class User_Manager(models.Manager):
     def get_queryset(self):
-        return super(User_Manager,self).get_queryset().filter(pwd='63648215zld')
+        #return super(User_Manager,self).get_queryset().filter(pwd="63648215zld")
+        return super(User_Manager,self).get_queryset()
     def create(self,adduser,addpwd,phone=None):
         topuser = Top_Register_User()
-        topuser.user=adduser
-        topuser.pwd=addpwd
-        topuser.userphone=phone
+        topuser.user= adduser
+        topuser.pwd= addpwd
+        topuser.userphone= phone
         return topuser
+
+
 #自定义管理器
 class Group_Manager(models.Manager):
     def create(self,groupname):
@@ -147,8 +150,6 @@ class PeInt_Case_Content(models.Model):
     interface_test_case=models.OneToOneField(Test_Case,null=True,blank=True,on_delete=models.PROTECT)    #用例类型为2或者3，关联测试用例
     class Meta:
         db_table='PeInt_Case_Content'
-
-
 
 
 

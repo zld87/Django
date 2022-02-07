@@ -38,6 +38,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'vipapp01.apps.Vipapp01Config',
     'djcelery',
+    'vipapp02',
+    'vipapp03',
 ]
 
 MIDDLEWARE = [
