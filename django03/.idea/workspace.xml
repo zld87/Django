@@ -27,54 +27,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ecf71c10-a06f-437b-8d37-c0567cf64864" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/venv/bin/deep" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/bin/uwsgi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/deepdiff-5.5.0.dist-info/AUTHORS.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/deepdiff-5.5.0.dist-info/INSTALLER" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/deepdiff-5.5.0.dist-info/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/deepdiff-5.5.0.dist-info/METADATA" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/deepdiff-5.5.0.dist-info/RECORD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/deepdiff-5.5.0.dist-info/REQUESTED" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/deepdiff-5.5.0.dist-info/WHEEL" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/deepdiff-5.5.0.dist-info/entry_points.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/deepdiff-5.5.0.dist-info/top_level.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/deepdiff-5.5.0.dist-info/zip-safe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/deepdiff/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/deepdiff/anyset.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/deepdiff/base.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/deepdiff/commands.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/deepdiff/deephash.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/deepdiff/delta.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/deepdiff/diff.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/deepdiff/distance.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/deepdiff/helper.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/deepdiff/lfucache.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/deepdiff/model.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/deepdiff/path.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/deepdiff/search.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/deepdiff/serialization.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/ordered_set-4.0.2.dist-info/INSTALLER" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/ordered_set-4.0.2.dist-info/METADATA" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/ordered_set-4.0.2.dist-info/MIT-LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/ordered_set-4.0.2.dist-info/RECORD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/ordered_set-4.0.2.dist-info/WHEEL" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/ordered_set-4.0.2.dist-info/top_level.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/lib/python3.8/site-packages/ordered_set.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vipapp03/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vipapp03/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vipapp03/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vipapp03/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vipapp03/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vipapp03/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vipapp03/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/django03/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/django03/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/vipapp01/login_show.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/vipapp01/login_show.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/vipapp01/uploadfile.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/vipapp01/uploadfile.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uwsgi.ini" beforeDir="false" afterPath="$PROJECT_DIR$/uwsgi.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uwsgi.log" beforeDir="false" afterPath="$PROJECT_DIR$/uwsgi.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uwsgi.pid" beforeDir="false" afterPath="$PROJECT_DIR$/uwsgi.pid" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vipapp01/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/vipapp01/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vipapp01/myexception.py" beforeDir="false" afterPath="$PROJECT_DIR$/vipapp01/myexception.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vipapp01/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/vipapp01/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vipapp01/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/vipapp01/views.py" afterDir="false" />
     </list>
@@ -89,7 +43,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="JupyterTrust" id="c1e1190c-d3b0-4cf0-bed3-6d43ee943225" />
+  <component name="JupyterTrust" id="62ca6db5-faeb-4aaa-95ba-76dbce4f41c9" />
   <component name="ProjectId" id="1l2RnvtTHCZGBLm0WpH8jEWDFr6" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -205,7 +159,19 @@
       <workItem from="1640566718695" duration="565000" />
       <workItem from="1640568522727" duration="8836000" />
       <workItem from="1643180084210" duration="2076000" />
-      <workItem from="1644196833544" duration="458000" />
+      <workItem from="1644196833544" duration="4236000" />
+      <workItem from="1645850024664" duration="9472000" />
+      <workItem from="1648620087964" duration="3254000" />
+      <workItem from="1650876864162" duration="1434000" />
+      <workItem from="1652067739539" duration="1677000" />
+      <workItem from="1656295878470" duration="3018000" />
+      <workItem from="1656640803458" duration="4404000" />
+      <workItem from="1657600234357" duration="6057000" />
+      <workItem from="1659005498003" duration="2087000" />
+      <workItem from="1659694259858" duration="537000" />
+      <workItem from="1660015650718" duration="37000" />
+      <workItem from="1660015970219" duration="47000" />
+      <workItem from="1661853822344" duration="3595000" />
     </task>
     <servers />
   </component>

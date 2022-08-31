@@ -16,7 +16,7 @@ from deepdiff import DeepDiff
 #注册
 def register(req):
     #return redirect(reverse('vipapp01:login_show'))
-    return render(req,'vipapp01/register.html')
+    return render(req, 'vipapp01/register.html')
 
 #登陆
 def login(req):
@@ -114,12 +114,12 @@ def verifycode(req):
 def exception(req):
     #a=int('abc')
     #return HttpResponse('安全')
-    return render(req,'vipapp01/register.html')
+    return render(req, 'vipapp01/register.html')
 
 
 #文件上传
 def uploadfile(req):
-    return render(req,'vipapp01/uploadfile.html')
+    return render(req, 'vipapp01/uploadfile.html')
 
 #文件处理
 def uploadhaldle(req):
@@ -160,7 +160,7 @@ def process_template_response(req):
 
 #用户列表页增删改查
 def search_user(req,page=1,num=10):
-    if req.method=='GET':
+    if req.method== 'GET':
         all_user_num=Top_Register_User.userManager.count()
         all_user_list=Top_Register_User.userManager.all()
         onepage_list=Paginator(all_user_list,num)
@@ -178,55 +178,54 @@ def search_user(req,page=1,num=10):
             userlist.append(user_info)
         data = {"code": 200, "msg": '返回成功','num': len(page.object_list),'data': userlist}
         #print(userlist)
-        return HttpResponse(json.dumps(data,ensure_ascii=False),content_type='application/json')
+        return HttpResponse(json.dumps(data,ensure_ascii= False), content_type= 'application/json')
         #json_dumps_params返回中文unicode
         #return JsonResponse(data,json_dumps_params={'ensure_ascii':False})
-    elif req.method=='POST':
-        usernameinfo=req.POST.getlist('username',default='未登录')
-        status=req.POST['status']
-        if usernameinfo=='未登录':
+    elif req.method == 'POST':
+        usernameinfo = req.POST.getlist('username',default='未登录')
+        status = req.POST['status']
+        if usernameinfo == '未登录':
             data = {"code":200,'msg':'没有该账号'}
-            return HttpResponse(json.dumps(data,ensure_ascii=False,content_type='application/json')
-        else:
-            #删除用户
-            if status==2:
-                usernameinfo=req.POST.getlist('username')
-                for username in usernameinfo:
-                    selectuser=Top_Register_User.userManager.get(user=username)
-                    selectuser.delete()
-                    data={'code':200,'msg':'删除成功'}
-                return HttpResponse(json.dumps(data,ensure_ascii=False),content_type='application/json')
-            #修改用户
-            elif status==3:
-                username=req.POST['username']
-                pwd=req.POST['pwd']
-                userphone=req.POST['userphone']
-                user=Top_Register_User.userManager.get(user=username)
-                user.userphone=userphone
-                user.pwd=pwd
-                user.save()
-            #新增用户
-            elif status==1:
-                username = req.POST['username']
-                pwd = req.POST['pwd']
-                phone = req.POST.get('userphone',default=None)
-                if username == '':
-                    data = {"code": 200, "msg": '用户名不能为空'}
-                    return HttpResponse(json.dumps(data,ensure_ascii=False))
-                elif not Top_Register_User.userManager.get(user__exact=username):
-                    new_user = Top_Register_User.userManager.create(username, pwd, phone)
-                    new_user.save()
-                    data = {"code": 200, "msg": '添加成功'}
-                    return HttpResponse(json.dumps(data,ensure_ascii=False))
-                else:
-                    data={"code": 200, "msg":'请从新输入'}
-                    return HttpResponse(json.dumps(data,ensure_ascii=False))
-            else:
-                data={'code':200,'msg':'请确认请求状态'}
+            return HttpResponse(json.dumps(data, ensure_ascii=False), content_type='application/json')
+        #删除用户
+        elif status== 2:
+            usernameinfo= req.POST.getlist('username')
+            for username in usernameinfo:
+                selectuser = Top_Register_User.userManager.get(user=username)
+                selectuser.delete()
+                data = {'code':200,'msg':'删除成功'}
+            return HttpResponse(json.dumps(data, ensure_ascii=False), content_type='application/json')
+        #修改用户
+        elif status == 3:
+            userName = req.POST['username']
+            Pwd = req.POST['pwd']
+            userPhone= req.POST['userphone']
+            user = Top_Register_User.userManager.get(user=userName)
+            user.userphone = userPhone
+            user.pwd = Pwd
+            user.save()
+        #新增用户
+        elif status==1:
+            username = req.POST['username']
+            pwd = req.POST['pwd']
+            phone = req.POST.get('userphone', default=None)
+            if username == '':
+                data = {"code": 200, "msg": '用户名不能为空'}
+                return HttpResponse(json.dumps(data, ensure_ascii=False))
+            elif not Top_Register_User.userManager.get(user__exact=username):
+                new_user = Top_Register_User.userManager.create(username, pwd, phone)
+                new_user.save()
+                data = {"code": 200, "msg": '添加成功'}
                 return HttpResponse(json.dumps(data,ensure_ascii=False))
+            else:
+                data={"code": 200, "msg": '请从新输入'}
+                return HttpResponse(json.dumps(data,ensure_ascii=False))
+        else:
+                data={'code':200,'msg': '请确认请求状态'}
+                return HttpResponse(json.dumps(data, ensure_ascii=False))
     else:
         data = {'code': 200, 'msg': '请求格式有误，请重试！'}
-        HttpResponse(json.dumps(data,ensure_ascii=False))
+        HttpResponse(json.dumps(data, ensure_ascii=False))
 
 
 

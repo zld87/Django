@@ -2,6 +2,8 @@ from django.http import HttpResponse,request
 from django.shortcuts import render,redirect
 from django.urls import reverse
 from django.utils.deprecation import MiddlewareMixin
+
+
 #自定义中间件
 class myexception(MiddlewareMixin):
     '''def process_exception(req,reps,exception):
