@@ -28,7 +28,9 @@
   <component name="ChangeListManager">
     <list default="true" id="ecf71c10-a06f-437b-8d37-c0567cf64864" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vipapp01/myexception.py" beforeDir="false" afterPath="$PROJECT_DIR$/vipapp01/myexception.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django03/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/django03/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django03/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/django03/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vipapp01/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/vipapp01/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vipapp01/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/vipapp01/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/vipapp01/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/vipapp01/views.py" afterDir="false" />
     </list>
@@ -43,7 +45,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="JupyterTrust" id="62ca6db5-faeb-4aaa-95ba-76dbce4f41c9" />
+  <component name="JupyterTrust" id="b117af2f-aa61-4f64-8eb8-889c3adbaf05" />
   <component name="ProjectId" id="1l2RnvtTHCZGBLm0WpH8jEWDFr6" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -54,6 +56,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -172,6 +175,35 @@
       <workItem from="1660015650718" duration="37000" />
       <workItem from="1660015970219" duration="47000" />
       <workItem from="1661853822344" duration="4431000" />
+      <workItem from="1662602724086" duration="266000" />
+      <workItem from="1665715867576" duration="269000" />
+      <workItem from="1665976729582" duration="1077000" />
+      <workItem from="1667789697042" duration="90000" />
+      <workItem from="1670294743247" duration="24000" />
+      <workItem from="1670551558379" duration="739000" />
+      <workItem from="1675826776867" duration="814000" />
+      <workItem from="1676008552970" duration="30000" />
+      <workItem from="1676008593783" duration="2846000" />
+      <workItem from="1678697028164" duration="2122000" />
+      <workItem from="1681379190900" duration="2324000" />
+      <workItem from="1684377760685" duration="12000" />
+      <workItem from="1686808466700" duration="3158000" />
+      <workItem from="1686815289209" duration="43000" />
+      <workItem from="1686815340260" duration="345000" />
+      <workItem from="1686815707116" duration="58000" />
+      <workItem from="1686815773281" duration="40000" />
+      <workItem from="1689590586338" duration="454000" />
+      <workItem from="1692110133632" duration="548000" />
+      <workItem from="1697037160051" duration="4140000" />
+      <workItem from="1700471613509" duration="437000" />
+      <workItem from="1701248579287" duration="475000" />
+      <workItem from="1702360644043" duration="257000" />
+      <workItem from="1702428895322" duration="1231000" />
+      <workItem from="1709791328406" duration="1388000" />
+      <workItem from="1715046592445" duration="620000" />
+      <workItem from="1718158030222" duration="2000" />
+      <workItem from="1721887072255" duration="59000" />
+      <workItem from="1724824963548" duration="778000" />
     </task>
     <servers />
   </component>

@@ -29,4 +29,4 @@ urlpatterns = [
 
 ]
 
-app_name='vipapp01'
+app_name = 'vipapp01'

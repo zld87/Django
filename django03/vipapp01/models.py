@@ -43,7 +43,7 @@ class Interface_Manager(models.Manager):
 
 
 class Top_User_Group(models.Model):
-    group_name=models.CharField(max_length=200,db_column='groupname')
+    group_name = models.CharField(max_length=200,db_column='groupname')
     group_state=models.BooleanField(db_column='state',default=False)
     group_create=models.DateTimeField(auto_now_add=True,db_column='create_time')
     group_update=models.DateTimeField(auto_now=True,db_column='update_time')
@@ -57,16 +57,16 @@ class Top_User_Group(models.Model):
 
 
 class Top_Register_User(models.Model):
-    user=models.CharField(max_length=200,db_column='username',blank=False,null=False)
-    pwd=models.CharField(max_length=200,db_column='password')
+    user=models.CharField(max_length=200, db_column='username', blank=False, null=False)
+    pwd=models.CharField(max_length=200, db_column='password')
     create_time=models.DateTimeField(auto_now_add=True)
     update_time=models.DateTimeField(auto_now=True)
     isdelete=models.BooleanField(default=False)
-    userManager=User_Manager()
-    userphone=models.CharField(max_length=100,null=True,blank=True,db_column='phone')
-    user_group=models.ManyToManyField(Top_User_Group)
+    userManager = User_Manager()
+    userphone = models.CharField(max_length=100, null=True, blank=True, db_column='phone')
+    user_group = models.ManyToManyField(Top_User_Group)
     class Meta:
-        db_table='top_register_user'
+        db_table = 'top_register_user'
     def __str__(self):
         return self.user
 
@@ -144,7 +144,7 @@ class function_Case_Content(models.Model):
 
 
 class PeInt_Case_Content(models.Model):
-    function_Preconditions =models.TextField(max_length=2000)                            #前置条件
+    function_Preconditions = models.TextField(max_length=2000)                            #前置条件
     associated_interface=models.ManyToManyField('Interface_Case',null=True)              #关联接口
     describe= models.TextField(max_length=2000,null=True)                                #备注描述
     interface_test_case=models.OneToOneField(Test_Case,null=True,blank=True,on_delete=models.PROTECT)    #用例类型为2或者3，关联测试用例
