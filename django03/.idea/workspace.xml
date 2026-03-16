@@ -28,11 +28,8 @@
   <component name="ChangeListManager">
     <list default="true" id="ecf71c10-a06f-437b-8d37-c0567cf64864" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/django03/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/django03/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/django03/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/django03/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vipapp01/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/vipapp01/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vipapp01/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/vipapp01/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vipapp01/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/vipapp01/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uwsgi.ini" beforeDir="false" afterPath="$PROJECT_DIR$/uwsgi.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/uwsgi.log" beforeDir="false" afterPath="$PROJECT_DIR$/uwsgi.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +42,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="JupyterTrust" id="b117af2f-aa61-4f64-8eb8-889c3adbaf05" />
+  <component name="JupyterTrust" id="147bf672-241a-4e7f-98f1-4d223abe1d4e" />
   <component name="ProjectId" id="1l2RnvtTHCZGBLm0WpH8jEWDFr6" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -204,7 +201,44 @@
       <workItem from="1718158030222" duration="2000" />
       <workItem from="1721887072255" duration="59000" />
       <workItem from="1724824963548" duration="778000" />
+      <workItem from="1725608960738" duration="1478000" />
+      <workItem from="1726305642342" duration="1000" />
+      <workItem from="1728433151342" duration="979000" />
+      <workItem from="1729680586423" duration="140000" />
+      <workItem from="1729680784119" duration="1785000" />
+      <workItem from="1729837151856" duration="591000" />
+      <workItem from="1729837836907" duration="16000" />
+      <workItem from="1729837861624" duration="35000" />
+      <workItem from="1729855981914" duration="83000" />
+      <workItem from="1729856122197" duration="104000" />
+      <workItem from="1730104007642" duration="1180000" />
+      <workItem from="1730192408516" duration="2156000" />
+      <workItem from="1730197546323" duration="62000" />
+      <workItem from="1730250464949" duration="3116000" />
+      <workItem from="1730277486235" duration="318000" />
+      <workItem from="1730278013148" duration="7000" />
+      <workItem from="1730278102183" duration="1476000" />
+      <workItem from="1730353252762" duration="586000" />
+      <workItem from="1730785559145" duration="86000" />
+      <workItem from="1730875539208" duration="46000" />
+      <workItem from="1732513489476" duration="384000" />
+      <workItem from="1735007516343" duration="131000" />
+      <workItem from="1735525199985" duration="6000" />
+      <workItem from="1735525209415" duration="201000" />
+      <workItem from="1735525413054" duration="83000" />
+      <workItem from="1745714974944" duration="270000" />
+      <workItem from="1748393361159" duration="65000" />
+      <workItem from="1753925682317" duration="714000" />
+      <workItem from="1760686758012" duration="1067000" />
     </task>
+    <task id="LOCAL-00001" summary="2024.09.06">
+      <created>1725609063784</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1725609063784</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -325,23 +359,19 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="2024.09.06" />
+    <option name="LAST_COMMIT_MESSAGE" value="2024.09.06" />
+  </component>
   <component name="WindowStateProjectService">
-    <state width="1638" height="277" key="GridCell.Tab.0.bottom" timestamp="1641537508744">
+    <state x="428" y="276" key="IDE.errors.dialog" timestamp="1735525408940">
       <screen x="0" y="25" width="1680" height="1025" />
     </state>
-    <state width="1638" height="277" key="GridCell.Tab.0.bottom/1680.25.1920.1055/0.25.1680.1025@0.25.1680.1025" timestamp="1641537508744" />
-    <state width="1638" height="277" key="GridCell.Tab.0.center" timestamp="1641537508743">
+    <state x="428" y="276" key="IDE.errors.dialog/-3440.25.3440.1415/0.25.1680.1025@0.25.1680.1025" timestamp="1735525408940" />
+    <state x="593" y="254" key="git4idea.branch.GitSmartOperationDialog" timestamp="1735525488040">
       <screen x="0" y="25" width="1680" height="1025" />
     </state>
-    <state width="1638" height="277" key="GridCell.Tab.0.center/1680.25.1920.1055/0.25.1680.1025@0.25.1680.1025" timestamp="1641537508743" />
-    <state width="1638" height="277" key="GridCell.Tab.0.left" timestamp="1641537508742">
-      <screen x="0" y="25" width="1680" height="1025" />
-    </state>
-    <state width="1638" height="277" key="GridCell.Tab.0.left/1680.25.1920.1055/0.25.1680.1025@0.25.1680.1025" timestamp="1641537508742" />
-    <state width="1638" height="277" key="GridCell.Tab.0.right" timestamp="1641537508744">
-      <screen x="0" y="25" width="1680" height="1025" />
-    </state>
-    <state width="1638" height="277" key="GridCell.Tab.0.right/1680.25.1920.1055/0.25.1680.1025@0.25.1680.1025" timestamp="1641537508744" />
+    <state x="593" y="254" key="git4idea.branch.GitSmartOperationDialog/-3440.25.3440.1415/0.25.1680.1025@0.25.1680.1025" timestamp="1735525488040" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
